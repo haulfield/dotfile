@@ -1,0 +1,2 @@
+if (!!!templates) var templates = {};
+templates["bulk-move-groups-template"] = new Hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");if(t.s(t.f("groups",c,p,1),c,p,0,11,125,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("<div>");t.b("\n" + i);t.b("  <input type=\"checkbox\" data-group-id=\"");t.b(t.v(t.f("groupId",c,p,0)));t.b("\">");t.b("\n" + i);t.b("  ");t.b(t.v(t.f("name",c,p,0)));t.b("\n" + i);t.b("  <div class=\"clearing-div\"></div>");t.b("\n" + i);t.b("</div>");t.b("\n" + i);});c.pop();}return t.fl(); },partials: {}, subs: {  }});

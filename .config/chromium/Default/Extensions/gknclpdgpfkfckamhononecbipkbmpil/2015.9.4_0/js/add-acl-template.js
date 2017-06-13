@@ -1,0 +1,2 @@
+if (!!!templates) var templates = {};
+templates["add-acl-template"] = new Hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"add-item acl-item member clearfix\" data-user-id=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\">");t.b("\n" + i);t.b("  <div class=\"text\">");t.b("\n" + i);t.b("    <a href=\"#\"> Click to add <strong><span class=\"name search-this-value\">");t.b(t.v(t.f("name",c,p,0)));t.b("</span></strong></a>");t.b("\n" + i);t.b("  </div>");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }});

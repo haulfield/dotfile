@@ -1,0 +1,357 @@
+{
+   "add": {
+      "message": "Добавить"
+   },
+   "add_domain_button": {
+      "message": "Добавить домен"
+   },
+   "add_filter_button": {
+      "message": "Добавить фильтр"
+   },
+   "add_filters_msg": {
+      "message": "Добавить фильтр(ы)?"
+   },
+   "add_site": {
+      "message": "Добавить сайт"
+   },
+   "add_subscription_confirm": {
+      "message": "Вы уверены что хотите подписаться на список фильтров"
+   },
+   "add_white": {
+      "message": "Добавить домен"
+   },
+   "add_your_own_filters": {
+      "message": "Персональные фильтры"
+   },
+   "alert": {
+      "message": "Предупреждение"
+   },
+   "apply": {
+      "message": "Применить"
+   },
+   "apply_changes": {
+      "message": "Применить изменения"
+   },
+   "bcut": {
+      "message": "Вырезать рекламу"
+   },
+   "bcut_on_page": {
+      "message": "Вырезать рекламу на этой странице"
+   },
+   "block_element": {
+      "message": "Заблокировать элемент"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "canceled": {
+      "message": "Отменить"
+   },
+   "clickhide_instructions": {
+      "message": "После закрытия этого всплывающего окна, щёлкните на элементе левой или правой кнопкой мыши."
+   },
+   "description": {
+      "message": "Блокирует баннеры, текстовые объявления, видеорекламу, всплывающие pop-up окна и рекламные системы слежения."
+   },
+   "disabled_for_site": {
+      "message": "\u003Cstrong>Отключен\u003C/strong> на этом сайте"
+   },
+   "disabled_for_these_domains": {
+      "message": "Ads Killer выключен для перечисленных ниже доменов. Дополнительные домены можно добавить, щёлкнув иконку Ads Killer на адресной строке или напечатав название домена (не ссылку) в данной области и нажав на кнопку «Добавить домен»."
+   },
+   "disclamer": {
+      "message": "Похоже, что у вас установлен и активен блокировщик рекламы. Во избежание проблем с просмотром сайтов найдите его в списке ниже и отключите:"
+   },
+   "easy_create_filter": {
+      "message": "Заблокировать элемент"
+   },
+   "edit_filters_raw": {
+      "message": "Редактировать"
+   },
+   "enable_only_the": {
+      "message": "Включайте только необходимые списки фильтров. Слишком много включенных фильтров может замедлить скорость работы браузера."
+   },
+   "enabled_for_site": {
+      "message": "\u003Cstrong>Включён\u003C/strong> на этом сайте"
+   },
+   "filter_lists": {
+      "message": "Список фильтров"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Ваш фильтр должен соответствовать \u003Ca>синтаксису фильтров Ads Killer\u003C/a>."
+   },
+   "filter_update_date": {
+      "message": "Последнее обновление: "
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Разрешить ненавязчивую рекламу"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Добавить"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Добавить другую подписку..."
+   },
+   "filters_addSubscription_label": {
+      "message": "Добавить подписку"
+   },
+   "filters_readMore_label": {
+      "message": "Дополнительная информация"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Удалить"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Включена"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Ошибка: проверочная сумма не совпадает, возможно произошла ошибка загрузки"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Ошибка: невозможно загрузить"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "сейчас..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Ошибка: неверный формат списка фильтров"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Ошибка: неверный адрес"
+   },
+   "filters_viewList_label": {
+      "message": "Открыть список"
+   },
+   "found_a_bug": {
+      "message": "Нашли ошибку в Ads Killer? Пожалуйста, \u003Ca>сообщите об этом здесь\u003C/a>."
+   },
+   "general": {
+      "message": "Общие"
+   },
+   "global_filter_elemhide_duplicate_id": {
+      "message": "У элемента, который нужно скрыть, может быть только один идентификатор"
+   },
+   "global_filter_elemhide_nocriteria": {
+      "message": "Не указано никаких признаков, чтобы опознать элемент, который нужно скрыть"
+   },
+   "global_notification_antiadblock_message": {
+      "message": "Известно, что этот сайт показывает сообщения пользователям Ads Killer. Хотите, чтобы Ads Killer скрывал такие сообщения?"
+   },
+   "global_notification_antiadblock_title": {
+      "message": "Скрыть целевые сообщения?"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Вы уверены, что хотите удалить эту подписку?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Не удалось распознать введенный адрес ни как адрес в интернете, ни как путь файлу."
+   },
+   "hide_extended": {
+      "message": "Скрыть дополнительные настройки"
+   },
+   "invalid_css_selector": {
+      "message": "$selector$ не является допустимым CSS-селектором",
+      "placeholders": {
+         "selector": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at": {
+      "message": "Последнее обновление: $date$ в $time$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "Последнее обновление: сегодня в $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "line": {
+      "message": "Строка $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Ads Killer"
+   },
+   "name_devbuild": {
+      "message": "Ads Killer (тестовая сборка)"
+   },
+   "not_parse_filter": {
+      "message": "Выбраны фильтры нескольких регионов"
+   },
+   "not_show": {
+      "message": "Не напоминать больше"
+   },
+   "notification_with_buttons": {
+      "message": "Щёлкните «OK», чтобы открыть все ссылки в этом уведомлении."
+   },
+   "notification_without_buttons": {
+      "message": "Щелкните по уведомлению, чтобы открыть все ссылки."
+   },
+   "on_check_site": {
+      "message": "Включен на этом сайте"
+   },
+   "on_un_check_site": {
+      "message": "Выключен на этом сайте"
+   },
+   "options": {
+      "message": "Настройки Ads Killer"
+   },
+   "options_short": {
+      "message": "Настройки"
+   },
+   "other_rules_title": {
+      "message": "Дополнительные правила"
+   },
+   "out_of_date_lists": {
+      "message": "Устаревшие списки периодически обновляются."
+   },
+   "overlay_notification_button_close": {
+      "message": "Закрыть"
+   },
+   "overlay_notification_button_no": {
+      "message": "Нет"
+   },
+   "overlay_notification_button_yes": {
+      "message": "Да"
+   },
+   "rating_btn": {
+      "message": "Поставь 5"
+   },
+   "rating_text": {
+      "message": "Нравится?"
+   },
+   "refresh_filters": {
+      "message": "Обновить фильтры"
+   },
+   "region_automatic_text": {
+      "message": "Ваш регион определен автоматически по вашему местоположению "
+   },
+   "region_change": {
+      "message": "Изменить регион"
+   },
+   "region_name": {
+      "message": "Регион "
+   },
+   "remove_button": {
+      "message": "Удалить"
+   },
+   "remove_filter": {
+      "message": "Удалить фильтр"
+   },
+   "save": {
+      "message": "Сохранить"
+   },
+   "select_block_text_1": {
+      "message": "Наведите курсор на элемент, который вы"
+   },
+   "select_block_text_2": {
+      "message": "хотите вырезать и нажмите левую клавишу мыши"
+   },
+   "select_filters": {
+      "message": "Выбраны фильтры нескольких регионов"
+   },
+   "select_region_item": {
+      "message": "Выберите регион"
+   },
+   "show_block_element_menu": {
+      "message": "Показывать «Заблокировать элемент» в контекстном меню"
+   },
+   "show_extended": {
+      "message": "Показать дополнительные настройки"
+   },
+   "stats_label_page": {
+      "message": "\u003Cstrong>$number$\u003C/strong> на этой странице",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_label_total": {
+      "message": "\u003Cstrong>$number$\u003C/strong> всего",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_over": {
+      "message": "свыше $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_download": {
+      "message": "Скачать Ads Killer"
+   },
+   "stats_share_message": {
+      "message": "Я заблокировал $number$ объявлений и трекеров благодаря Ads Killer.",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_title": {
+      "message": "Поделиться этим числом"
+   },
+   "stats_show_iconnumber": {
+      "message": "Показывать число в иконке"
+   },
+   "stats_title": {
+      "message": "Не безопасные расширения"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Адрес списка фильтров:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Пожалуйста, выберите подписку из списка:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Название подписки:"
+   },
+   "title": {
+      "message": "Ads Killer настройки"
+   },
+   "undefined": {
+      "message": "не определен"
+   },
+   "unexpected_filter_list_header": {
+      "message": "Заголовки списка фильтров здесь не допускаются"
+   },
+   "update_now": {
+      "message": "Обновить"
+   },
+   "user_filter_description": {
+      "message": "Ваш фильтр должен соответствовать синтаксису фильтров Adblock."
+   },
+   "user_filters_title": {
+      "message": "Пользовательские фильтры"
+   },
+   "white_subtitle": {
+      "message": "Ads Killer не работает на сайтах, добавленных в белый список"
+   },
+   "white_title": {
+      "message": "Белый список сайтов"
+   },
+   "whitelisted_domains": {
+      "message": "Cписок разрешенных доменов"
+   }
+}

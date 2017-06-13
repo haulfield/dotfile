@@ -1,0 +1,795 @@
+::-webkit-input-placeholder {
+    font-style : italic;
+}
+
+:-moz-placeholder {
+    font-style : italic;
+}
+
+::-moz-placeholder {
+    font-style : italic;
+}
+
+:-ms-input-placeholder {
+    font-style : italic;
+}
+
+#divIdLChatAddInner, #divIdLChatTabsToggleInner {
+    position    : absolute;
+    top         : 0;
+    right       : 0;
+    bottom      : 0;
+    left        : 0;
+    margin      : auto;
+
+    line-height : 18px;
+}
+
+#divIdLChatTabsToggleInnerSpan {
+	position   : absolute;
+	top        : 3px;
+	left       : 6px;
+	font-size  : 16px;
+	width      : 16px;
+	height     : 16px;
+	transform  : rotate(90deg);
+	transition : all 0.3s ease;
+}
+
+.ButtonGreen {
+    background-color    : #008272;
+    border              : 1px solid transparent;
+
+    text-decoration     : none;
+    outline             : none;
+    box-sizing          : border-box;
+    color               : #FFFFFF;
+    cursor              : pointer;
+    transition-property : width, height, background, margin, border, padding;
+    transition-duration : 0.25s;
+}
+
+.ButtonGreen:hover {
+    background-color : #009983;
+}
+
+.ButtonGreen:active {
+	background-color : #008272;
+	border           : 1px solid black;
+}
+
+.ButtonBlack {
+	background-color    : transparent;
+	border              : 1px solid transparent;
+
+	text-decoration     : none;
+	outline             : none;
+	box-sizing          : border-box;
+	color               : #FFFFFF;
+	cursor              : pointer;
+	transition-property : width, height, background, margin, border, padding;
+	transition-duration : 0.25s;
+}
+
+.ButtonBlack:hover {
+	background-color : #505050;
+}
+
+.ButtonBlack:active {
+	background-color: #969696;
+}
+
+.ButtonCommon {
+	background-color    : rgb(234, 234, 234);
+	border              : 1px solid rgb(172, 172, 172);
+
+	text-decoration     : none;
+	outline             : none;
+	box-sizing          : border-box;
+	color               : #000000;
+	cursor              : pointer;
+	transition-property : width, height, background, margin, border, padding;
+	transition-duration : 0.25s;
+}
+
+.ButtonCommon:hover {
+	background-color : rgb(245, 245, 245);
+}
+
+.ButtonCommon:active {
+	background-color : rgb(234, 234, 234);
+	border           : 1px solid black;
+}
+
+.ButtonCommonDisabled {
+	background-color    : rgb(234, 234, 234);
+	border              : 1px solid rgb(200, 200, 200);
+
+	text-decoration     : none;
+	outline             : none;
+	box-sizing          : border-box;
+	color               : #AAAAAA;
+	cursor              : default;
+}
+
+.ButtonExit {
+	background-color       : transparent;
+
+	outline                : none;
+	cursor                 : default;
+	--webkit-appearance    : none;
+	-webkit-border-radius  : 0;
+	overflow               : visible;
+	font-family            : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	border                 : 1px solid transparent;
+	box-sizing             : border-box;
+	font-size              : 14px;
+	height                 : 50px;
+	margin                 : 0px;
+	padding                : 0px 14px;
+	color                  : #FFFFFF;
+	float                  : right;
+	transition-property    : width, height, background, margin, border, padding;
+	transition-duration    : .25s;
+}
+
+.ButtonExit:hover {
+	background-color : #505050;
+}
+
+.ButtonExit:active {
+	background-color: #969696;
+}
+
+.ButtonCloseGameRoom {
+	color                  : #FFFFFF;
+
+	font-family            : "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	padding                : 0px;
+	border                 : 1px solid transparent;
+	box-sizing             : border-box;
+	-moz-box-sizing        : border-box;
+	background             : none;
+	outline                : none;
+	cursor                 : pointer;
+	--webkit-appearance    : none;
+	-webkit-border-radius  : 0;
+	overflow               : visible;
+	float                  : left;
+	height                 : 100%;
+	width                  : 40px;
+	transition-property    : color;
+	transition-duration    : .25s;
+}
+
+.ButtonCloseGameRoom:active {
+	color : #008272;
+}
+
+.ButtonCloseGameRoom:hover {
+	color : #009983;
+}
+
+div.ButtonCloseGameRoom center div {
+	font-size   : 12px;
+	line-height : 16px;
+	width       : 12px;
+	height      : 16px;
+	position    : relative;
+}
+
+span.GameRoomCloseSpan {
+	width       : 100%;
+	height      : 100%;
+	left        : 0px;
+	top         : 2px;
+	font-family : NotoEmoji;
+}
+
+span.GameRoomCloseSpan:before {
+	content : '\274C';
+}
+
+html, body {
+	height : 100%;
+}
+
+* {
+	margin     : 0px;
+	padding    : 0px;
+	overflow-x : hidden;
+	overflow-y : hidden;
+}
+
+#divIdGoUniverse {
+	user-select         : none;
+	-webkit-user-select : none;
+	-moz-user-select    : none;
+	-ms-user-select     : none;
+}
+
+.block_elem {
+	position : absolute;
+	padding  : 0;
+	margin   : 0;
+}
+
+div.Selectable {
+	user-select         : all;
+	-webkit-user-select : auto;
+	-moz-user-select    : all;
+	-ms-user-select     : all;
+	white-space         : pre-wrap;
+	word-wrap           : break-word
+}
+
+.ChatMenuButton {
+	font-family            : "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	-webkit-font-smoothing : antialiased;
+	padding                : 0px;
+	border                 : 1px solid transparent;
+	box-sizing             : border-box;
+	-moz-box-sizing        : border-box;
+	background             : none;
+	outline                : none;
+	cursor                 : pointer;
+	-webkit-appearance     : none;
+	-webkit-border-radius : 0;
+	overflow              : visible;
+	color                 : rgb(220, 220, 220);
+	line-height           : 20px;
+	float                 : left;
+	height                : 100%;
+	width                 : 26px;
+	transition-property   : color;
+	transition-duration   : .25s;
+}
+
+.ChatMenuButton:active {
+	color : rgb(255, 255, 255);;
+}
+
+.ChatMenuButton:hover {
+	color : rgb(255, 255, 255);;
+}
+
+.ChatMenuButton center div {
+	font-size   : 14px;
+	line-height : 20px;
+	width       : 20px;
+	height      : 20px;
+	position    : relative;
+}
+
+.ChatMenuButton center div span {
+	position : absolute;
+	width    : 100%;
+	height   : 100%;
+	left     : 0px;
+	top      : 1px;
+}
+
+.ChatMenuSpan:before {
+	content: '\3009';
+}
+
+.ChatMenuSpanClose:before {
+	/*content : '\274C';*/
+	content : '\2715';
+}
+
+.ChatMenuSpanInfo:before {
+	content : '\003f';
+}
+
+.ChatMenuSpanLeftArrow:before {
+	content : '\21F1';
+}
+
+.ChatMenuSpanSoundOn:before {
+	content : '\260E';
+}
+
+.ChatMenuSpanSoundOff:before {
+	content : '\260F';
+}
+
+.WarningSpanNoEntry {
+	font-size : 40px;
+	color     : rgb(199, 40, 40);
+}
+
+.WarningSpanNoEntry:before {
+	content : '\26D4';
+}
+
+.WarningSpanWarning {
+	font-size : 50px;
+	color     : rgb(202, 162, 0);
+}
+
+.WarningSpanWarning:before {
+	content : '\26A0';
+}
+
+div.WarningText {
+	font-family    : "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	color          : #000000;
+	line-height    : 20px;
+	font-size      : 16px;
+	display        : table-cell;
+	vertical-align : middle;
+	margin         : 0 auto;
+	text-align: center;
+}
+
+div.ContextMenu {
+	border              : 1px solid rgb(166, 166, 166);
+	box-shadow          : rgba(0, 0, 0, 0.8) 0px 1px 5px;
+	background          : rgb(255, 255, 255);
+
+	transition-property : height;
+	transition-duration : 0.2s;
+	transition-delay    : 0s;
+}
+
+div.ContextMenu ul {
+	padding     : 5px 0px;
+	margin      : 2px 0px 0px;
+	list-style  : none;
+	font-size   : 16px;
+	line-height : 20px;
+}
+
+div.ContextMenu ul li.ContextMenuItem {
+	font-family : 'Times New Roman', Times, serif;
+	height      : 20px;
+	color       : rgb(68, 68, 68);
+	margin      : 0px 5px;
+	cursor      : pointer;
+	background  : transparent;
+}
+
+div.ContextMenu ul li.ContextMenuItemDisabled {
+	font-family : 'Times New Roman', Times, serif;
+	height      : 20px;
+	color       : rgb(168, 168, 168);
+	margin      : 0px 5px;
+	cursor      : default;
+	background  : transparent;
+}
+
+div.ContextMenu ul li.ContextMenuItem:hover {
+	background  : rgb(216, 218, 220);
+}
+
+div.ContextMenu ul li.ContextMenuLine {
+	height      : 0px;
+	margin      : 2px 5px;
+	border-top  : 1px solid rgb(190, 190, 190);
+}
+
+span.UserChatSpan {
+	text-decoration: none;
+}
+
+span.UserChatSpan:hover {
+	text-decoration: underline;
+}
+
+span.UserLink {
+	color           : #008272;
+	text-decoration : none;
+	font-weight     : bold;
+	cursor          : pointer
+}
+
+span.UserLink:hover {
+	text-decoration : underline;
+}
+
+span.GameLink {
+	color           : #008272;
+	text-decoration : none;
+	font-weight     : bold;
+	cursor          : pointer
+}
+
+span.GameLink:hover {
+	text-decoration : underline;
+}
+
+div.VerScroll {
+	background          : rgb(255, 255, 255);
+	border              : 1px solid rgb(190, 193, 196);
+
+	transition-property : background, border, opacity;
+	transition-duration : 0.2s;
+	transition-delay    : 0s;
+}
+
+div.VerScroll:hover {
+	background-color : rgb(240, 240, 240);
+}
+
+div.VerScrollActive, div.VerScrollActive:hover {
+	border-color     : rgb(160, 160, 160);
+	background-color : rgb(160, 160, 160);
+}
+
+div.VerScrollBlack {
+	background          : rgb(0, 0, 0);
+	border              : 1px solid #505050;
+
+	transition-property : background, border, opacity;
+	transition-duration : 0.2s;
+	transition-delay    : 0s;
+}
+
+div.VerScrollBlack:hover {
+	border-color : #969696;
+}
+
+div.VerScrollBlackActive, div.VerScrollBlackActive:hover {
+	border-color : #969696;
+}
+
+div.ChatOpenPanel {
+	transition-property : all;
+	transition-duration : 0.5s;
+	transition-delay    : 0s;
+}
+
+input.SearchInput {
+	background-color : #000000;
+	color            : #505050;
+	border           : 1px solid #505050;
+	font-family      : "Segoe UI", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	height           : 28px;
+	width            : 120px;
+	font-size        : 13px;
+	padding          : 0px 6px 0px 6px;
+	outline          : none;
+}
+
+input.SearchInput:hover {
+	color            : #FFFFFF;
+	border           : 1px solid #969696;
+}
+
+input.SearchInput:focus {
+	color            : #FFFFFF;
+	border           : 1px solid #969696;
+}
+
+#divIdGameTabsToggleInner {
+	position   : absolute;
+	top        : 10px;
+	left       : 10px;
+	width      : 30px;
+	height     : 30px;
+	color      : #FFFFFF;
+	font-size  : 16px;
+	transform  : rotate(90deg);
+	transition : all 0.3s ease;
+}
+
+#divIdGameTabsToggleInner span {
+	position   : absolute;
+	top        : 4px;
+	left       : 10px;
+}
+
+textarea.ChatInput {
+	width           : 100%;
+	height          : 100%;
+	border          : none;
+	outline         : none;
+	-moz-appearance : none;
+	resize          : none;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	padding-left    : 3px;
+}
+
+div.HorAlignCenter {
+	display        : flex;
+	flex-direction : column;
+	align-items    : center;
+}
+
+div.HorVerAlignCenter {
+	display         : flex;
+	flex-direction  : column;
+	justify-content : center;
+	align-items     : center;
+}
+
+div.StartPageWindow {
+	position         : absolute;
+	top              : calc(50% - 100px);
+	left             : calc(50% - 125px);
+	width            : 250px;
+	border           : 1px solid silver;
+	background-color : white;
+	box-shadow       : 0px 1px 15px rgba(0, 0, 0, 0.8);
+}
+
+span.InGameChatMoveRef {
+	text-decoration : none;
+	color           : rgb(255, 0, 0);
+}
+
+span.InGameChatMoveRef:hover {
+	text-decoration : underline;
+}
+
+input.challengeInput {
+	border          : 1px solid transparent;
+	outline         : none;
+	-moz-appearance : none;
+	resize          : none;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size       : 16px;
+	padding-left    : 3px;
+
+	background      : rgb(243, 243, 243);
+	color           : black;
+}
+
+input.challengeInputEditable {
+	border       : 1px solid #969696;
+	background   : rgb(255, 255, 255);
+}
+
+input.challengeInputChanged {
+	color       : rgb(199, 40, 40);
+	font-weight : bold;
+}
+
+select.challengeSelect {
+	border          : 1px transparent;
+	outline         : none;
+	-moz-appearance : none;
+	resize          : none;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size       : 16px;
+	padding-left    : 0px;
+
+	background      : rgb(243, 243, 243);
+	color           : black;
+}
+
+select.challengeSelectDisabled {
+	padding-left       : 5px;
+	-webkit-appearance : none;
+	-moz-appearance    : none;
+}
+
+select.challengeSelectEditable {
+	border             : 1px solid #969696;
+	background         : rgb(255, 255, 255);
+}
+
+select.challengeSelectChanged {
+	color       : rgb(199, 40, 40);
+	font-weight : bold;
+}
+
+div.challengePlayer {
+	line-height  : 30px;
+	font-family  : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size    : 16px;
+
+	background   : rgb(243, 243, 243);
+	color        : black;
+}
+
+div.challengePlayerSelect {
+	background   : rgb(255, 255, 255);
+}
+
+div.challengeField {
+	line-height : 30px;
+	font-family : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size   : 16px;
+}
+
+div.challengePlayerDiv {
+	border          : 1px transparent;
+	line-height     : 28px;
+	outline         : none;
+	-moz-appearance : none;
+	resize          : none;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size       : 16px;
+
+	background      : rgb(243, 243, 243);
+	color           : black;
+}
+
+span.challengePlayerSpan {
+	cursor : pointer;
+}
+
+span.challengePlayerSpan:hover {
+	text-decoration : underline;
+}
+
+span.challengePlayerRejectSpan {
+	color      : silver;
+	font-style : italic;
+}
+
+span.challengePlayerRejectSpan:hover {
+	color      : black;
+}
+
+div.challengePlayerDivEditable {
+	border       : 1px solid #969696;
+	border-right : 1px transparent;
+	background   : rgb(255, 255, 255);
+}
+
+.blinkPlayMenu {
+	animation : blinkPlayMenuAnimation 2s linear infinite;
+}
+
+@keyframes blinkPlayMenuAnimation {
+	50% {
+		opacity : 0.25;
+	}
+}
+
+.blinkCountDownTime {
+	animation : blinkCountDownTimeAnimation 2s linear infinite;
+	animation-delay: 0.1s;
+}
+
+@keyframes blinkCountDownTimeAnimation {
+
+	76% {
+		background : transparent;
+		color      : black;
+	}
+
+	74% {
+		background : #111111;
+		color      : white;
+		opacity    : 0;
+	}
+
+
+	50% {
+		background : black;
+		color      : white;
+		opacity    : 1;
+	}
+
+	25% {
+		background : #111111;
+		color      : white;
+		opacity    : 0;
+	}
+
+	24% {
+		background : transparent;
+		color      : black;
+	}
+
+
+}
+
+@font-face {
+	font-family: 'NotoEmoji';
+	src: url('Files/Fonts/NotoEmoji/NotoEmoji-Regular.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+input.inputKGSWindow {
+	color            : #505050;
+	background-color : #fff;
+	border           : 1px solid #969696;
+	font-family      : "Segoe UI",Helvetica,Tahoma,Geneva,Verdana,sans-serif;
+	height           : 37px;
+	font-size        : 13px;
+	padding          : 0px 47px 0px 6px;
+	outline          : none;
+}
+
+div#divIdClientNameText {
+	text-decoration : none;
+	cursor          : default;
+}
+
+div#divIdClientNameText:hover {
+	text-decoration : underline;
+	cursor          : pointer;
+}
+
+input.userInfoInput {
+	border          : 1px solid transparent;
+	outline         : none;
+	-moz-appearance : none;
+	resize          : none;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	font-size       : 16px;
+	padding-left    : 3px;
+
+	background      : rgb(243, 243, 243);
+	color           : black;
+}
+
+input.userInfoInputEditable {
+	border       : 1px solid #969696;
+	background   : rgb(255, 255, 255);
+}
+
+span.recentGamesSpan {
+	color      : black;
+	background : transparent;
+	float      : left;
+	text-align : center;
+}
+
+span.recentGamesSpan:hover {
+	color      : white;
+	background : rgb(0, 130, 114);
+	cursor     : pointer;
+}
+
+input.chatTabsSearch {
+	border-top    : none;
+	border-left   : none;
+	border-right  : none;
+	border-bottom : 1px solid rgb(190, 190, 190);
+	font-size     : 14px;
+	font-family   : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	background   : transparent;
+	padding      : 5px 25px 0px 25px;
+	width        : 147px;
+	outline      : none;
+	color        : rgb(190, 190, 190);
+	margin-left  : 25px;
+}
+
+input.chatTabsSearch:focus {
+	color         : black;
+	border-bottom : 1px solid rgb(0, 130, 114);
+}
+
+input.chatTabsSearch:hover {
+	color         : black;
+	border-bottom : 1px solid rgb(0, 130, 114);
+}
+
+div.chatTabsAdditionalSearchButtons {
+
+	text-align  : center;
+	font-size   : 14px;
+	font-family : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	margin      : 5px 20px 5px 20px;
+	line-height : 17px;
+	height      : 19px;
+	width       : 160px;
+}
+
+div.chatTabsAdditionalSearchButtonsWrapper {
+	height      : 29px;
+	width       : 200px;
+	float       : right;
+}
+
+div.roomStats {
+	text-align      : left;
+	font-size       : 14px;
+	font-family     : 'Segoe UI', Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+	line-height     : 20px;
+	cursor          : default;
+	color           : rgb(0, 0, 0);
+	height          : 20px;
+	float           : right;
+	width           : 100%;
+}

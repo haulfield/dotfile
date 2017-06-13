@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Passopolis</title>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src="../js/logging.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/underscore-min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../utils.js"></script>
+    <script type="text/javascript" src="../js/client.js"></script>
+    <script type="text/javascript" src="../helpers_common.js"></script>
+    <script type="text/javascript" src="../js/helpers.js"></script>
+    <script type="text/javascript" src="../js/icon-generator.js"></script>
+    <script type="text/javascript" src="../js/background_interface.js"></script>
+    <script type="text/javascript" src="../js/background-init.js"></script>
+    <script type="text/javascript" src="../js/template.js"></script>
+    <script type="text/javascript" src="../js/URI.js"></script>
+    <script type="text/javascript" src="../js/domain.js"></script>
+    <script type="text/javascript" src="../js/hogan-template.js"></script>
+    <script type="text/javascript" src="../js/modal-dialog-template.js"></script>
+    <script type="text/javascript" src="../js/acl-entry-template.js"></script>
+    <script type="text/javascript" src="../js/admin-common.js"></script>
+    <script type="text/javascript" src="../js/secrets-common.js"></script>
+    <script src="../kew.js"></script>
+    <script src="../js/org-info.js"></script>
+    <script type="text/javascript" src="../js/bulk-move.js"></script>
+    <script type="text/javascript" src="../js/bulk-move-services-template.js"></script>
+    <script type="text/javascript" src="../js/bulk-move-groups-template.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mitro.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+
+  <body>
+
+  <div class="wrapper">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="secrets.html"><img src="../img/mitro_logo_dark_small@2x.png" width="62" height="20" alt="Passopolis"></a>
+          <div class="nav-collapse">
+            <ul class="nav nav-pills">
+              <li class="dropdown" id="account-menu">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                    href="#accountmenu">
+                  <span class="email"></span>
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="teams.html">Manage Teams</a></li>
+                  <li><a href="audit.html">Audit Log</a></li>
+                  <li><a id="importer" href="importer.html">Password Manager Importer(α)</a></li>
+                  <li class="divider"></li>
+                  <li><a class="static-page-link" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="static-page-link" href="terms.html">Terms of Service</a></li>
+                  <li class="divider"></li>
+                  <li><a class="logout-link">Log Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+<div id="everything" style="margin-left: 20px;">
+
+<h2> Secrets</h2>
+
+<div id="all-secrets">
+</div>
+<br>
+<br>
+<br>
+
+<h2> Actions </h2>
+<div id="acl-chooser">
+<div id="org-transfer" style="display:none">
+<input type="checkbox" id="transfer-to-my-org"> Transfer ownership to my organization, <b><span id="org-name"></span></b>
+</div>
+<br>
+Overwrite all existing ACLS with:
+<br>
+<div id="acl-groups">
+</div>
+
+</div>
+<button id="commit-acls">Commit ACLs (warning this could be slow) </button>
+<br>
+<br>
+</div>
+
+<div id="messages"></div>
+
+    </div>
+  </div>
+  </body>
+</html>

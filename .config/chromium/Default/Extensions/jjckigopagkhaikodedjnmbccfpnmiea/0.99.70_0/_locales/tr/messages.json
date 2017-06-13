@@ -1,0 +1,344 @@
+{
+   "add": {
+      "description": "Bu bölüm 'Ekle' butonu içindir.",
+      "message": "Ekle"
+   },
+   "add_domain_button": {
+      "message": "Domain ekle"
+   },
+   "add_filter_button": {
+      "message": "Filtre ekle"
+   },
+   "add_filters_msg": {
+      "message": "Filtreler ekle?"
+   },
+   "add_your_own_filters": {
+      "message": "Filtrelerinizi ekleyin"
+   },
+   "apply_changes": {
+      "message": "Değişiklikleri Uygula"
+   },
+   "block_element": {
+      "description": "Bu menü öğesi seçilen blok elemanında bir filtre ekler",
+      "message": "Blok elemanı"
+   },
+   "cancel": {
+      "description": "İptal butonu bölümü",
+      "message": "İptal"
+   },
+   "clickhide_instructions": {
+      "description": "Instructions shown in popup UI before it disapears, when \"Block element\" action is executed",
+      "message": "Popup kapatıldıktan sonra, sayfada sağ butona tıklayınız."
+   },
+   "description_chrome": {
+      "description": "Not: 132 karakterden fazla olamaz.",
+      "message": ""
+   },
+   "description_opera": {
+      "message": ""
+   },
+   "description_safari": {
+      "message": ""
+   },
+   "disabled_for_site": {
+      "description": "Popup mesajlarını engelleme",
+      "message": "bu sitede \u003Cstrong>Devre Dışı\u003C/strong>"
+   },
+   "disabled_for_these_domains": {
+      "message": "Adblock aşağıda listelenen domainler için devre dışı bırakıldı. Adblock ikonuna tıklayarak adres çubuğuna ya da kutucuğa yeni bir domain girebilir ardından “Domain Ekle”butonuna basabilirsiniz."
+   },
+   "easy_create_filter": {
+      "description": "Action in popup UI to add a filter which blocks an element selected from the current page",
+      "message": "Bloklama elemanı"
+   },
+   "edit_filters_raw": {
+      "message": "Yazıyı ham metin olarak düzenle"
+   },
+   "enable_only_the": {
+      "message": "Sadece ihtiyacınız olan filtreleri etkinleştirin. Çok fazla etkinleştirme yaparsanız tarayıcınız cevap vermeyebilir."
+   },
+   "enabled_for_site": {
+      "description": "Popup mesajlarını engelleme",
+      "message": "Bu sitede \u003Cstrong>Aktif\u003C/strong> "
+   },
+   "filter_lists": {
+      "description": "Bu sekme başlığıdır.",
+      "message": "Filtre listesi"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Siz mutlaka \u003Ca> Adblock filtre sözdizimi \u003C/a> filtresini takip etmelisiniz."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Müdahaleci olmayan reklamlara izin ver"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Ekle"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Başka bir açıklama ekle"
+   },
+   "filters_addSubscription_label": {
+      "message": "Filtre abonelik ekle"
+   },
+   "filters_readMore_label": {
+      "message": "Daha fazla oku"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Sil"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Aktif"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Başarısız, checksum uyuşmazlığı"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Başarısız, karşıdan yükleme hatası"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "İndiriliyor…"
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Başarısız, geçersiz bir filtre listesi"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Başarısız, geçersiz bir adres"
+   },
+   "filters_viewList_label": {
+      "message": "Listeyi gör"
+   },
+   "firstRun_acceptableAdsExplanation": {
+      "message": "We'd like to encourage websites to use straightforward, unobtrusive advertising. That's why we've established \u003Ca>strict guidelines\u003C/a> to identify acceptable ads, which are shown under default settings. If you still want to block every ad you can \u003Ca>disable\u003C/a> this in a few seconds."
+   },
+   "firstRun_acceptableAdsHeadline": {
+      "message": "Sinir bozucu reklamlar artık bloke edilecek"
+   },
+   "firstRun_contributor_credits": {
+      "message": "Katılımcılar"
+   },
+   "firstRun_dataCorruptionWarning": {
+      "message": "Does this page keep showing up? \u003Ca>Click here!\u003C/a>"
+   },
+   "firstRun_donate": {
+      "message": "bağış"
+   },
+   "firstRun_donate_label": {
+      "message": "Projemizi destekleyin "
+   },
+   "firstRun_feature_malware": {
+      "message": "Malware Engelleme "
+   },
+   "firstRun_feature_malware_description": {
+      "message": "Malware gibi virüsleri engelleyerek daha güvenli tarama yapın."
+   },
+   "firstRun_feature_social": {
+      "message": "Sosyal medya butonlarını kaldır"
+   },
+   "firstRun_feature_social_description": {
+      "message": "Automatically rid your browsing experience of social media buttons, such as the Facebook Like, which appear on web pages and track your behavior."
+   },
+   "firstRun_feature_tracking": {
+      "message": "Takibi durdur"
+   },
+   "firstRun_feature_tracking_description": {
+      "message": "Browse privately by disabling tracking - hiding your tracks from ad companies that would track your every move."
+   },
+   "firstRun_features": {
+      "message": "Ads Block reklamları engellemekten daha fazlasını yapabilir."
+   },
+   "firstRun_filterlistsReinitializedWarning": {
+      "message": "Bu sorun, tüm filtreleri kaldıracak ve biz yedeği tekrardan yükleyemedik. Bu yüzden filtreleriniz ve ayarlarınız yenilendi. Lütfen ayarlarınızı ve filtre listenizi \u003Ca>Ads Block ayarlar\u003C/a> bölümünden control ediniz."
+   },
+   "firstRun_legacySafariWarning": {
+      "message": "Safarinin eski bir sürümünü kullanıyorsunuz ve AdBlock desteği bulunmuyor. Bu düzgün çalışması ya da bazı web sitelerinde kullanıcı deneyimini olumsuz olmayabilir. Biz şiddetle tarayıcınızı Safari 6.1.1 ve üstü (OS X 10.8 Mountain Lion için), yada Safari 7.0.1 ve üstü (OS X 10.9 Mavericks için), Ya da Mozilla Firefox, Google Chrome or Opera nın son sürümlerini kullanınız."
+   },
+   "firstRun_share": {
+      "message": "Arkadaşlarınıza söyleyin"
+   },
+   "firstRun_share_headline": {
+      "message": "İnterneti daha iyi bir yer haline getirmemize yardım edin."
+   },
+   "firstRun_title": {
+      "message": "Ads Block kurulumu yapıldı"
+   },
+   "firstRun_toggle_off": {
+      "message": "Kapalı"
+   },
+   "firstRun_toggle_on": {
+      "message": " Açık"
+   },
+   "found_a_bug": {
+      "message": "Bir hata mı buldunuz? Ads Blokc'u kendi dilinize çevirmek mi istiyorsunuz? Lütfen \u003Ca>buraya tıklayarak \u003C/a> tarafımızdan dosyayı isteğiniz."
+   },
+   "general": {
+      "description": "Bu bir tab başlığı.",
+      "message": "Genel"
+   },
+   "global_filter_elemhide_duplicate_id": {
+      "message": "Gizlenecek element için sadece bir ID belirtilebilir"
+   },
+   "global_filter_elemhide_nocriteria": {
+      "message": "Gizlenecek elementi tespit etmek için hiçbir kriter seçilmedi"
+   },
+   "global_notification_antiadblock_message": {
+      "message": "Bu sitede Ads Block kullanıcılarına hedeflenmiş mesajlar gösterildiği biliniyor. Ads Block'un bu mesajları gizlemesini ister misiniz?"
+   },
+   "global_notification_antiadblock_title": {
+      "message": "Hedeflenmiş mesejlar gizlensin mi?"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Bu üyeliği gerçekten kaldırmak istiyor musunuz?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Lokasyonu geçerli bir URL veya dosya ismi olmayanları filtrele ve listele."
+   },
+   "invalid_css_selector": {
+      "message": "$selector$ geçerli bir CSS seçici değil",
+      "placeholders": {
+         "selector": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at": {
+      "description": "Ör. Son güncelleme 15:00 1 Nisan 2011",
+      "message": "Son güncelleme $time$ , $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "description": "Ör. Son günelleme 15:00 bugün",
+      "message": "Son güncelleme $time$ bugün",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "line": {
+      "description": "Hata mesajlarının önüne eklenerek satır sayısını işaret eder. ( Ör. Satı 42: Bu satırda bazı hatalar var )",
+      "message": "Satır $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Ads Block"
+   },
+   "name_devbuild": {
+      "description": "Geliştirme sürümü için gösterilecek uzantı ismi. Not: Bu 45 karakterden uzun olamaz.",
+      "message": "Ads Block geliştirme sürümü"
+   },
+   "notification_with_buttons": {
+      "message": "Bu bildirimdeki tüm linkleri açmak için OK'e tıklayın."
+   },
+   "notification_without_buttons": {
+      "message": "Bildirime tıklayarak içerdiği tüm linkleri açın."
+   },
+   "options": {
+      "message": "Ads Block Seçenekleri"
+   },
+   "options_short": {
+      "description": "Açılır pencereden seçenekler sayfasına link.",
+      "message": "Seçenekler"
+   },
+   "out_of_date_lists": {
+      "message": "Tarihi geçmiş listeler periyodik olarak güncellenir."
+   },
+   "overlay_notification_button_close": {
+      "message": "Kapalı"
+   },
+   "overlay_notification_button_no": {
+      "message": "Hayır"
+   },
+   "overlay_notification_button_yes": {
+      "message": "Evet"
+   },
+   "remove_button": {
+      "description": "Bu, 'Seçili öğeleri kaldır' butonu için etikettir.",
+      "message": "Seçili öğeleri kaldır"
+   },
+   "show_block_element_menu": {
+      "message": "'Element Engelleme' yi sağ click menü öğesi olarak göster"
+   },
+   "stats_label_page": {
+      "description": "TBu, açılır penceredeki belirli bir sayfada engellenen isteklerin sayısını gösterir.",
+      "message": "\u003Cstrong>$number$\u003C/strong> bu sayfadaki",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_label_total": {
+      "description": "Bu açılır penceredeki toplam engellenmiş istek sayısını gösterir.",
+      "message": "\u003Cstrong>$number$\u003C/strong> toplamda",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_over": {
+      "description": "İstatistiklerdeki bazı mesajlarda '123 reklam engellendi' yerin '123'ten fazla reklam engellendi' mesajının paylaşıldığını görebilirsiniz. Bu '9000 üstü' durumunun olduğunu gösterir. Bu dize, eğer bu durum o dili konuşanlar tarafından bilinmiyorsa veya sonuç olarak gelen cümle garip geliyorsa sadece $number$' ile çevirilebilir.",
+      "message": "'$number$' dan fazla",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_download": {
+      "description": "",
+      "message": "Ads Block indir"
+   },
+   "stats_share_message": {
+      "description": "Eğer kullanıcı istatistikleri paylaşmaya karar verirse bu mesaj sosyal ağlarda yayınlanacak.",
+      "message": "$number$ reklam ve takibi engelledim, teşekkürler Ads Block.",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_title": {
+      "description": "Engellenen reklam sayısını paylaşan sosyal medya butonları için etiket",
+      "message": "Share this number"
+   },
+   "stats_show_iconnumber": {
+      "description": "Engellenen reklam sayısını ikonda göstermek için görünümü değiştir.",
+      "message": "Sayıyı ikonda göster"
+   },
+   "stats_title": {
+      "description": "Açılır pencerede istatistikler bölümü için Başlık.",
+      "message": "Reklamlar engellendi"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Filtre listesi lokasyonu:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Lütfen listeden bir filtre üyeliği seçin:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Üyelik başlığı:"
+   },
+   "unexpected_filter_list_header": {
+      "description": "Kullanıcı herhangi bir üst bilgi formatında özel filtre girmeye çalıştığında gösterilen hata mesajı( Ör.  \"[Ads Block]\") sadece filtre listesinde izinli.",
+      "message": "Fltre listesi üstbilgisi burada izinli değil"
+   },
+   "update_now": {
+      "message": "Şimdi güncelle"
+   },
+   "whitelisted_domains": {
+      "description": "Bu bir sekme üst bilgisidir.",
+      "message": "Beyaz liste alınmış alanadları"
+   }
+}

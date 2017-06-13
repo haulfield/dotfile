@@ -1,0 +1,22 @@
+VirtualBox GUI VM Selector Window 5.1.20 r114628 linux.amd64 (Apr 20 2017 19:41:46) release log
+00:00:02.927867 Log opened 2017-05-16T17:12:48.685536000Z
+00:00:02.927867 Build Type: release
+00:00:02.927869 OS Product: Linux
+00:00:02.927870 OS Release: 4.10.3-1-MANJARO
+00:00:02.927870 OS Version: #1 SMP PREEMPT Thu Mar 16 05:55:15 UTC 2017
+00:00:02.927886 DMI Product Name: Z87N-WIFI
+00:00:02.927890 DMI Product Version: To be filled by O.E.M.
+00:00:02.927919 Host RAM: 7877MB (7.6GB) total, 2595MB (2.5GB) available
+00:00:02.927922 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.927922 Process ID: 18943
+00:00:02.927923 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:02.927939 Qt version: 5.8.0
+00:00:03.379846 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:06.347828 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE
+00:00:06.381678 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:06.430002 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 3200x0 x 640x1061
+00:00:06.431123 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 960x0 x 960x1061
+00:00:13.159381 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:13.414810 2D support test succeeded
+00:00:13.583472 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:44.684611 GUI: UIMediumEnumerator: Medium-enumeration finished!

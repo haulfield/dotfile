@@ -1,0 +1,47 @@
+{
+   "background": {
+      "scripts": [ "scripts/Bacon.min.js", "scripts/vendor/ciuvo-whitelist.min.js", "scripts/locales.js", "scripts/index.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/standard-128.png",
+         "16": "icons/standard-16.png",
+         "19": "icons/standard-19.png",
+         "38": "icons/standard-38.png",
+         "48": "icons/standard-48.png",
+         "64": "icons/standard-64.png"
+      },
+      "default_popup": "",
+      "default_title": "ZenMate"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/page_api.js" ],
+      "matches": [ "*://*.zenmate.com/*", "*://*.zenmate.ae/*", "*://*.zenmate.ma/*", "*://*.zenmate.dk/*", "*://*.zenmate.at/*", "*://*.zenmate.ch/*", "*://*.zenmate.de/*", "*://*.zenmate.li/*", "*://*.zenmate.ca/*", "*://*.zenmate.co.uk/*", "*://*.zenmate.ie/*", "*://*.zenmate.co.nz/*", "*://*.zenmate.com.ar/*", "*://*.zenmate.cl/*", "*://*.zenmate.co/*", "*://*.zenmate.es/*", "*://*.zenmate.mx/*", "*://*.zenmate.com.pa/*", "*://*.zenmate.com.pe/*", "*://*.zenmate.com.ve/*", "*://*.zenmate.fi/*", "*://*.zenmate.fr/*", "*://*.zenmate.co.il/*", "*://*.zenmate.in/*", "*://*.zenmate.hu/*", "*://*.zenmate.co.id/*", "*://*.zenmate.is/*", "*://*.zenmate.it/*", "*://*.zenmate.jp/*", "*://*.zenmate.kr/*", "*://*.zenmate.lu/*", "*://*.zenmate.lt/*", "*://*.zenmate.lv/*", "*://*.zenmate.my/*", "*://*.zenmate.be/*", "*://*.zenmate.nl/*", "*://*.zenmate.pl/*", "*://*.zenmate.com.br/*", "*://*.zenmate.pt/*", "*://*.zenmate.ro/*", "*://*.zenmate.com.ru/*", "*://*.zenmate.se/*", "*://*.zenmate.sg/*", "*://*.zenmate.com.ph/*", "*://*.zenmate.com.tr/*", "*://*.zenmate.pk/*", "*://*.zenmate.vn/*", "*://*.zenmate.hk/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "scripts/free.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "scripts/ciuvo.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com https://ssl.google-analytics.com https://googletagmanager.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icons/standard-128.png",
+      "16": "icons/standard-16.png",
+      "48": "icons/standard-48.png",
+      "64": "icons/standard-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/khyYd2AcPQqjMzW9xCWg5+TDmo9Ku9GHzqOp68/Cho9A/hVOBB7aNij4ugbRbt6uvMjxOXnd+tC2zckXiwLt6orR0RSGutTsFHK7EjObeQaY11NWVmh2V4mIAdibsn47RkNVBqqwjmUrc6qdga1aEAIoO3yXpJ2yCBFizJ/PVwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0",
+   "name": "__MSG_appName__",
+   "permissions": [ "*://*/*", "chrome://favicon/", "tabs", "webRequest", "webRequestBlocking", "proxy", "unlimitedStorage", "background", "management", "storage", "notifications", "cookies" ],
+   "short_name": "ZenMate VPN",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.10.3",
+   "web_accessible_resources": [ "widget.html", "images/check.gif", "scripts/vendor/ciuvo-contentscript.min.js" ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Passopolis: LastPass Importer</title>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src="../js/logging.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/underscore-min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../utils.js"></script>
+    <script type="text/javascript" src="../js/client.js"></script>
+    <script type="text/javascript" src="../helpers_common.js"></script>
+    <script type="text/javascript" src="../js/helpers.js"></script>
+    <script type="text/javascript" src="../js/icon-generator.js"></script>
+    <script type="text/javascript" src="../js/background_interface.js"></script>
+    <script type="text/javascript" src="../js/background-init.js"></script>
+    <script type="text/javascript" src="../js/template.js"></script>
+    <script type="text/javascript" src="../js/URI.js"></script>
+    <script type="text/javascript" src="../js/domain.js"></script>
+    <script type="text/javascript" src="../js/hogan-template.js"></script>
+    <script type="text/javascript" src="../js/modal-dialog-template.js"></script>
+    <script type="text/javascript" src="../js/acl-entry-template.js"></script>
+    <script type="text/javascript" src="../js/admin-common.js"></script>
+    <script type="text/javascript" src="../js/jquery-csv.js"></script>
+    <script type="text/javascript" src="../js/import-template.js"></script>
+    <script type="text/javascript" src="../kew.js"></script>
+    <script type="text/javascript" src="../js/org-info.js"></script>
+    <script type="text/javascript" src="../js/userdata.js"></script>
+    <script type="text/javascript" src="../js/import-common.js"></script>
+    <script type="text/javascript" src="../js/lastpass.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mitro.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+
+  <body>
+
+  <div class="wrapper">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="secrets.html"><img src="../img/mitro_logo_dark_small@2x.png" width="62" height="20" alt="Passopolis"></a>
+          <div class="nav-collapse">
+            <ul class="nav nav-pills">
+              <li class="dropdown" id="account-menu">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                    href="#accountmenu">
+                  <span class="email"></span>
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="teams.html">Manage Teams</a></li>
+                  <li><a href="audit.html">Audit Log</a></li>
+                  <li><a id="importer" href="importer.html">Password Manager Importer(α)</a></li>
+                  <li class="divider"></li>
+                  <li><a class="static-page-link" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="static-page-link" href="terms.html">Terms of Service</a></li>
+                  <li class="divider"></li>
+                  <li><a class="logout-link">Log Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+<div class="left-col">
+
+<a class="nav-button" href="../html/importer.html">
+  <img src="../img/left_arrow.png" width="14" height="13">
+  Back to Importer
+</a>
+
+<h2>LastPass Importer</h2>
+
+<p>First, export your LastPass database to a CSV file:</p>
+
+<ol>
+<li>Click the LastPass button next to the URL bar.</li>
+<li>From the menu, choose Tools → Advanced Tools → Export To → LastPass CSV File.</li>
+<li>When it shows all your passwords, from the browser's menu choose Edit → Select All then Edit → Copy.</li>
+<li>Open a text editing program, paste into a new document, and save it somewhere.</li>
+<li>Upload the .csv file using this form.</li>
+</ol>
+
+<br><br>
+<input type = "file" id = "files" name = "files[]" single />
+<p>Destination team:
+<select id="group-select"></select> <button id="toggle-checked">Select/unselect all</button></p>
+
+<hr>
+
+<div id="password-list" >
+
+</div>
+
+ <button id="add-to-mitro-button" class="btn-primary btn-large" type="button" hidden="true" >
+    <img src="../img/plus.png" width="21" height="23">Add to Passopolis
+  </button>
+
+<div id='upload-progress'>
+
+</div>
+
+</div>
+<!-- end left-col -->
+
+<div class="sidebar">
+</div>
+
+    </div>
+  </div>
+  </body>
+</html>

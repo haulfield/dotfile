@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Passopolis Preferences</title>
+    <script type="text/javascript" src="../js/config.js"></script>
+    <script type="text/javascript" src="../js/logging.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../js/underscore-min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../utils.js"></script>
+    <script type="text/javascript" src="../js/client.js"></script>
+    <script type="text/javascript" src="../helpers_common.js"></script>
+    <script type="text/javascript" src="../js/helpers.js"></script>
+    <script type="text/javascript" src="../js/icon-generator.js"></script>
+    <script type="text/javascript" src="../js/background_interface.js"></script>
+    <script type="text/javascript" src="../js/background-init.js"></script>
+    <script type="text/javascript" src="../js/template.js"></script>
+    <script type="text/javascript" src="../js/preferences.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/mitro.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+
+  <body>
+
+  <div class="wrapper">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="secrets.html"><img src="../img/mitro_logo_dark_small@2x.png" width="62" height="20" alt="Passopolis"></a>
+          <div class="nav-collapse">
+            <ul class="nav nav-pills">
+              <li class="dropdown" id="account-menu">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                    href="#accountmenu">
+                  <span class="email"></span>
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="teams.html">Manage Teams</a></li>
+                  <li><a href="audit.html">Audit Log</a></li>
+                  <li><a id="importer" href="importer.html">Password Manager Importer(α)</a></li>
+                  <li class="divider"></li>
+                  <li><a class="static-page-link" href="privacy.html">Privacy Policy</a></li>
+                  <li><a class="static-page-link" href="terms.html">Terms of Service</a></li>
+                  <li class="divider"></li>
+                  <li><a class="logout-link">Log Out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+<div class="left-col">
+
+<h2>Preferences</h2>
+
+<ul>
+<li><input type="checkbox" name="hideNotLoggedInOnLoginPages" value="true"> Hide the "Not Logged In" infobar on login pages</li>
+<li><input type="checkbox" name="neverAskToSavePasswords" value="true"> Never ask to save any passwords</li>
+<li><input type="checkbox" name="highlightSelectedForms" value="false"> Highlight selected form elements</li>
+<li>Server hostname: <input type="text" name="serverHostnameOverride" value=""></li>
+</ul>
+
+<button id="savebutton" type="button">Save Changes</button>
+
+<p id="saveOutput" style="font-weight: bold; font-style: oblique;">&nbsp;</p>
+
+<p><button id="clearBlacklistButton" type="button">Clear the "Never save passwords" site blacklist</button></p>
+
+<p id="clearOutput" style="font-weight: bold; font-style: oblique;">&nbsp;</p>
+
+<p><button id="reloadButton" type="button" disabled="disabled">Reload extension</button></p>
+
+</div>
+    </div>
+  </div>
+  </body>
+</html>

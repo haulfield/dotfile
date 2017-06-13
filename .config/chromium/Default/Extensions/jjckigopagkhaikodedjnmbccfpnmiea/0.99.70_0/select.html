@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Select element</title>
+<link type="text/css" href="jquery-ui/css/smoothness/jquery-ui-1.8.16.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery-ui/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+<script type="text/javascript" src="ext/common.js"></script>
+<script type="text/javascript" src="ext/content.js"></script>
+<script type="text/javascript" src="i18n.js" charset="utf-8"></script>
+<script type="text/javascript" src="select.js" charset="utf-8"></script>
+<style type="text/css">
+  html, body             
+  {                      
+    background: #ffffff; 
+  }
+  body
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 5px;
+    display: inline-block;
+  }
+  #title,
+  #filters
+  {
+    margin-bottom: 3px;
+  }
+  #title > *
+  {
+    vertical-align: middle;
+  }
+  #title > img
+  {
+    margin-right: 5px;
+  }
+  #filters
+  {
+    width: 400px;
+    height: 100px;
+    resize: none;
+    white-space: pre;
+    word-wrap: normal;
+  }
+  #buttons
+  {
+    text-align: right;
+  }
+  button
+  {
+    padding: 3px !important;
+  }
+  .block-text {
+    padding: 10px;
+  }
+</style>
+</head>
+<body draggable="true">
+  <div id="title">
+    <img src="icons/icon32.png" srcset="icons/icon64.png 2x">
+    <span class="i18n_bcut_on_page"></span>
+  </div>
+
+  <div class="block-text">
+    <span class="i18n_select_block_text_1"></span></br>
+    <span class="i18n_select_block_text_2"></span></br>
+  </div>
+
+  <div id="buttons">
+    <button id="cancelButton" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+      <span class="i18n_canceled ui-button-text"></span>
+    </button>
+  </div>
+</body>
+</html>

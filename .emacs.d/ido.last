@@ -1,0 +1,43 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/yarik/" . "todos/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/yarik/todos/"
+ "~/todos/"
+ "/home/yarik/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "0606"
+ "0601"
+ "0531"
+ "0530"
+ "0525"
+ "0529"
+ "temetme"
+ "todo"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/yarik/todos/" (22838 44240 383133 422000) "0529" "0606" "0525" "0530" "0601" "0531" "../" "./")
+
+ ("/home/yarik/" (22841 14748 263090 92000) ".ideskrc" ".pki/" ".xsession-errors" "root@67.205.177.181" "Pictures/" "nohup.out" ".zcompdump-yarik-5.3.1" ".guayadeque/" ".gem/" ".subversion/" ".xsession-errors.old" ".charles.config" ".screenlayout/" ".mysql_history" "todo" "fun/" ".dir_colors" "todo~" ".xfce4-session.verbose-log.last" ".mysql/" "temp/" ".dmrc" "Programs/" ".wine/" ".cache/" ".python_history" ".PhpStorm2017.1/" ".zsh-update" ".dbshell.save" "VirtualBox VMs/" ".PhpStorm2016.3/" ".zsh_history" ".vagrant.d/" ".gphoto/" "sti.webp" ".profile" ".Xauthority" ".3T/" ".zshrc.pre-oh-my-zsh" "geeksfield/" ".local/" ".xsession" "PycharmProjects/" ".wget-hsts" ".extend.xinitrc" ".gksu.lock" "Scripts/" ".mozilla/" ".extend.bashrc" ".bashrc" ".oh-my-zsh/" "#teaser.txt#" ".scala_history" "Downloads/" "Desktop/" ".emacs" ".PyCharm2017.1/" ".icons/" ".oracle_jre_usage/" ".wallpapers/" "projects/" ".gnome/" ".virtualenvs/" ".idesktop/" ".Xclients" ".bash_profile" ".bash_history" ".thunderbird/" ".config/" ".m2/" ".gnupg/" "temetme" ".fonts/" ".macromedia/" ".thumbnails/" ".CLion2017.1/" ".dbshell" ".xinitrc" ".emacs.d/" "PhpstormProjects/" "../" "Public/" ".esd_auth" ".Xresources" "todos/" "Videos/" ".java/" ".gitconfig" "vag/" ".swt/" "./" ".zshrc" "#todo#" ".npm/" ".mongorc.js" "dronezone/" ".charles/" "Documents/" ".adobe/" "HS/" ".xfce4-session.verbose-log" "Music/" ".bash_logout" ".ICEauthority" "Templates/" "resume.txt" ".zcompdump" ".fehbg" ".xprofile" ".ssh/" ".IntelliJIdea2017.1/")
+
+ ("/home/yarik/projects/" (22812 11904 453079 735000) "ideal/" "DC/" "webhosting/" "scholar/" "geeks/" "decedu/" "../" "vag/" "./")
+
+ ("/home/yarik/projects/ideal/" (22750 11262 733507 342000) "provision.sh~" "web-ideal4me/" "provision.sh" ".vagrant/" "Vagrantfile" ".idea/" "../" "./")
+
+ ("~/todos/" (22829 1392 240887 78000) "0529" ".#0525" "0525" "0530" "../" "./")
+
+ ("/home/yarik/Templates/" (22735 40673 656908 192000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

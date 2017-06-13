@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" >
+    <meta name="msvalidate.01" content="EF5E15890FF3E39EF83EBB97C7DE71BA" />
+    <meta name="theme-color" content="#17a9d5">
+    <meta name='yandex-verification' content='778b85e160d3f074' />
+    <meta name="p:domain_verify" content="a9aafc5bb978ee4e5e20ac4cd33ce453"/>
+    <meta name="robots" content="NOODP, NOYDIR" />
+<link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/header-footer.css" />
+<link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/style.css" />
+<title>DesignContest - SignUp FacebookAuth</title>
+        <link rel="canonical" href="http://design.yarik.com/registration/facebook/signUp/" />
+                            <link rel="alternate" href="https://www.designcontest.ru/registration/facebook/signUp/" hreflang="ru-ru" />
+                    <link rel="alternate" href="https://www.designcontest.com/registration/facebook/signUp/" hreflang="x-default" />
+                    <link rel="alternate" href="https://www.designcontest.ca/registration/facebook/signUp/" hreflang="en-ca" />
+                    <link rel="alternate" href="https://www.designcontest.uk/registration/facebook/signUp/" hreflang="en-gb" />
+                    <link rel="alternate" href="https://www.designcontest.com.au/registration/facebook/signUp/" hreflang="en-au" />
+                    <link rel="alternate" href="https://www.designcontest.co.nz/registration/facebook/signUp/" hreflang="en-nz" />
+                    <link rel="alternate" href="https://www.designcontest.es/registration/facebook/signUp/" hreflang="es-es" />
+                    <link rel="alternate" href="https://www.designcontest.com.ua/registration/facebook/signUp/" hreflang="uk-ua" />
+                    <link rel="alternate" href="https://www.designcontest.at/registration/facebook/signUp/" hreflang="de-at" />
+                    <link rel="alternate" href="https://www.designcontest.com.de/registration/facebook/signUp/" hreflang="de-de" />
+                        <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@designcontests" />
+    <meta name="twitter:creator" content="@designcontests" />
+                            <meta property="fb:app_id" content="198994630150219">
+    <link rel="shortcut icon" href="http://design.yarik.com/images/favicon2.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="http://design.yarik.com/images/apple-touch-icon.png" />
+    <link rel="icon" sizes="192x192" href="http://design.yarik.com/images/dc-icon_192x192.png">
+    <!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
+                                                        
+</head>
+<body class="christmas2017">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVQRTX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager -->
+<div class="main_wrapper main-new ">
+<div style="display: none;">
+    <div id="proactivechatcontainerue5t8hbsqu"></div>
+    <table border="0" cellspacing="2" cellpadding="2">
+        <tr>
+            <td align="center" id="swifttagcontainerue5t8hbsqu">
+                <div style="display: inline;" id="swifttagdatacontainerue5t8hbsqu">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"></td>
+        </tr>
+    </table>
+</div>
+<div class="top_block">
+    <div class="center_wrapper">
+                    <div class="logo">
+                                    <a href="/" title="DesignContest">DesignContest</a>
+                            </div>
+            <div class="help_block unlogged">
+                <ul>
+                    <li><span class="text">Free consultations <span>and support</span></span></li>
+                    <li id="chat_menu_item"><a href="#" title="live chat" class="ico chat-ico olark_chat_link"><i class="svg-icon icon-chat"></i><span>Live chat</span></a><span class="status online olark_status"></span></li>
+                    <li><a href="/contact-us/" title="write a letter" class="ico email-ico request_consultation_link"><i class="svg-icon icon-mail"></i><span>E-mail</span></a></li>
+                    <li>
+                        <span class="ico call-ico" id="phone_status_box">
+                            <i title="united states">Call ico</i>
+                            <span>1888-906-1888</span>
+                            <div class="tool-tip open">
+                                <div>
+                                    <span class="tip-text-gray">Phone support:</span>
+                                    <span class="text-green">Open</span>
+                                    <p>Ready for your call :)</p>
+                                </div>
+                                <div>
+                                    <span class="tip-text-gray">Our business hours:</span>
+                                    <p>Mon — Fri, 2am — 8pm (EST)</p>
+                                    <p>US &amp; EU support teams</p>
+                                </div>
+                            </div>
+                            <div class="tool-tip closed">
+                                <div>
+                                    <span class="tip-text-gray">Phone support:</span>
+                                    <span class="tip-text-red">Closed</span>
+                                    <p>We are back in: <span id="online_in">2h  34 min</span></p>
+                                </div>
+                                <div>
+                                    <span class="tip-text-gray">Our business hours:</span>
+                                    <p>Mon — Fri, 2am — 8pm (EST)</p>
+                                    <p>US &amp; EU support teams</p>
+                                </div>
+                            </div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+                <div class="user_block unlogged logged-menu">
+            				<ul class="links">
+                                        <li><a class="quick_login_link" href="http://design.yarik.com/login?redirect=%2Fregistration%2Ffacebook%2FsignUp%3Fcode%3DAQBwK_5A9kaxeCN4C6auXUjFLFlTiYgxp-iyolZ-dlJ5kKThuQkk2hZDe4U_XVLEasEOIwlxZME6AZX3z-q1bA_mR6bu3qgfWfNXDSMgrtROp0cGkRc9TRnuv8bz1m0S_POp1aderGCWcLQtAjIxslHHhWQEqooUX-vXj8HZfzLxjKgo7Ywba7Ug_pJbhRhQbnq1YA9HvU2jwmLLwyfLa2Y7ukHacEWtrCSrpF7UYGUqfWSsVr_l4MroaurYdf9WvGonyZgw7GsHlxjuE5Xo49lzu9KCGZ0L7MMUT3P1kDS7O6ymRD231n9wSl0vWMeQyE_yutKAP69SGpsCaCAo4wof%26state%3Dde4ed6051f1a04dc036dbe754c8cf020/" title="Log in">Log in</a></li>
+                    <li><a href="http://design.yarik.com/registration/" title="Register" class="menu_register_link">Register</a></li>
+                                    </ul>        </div>
+                    <div class="mobile_menu">
+                <a href="#" title="Main menu" class="svg-icon icon-menu mmenu-ico"></a>
+                <ul>
+                    <li><a href="#" title="hide menu" id="hide_mmenu">hide menu</a></li>
+                    <li><a href="#" title="Categories" id="category_link"><span class="plus-ico">Categories<i class="svg-icon icon-plus"></i></span></a></li>
+                    <li><a href="/how-it-works/" title="How it works">How it works</a></li>
+                    <li><a href="/testimonials/" title="Testimonials">Testimonials</a></li>
+                    <li><a href="http://design.yarik.com/projects/" title="Browse contests">Browse contests</a></li>
+                    <li><a href="/prices/" title="Prices">Prices</a></li>
+                    <li><a href="/demo/" title="Demo">Demo</a></li>
+                    <li><a href="http://design.yarik.com/login?redirect=/registration/facebook/signUp?code=AQBwK_5A9kaxeCN4C6auXUjFLFlTiYgxp-iyolZ-dlJ5kKThuQkk2hZDe4U_XVLEasEOIwlxZME6AZX3z-q1bA_mR6bu3qgfWfNXDSMgrtROp0cGkRc9TRnuv8bz1m0S_POp1aderGCWcLQtAjIxslHHhWQEqooUX-vXj8HZfzLxjKgo7Ywba7Ug_pJbhRhQbnq1YA9HvU2jwmLLwyfLa2Y7ukHacEWtrCSrpF7UYGUqfWSsVr_l4MroaurYdf9WvGonyZgw7GsHlxjuE5Xo49lzu9KCGZ0L7MMUT3P1kDS7O6ymRD231n9wSl0vWMeQyE_yutKAP69SGpsCaCAo4wof&state=de4ed6051f1a04dc036dbe754c8cf020/" title="Log in">Log in</a></li>
+                    <li><a href="http://design.yarik.com/registration/" title="Register">Register</a></li>
+                </ul>
+            </div>
+            <div class="categories_menu">
+                <ul>
+                    <li><a href="#" title="hide menu" id="back_link"><span>Back to menu</span></a></li>
+                    <li class="category_item">
+                        <a href="#" title="Corporate identity">Corporate identity</a>
+                        <ul>
+                            <li><a href="/logo-design/" title="Logo">Logo Design</a></li>
+                            <li><a href="/business-card-design/" title="Business Cards">Business Cards</a></li>
+                            <li><a href="/business-stationery-design/" title="Business Stationery">Business Stationery</a></li>
+                            <li><a href="/letterhead-design/" title="Letterhead">Letterhead Design</a></li>
+                            <li><a href="/logo-and-business-card-design/" title="Logo and Business Card">Logo and Business Card</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="Product design">Product Design</a>
+                        <ul>
+                            <li><a href="/packaging-design/" title="Packaging">Packaging Design</a></li>
+                            <li><a href="/label-design/" title="Label">Label Design</a></li>
+                            <li><a href="/ticket-design/" title="Ticket">Ticket Design</a></li>
+                            <li><a href="/book-cover-design/" title="Book Cover">Book Cover</a></li>
+                            <li><a href="/magazine-cover-design/" title="Magazine Cover">Magazine Cover</a></li>
+                            <li><a href="/cd-cover-design/" title="CD Cover">CD Cover Design</a></li>
+                            <li><a href="/other-product-design/" title="Other Product">Other Product</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="Web Design">Web Design</a>
+                        <ul>
+                            <li><a href="/website-design/" title="Website">Website Design</a></li>
+                            <li><a href="/mobile-website-design/" title="Mobile Website">Mobile Website</a></li>
+                            <li><a href="/theme-design/" title="Theme">Theme Design</a></li>
+                            <li><a href="/landing-page-design/" title="Landing Page">Landing Page</a></li>
+                            <li><a href="/fans-page-design/" title="Fans page">Fans Page Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="advertising materials">Advertising Materials</a>
+                        <ul>
+                            <li><a href="/poster-design/" title="Poster">Poster Design</a></li>
+                            <li><a href="/flyer-design/" title="Flyer">Flyer Design</a></li>
+                            <li><a href="/billboard-design/" title="Billboard">Billboard Design</a></li>
+                            <li><a href="/car-wrap-design/" title="Car Wrap">Car Wrap Design</a></li>
+                            <li><a href="/banner-design/" title="Banner">Banner Design</a></li>
+                            <li><a href="/trade-show-swag-design/" title="Trade Show Swag">Trade Show Swag</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="illustrations and contextual design">Illustrations and Contextual Design</a>
+                        <ul>
+                            <li><a href="/icon-design/" title="Icons">Icon Design</a></li>
+                            <li><a href="/illustration-design/" title="Illustration">Illustration</a></li>
+                            <li><a href="/character-design/" title="Character">Character Design</a></li>
+                            <li><a href="/infographic-design/" title="Infographic">Infographic</a></li>
+                            <li><a href="/powerpoint-design/" title="Powerpoint">Powerpoint</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="CLothing and apparel design">Clothing and Apparel Design</a>
+                        <ul>
+                            <li><a href="/t-shirt-design/" title="T-Shirt">T-Shirt Design</a></li>
+                            <li><a href="/team-clothing-design/" title="Team Clothing">Team Clothing</a></li>
+                            <li><a href="/other-clothing-design/" title="Other Clothing">Other Clothing</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="Applications">Application Design</a>
+                        <ul>
+                            <li><a href="/mobile-app-design/" title="Mobile App">Mobile App Design</a></li>
+                            <li><a href="/application-icon-design/" title="Application Icon">Application Icon</a></li>
+                            <li><a href="/desktop-software-design/" title="Desktop Software">Desktop Software</a></li>
+                        </ul>
+                    </li>
+                    <li class="category_item">
+                        <a href="#" title="Other design">Other Design</a>
+                        <ul>
+                            <li><a href="/graphic-design/" title="Graphic">Graphic Design</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            </div>
+</div>
+<!--st valentine banner begin-->
+        <div id="menu" >
+        <div class="center_wrapper">
+            <ul>
+                <li><a href="/how-it-works/" title="How it works" id="main-menu-how-it-works-link">How it works</a></li>
+                <li class="has_sub"><a title="Design Categories"><span>Design Categories</span><i></i></a>
+                    <div class="sub_menu">
+                        <span class="submenu_arrow"> arrow </span>
+                        <div class="menu_overlay"></div>
+                        <div class="box">
+                            <div class="menu_block">
+                                <h3>Corporate identity</h3>
+                                <div class="pero"></div>
+                                <ul>
+                                    <li><a href="/logo-design/" title="Logo" id="main-menu-logo-design-link">Logo Design</a></li>
+                                    <li><a href="/business-card-design/" title="Business Cards" id="main-menu-business-card-design-link">Business Cards</a></li>
+                                    <li><a href="/business-stationery-design/" title="Business Stationery" id="main-menu-business-stationery-design-link">Business Stationery</a></li>
+                                    <li><a href="/letterhead-design/" title="Letterhead" id="main-menu-letterhead-design-link">Letterhead Design</a></li>
+                                    <li><a href="/logo-and-business-card-design/" title="Logo and Business Card" id="main-menu-logo-and-business-card-design-link">Logo and Business Card</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_block">
+                                <h3>Product Design</h3>
+                                <div class="book"></div>
+                                <ul>
+                                    <li><a href="/packaging-design/" title="Packaging" id="main-menu-packaging-design-link">Packaging Design</a></li>
+                                    <li><a href="/label-design/" title="Label" id="main-menu-label-design-link">Label Design</a></li>
+                                    <li><a href="/ticket-design/" title="Ticket" id="main-menu-ticket-design-link">Ticket Design</a></li>
+                                    <li><a href="/book-cover-design/" title="Book Cover" id="main-menu-book-cover-design-link">Book Cover</a></li>
+                                    <li><a href="/magazine-cover-design/" title="Magazine Cover" id="main-menu-magazine-cover-design-link">Magazine Cover</a></li>
+                                    <li><a href="/cd-cover-design/" title="CD Cover" id="main-menu-cd-cover-design-link">CD Cover Design</a></li>
+                                    <li><a href="/other-product-design/" title="Other Product" id="main-menu-other-product-design-link">Other Product</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_block">
+                                <h3>Other Design</h3>
+                                <div class="earth"></div>
+                                <ul>
+                                    <li><a href="/graphic-design/" title="Graphic" id="main-menu--link">Graphic Design</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="menu_block">
+                                <h3>Web Design</h3>
+                                <div class="earth"></div>
+                                <ul>
+                                    <li><a href="/website-design/" title="Website" id="main-menu-website-design-link">Website Design</a></li>
+                                    <li><a href="/mobile-website-design/" title="Mobile Website" id="main-menu-mobile-website-design-link">Mobile Website</a></li>
+                                    <li><a href="/theme-design/" title="Theme" id="main-menu-theme-design-link">Theme Design</a></li>
+                                    <li><a href="/landing-page-design/" title="Landing Page" id="main-menu-landing-page-design-link">Landing Page</a></li>
+                                    <li><a href="/fans-page-design/" title="Fans page" id="main-menu-fans-page-design-link">Fans Page Design</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_block">
+                                <h3>Advertising Materials</h3>
+                                <div class="banner"></div>
+                                <ul>
+                                    <li><a href="/poster-design/" title="Poster" id="main-menu-poster-design-link">Poster Design</a></li>
+                                    <li><a href="/flyer-design/" title="Flyer" id="main-menu-flyer-design-link">Flyer Design</a></li>
+                                    <li><a href="/billboard-design/" title="Billboard" id="main-menu-billboard-design-link">Billboard Design</a></li>
+                                    <li><a href="/car-wrap-design/" title="Car Wrap" id="main-menu-car-wrap-design-link">Car Wrap Design</a></li>
+                                    <li><a href="/banner-design/" title="Banner" id="main-menu-banner-design-link">Banner Design</a></li>
+                                    <li><a href="/trade-show-swag-design/" title="Trade Show Swag" id="main-menu-trade-show-swag-design-link">Trade Show Swag</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="menu_block">
+                                <h3>Illustrations and Contextual Design</h3>
+                                <div class="infoico"></div>
+                                <ul>
+                                    <li><a href="/icon-design/" title="Icons" id="main-menu-icon-design-link">Icon Design</a></li>
+                                    <li><a href="/illustration-design/" title="Illustration" id="main-menu-illustration-design-link">Illustration</a></li>
+                                    <li><a href="/character-design/" title="Character" id="main-menu-character-design-link">Character Design</a></li>
+                                    <li><a href="/infographic-design/" title="Infographic" id="main-menu-infographic-design-link">Infographic</a></li>
+                                    <li><a href="/powerpoint-design/" title="Powerpoint" id="main-menu-powerpoint-design-link">Powerpoint</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_block">
+                                <h3>Clothing and Apparel Design</h3>
+                                <div class="shirt"></div>
+                                <ul>
+                                    <li><a href="/t-shirt-design/" title="T-Shirt" id="main-menu-t-shirt-design-link">T-Shirt Design</a></li>
+                                    <li><a href="/team-clothing-design/" title="Team Clothing" id="main-menu-team-clothing-design-link">Team Clothing</a></li>
+                                    <li><a href="/other-clothing-design/" title="Other Clothing" id="main-menu-other-clothing-design-link">Other Clothing</a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_block">
+                                <h3>Application Design</h3>
+                                <div class="phon"></div>
+                                <ul>
+                                    <li><a href="/mobile-app-design/" title="Mobile App" id="main-menu-mobile-app-design-link">Mobile App Design</a></li>
+                                    <li><a href="/application-icon-design/" title="Application Icon" id="main-menu-application-icon-design-link">Application Icon</a></li>
+                                    <li><a href="/desktop-software-design/" title="Desktop Software" id="main-menu-desktop-software-design-link">Desktop Software</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="close_popup close_btn" title="Close details">Close details</a>
+                    </div>
+                </li>
+                <li><a href="http://design.yarik.com/projects/" title="Browse contests" id="main-menu-projects-link">Browse contests</a></li>
+                <li><a href="http://design.yarik.com/testimonials/" title="Testimonials" id="main-menu-testimonials-link">Testimonials</a></li>
+                <li><a href="http://design.yarik.com/prices/" title="Prices">Prices</a></li>
+                <li><a href="http://design.yarik.com/demo/" title="Demo">Demo</a></li>
+            </ul>
+            <div class="help_block unlogged">
+                <ul>
+                    <li><span class="text">Free consultations 24/7 <span>and support</span></span></li>
+                    <li><a href="#" title="live chat" class="ico chat-ico olark_chat_link"><i class="svg-icon icon-chat fixed_icon"></i><span>Live chat</span></a><span class="status online olark_status"></span></li>
+                    <li><a href="/contact-us/" title="write a letter" class="ico email-ico"><i class="svg-icon icon-mail"></i><span>E-mail</span></a></li>
+                    <li><span class="ico call-ico"><i title="united states">Call ico</i><span>1888-906-1888</span></span></li>
+                </ul>
+            </div>
+            <div class="user_block unlogged logged-menu">
+                				<ul class="links">
+                                        <li><a class="quick_login_link" href="http://design.yarik.com/login?redirect=%2Fregistration%2Ffacebook%2FsignUp%3Fcode%3DAQBwK_5A9kaxeCN4C6auXUjFLFlTiYgxp-iyolZ-dlJ5kKThuQkk2hZDe4U_XVLEasEOIwlxZME6AZX3z-q1bA_mR6bu3qgfWfNXDSMgrtROp0cGkRc9TRnuv8bz1m0S_POp1aderGCWcLQtAjIxslHHhWQEqooUX-vXj8HZfzLxjKgo7Ywba7Ug_pJbhRhQbnq1YA9HvU2jwmLLwyfLa2Y7ukHacEWtrCSrpF7UYGUqfWSsVr_l4MroaurYdf9WvGonyZgw7GsHlxjuE5Xo49lzu9KCGZ0L7MMUT3P1kDS7O6ymRD231n9wSl0vWMeQyE_yutKAP69SGpsCaCAo4wof%26state%3Dde4ed6051f1a04dc036dbe754c8cf020/" title="Log in">Log in</a></li>
+                    <li><a href="http://design.yarik.com/registration/" title="Register" class="menu_register_link">Register</a></li>
+                                    </ul>            </div>
+        </div>
+    </div>
+<div class="inner_content">
+    hi</div>
+
+</div>
+    <div class="footer lang-en-us">
+        <div class="center_wrapper">
+            <div class="footer_outer">
+                <div class="footer-a">
+                    <a href="/blog/" title="Blog">Blog</a>
+                    <a href="/forum/" title="Forum">Forum</a>
+                    <a href="/knowledgebase/" title="Knowledgebase">Knowledgebase</a>
+                </div>
+                <div class="footer-b">
+                    <a href="/our-team/" title="About us">About us</a>
+                    <a href="/contact-us/" title="Contact us">Contact us</a>
+                    <a href="/testimonials/" title="Testimonials">Testimonials</a>
+                </div>
+                <div class="footer-e">
+                    <a href="/refer-a-friend/" title="Refer a friend, get $30">Refer a friend, get $30</a>
+                    <a href="/affiliates/" title="Affiliates">Affiliates</a>
+                    <a href="/designers-join-us/" title="Designers Join us">Designers Join us</a>
+                </div>
+                <div class="footer-c">
+                    <a href="/terms-of-services/" title="Terms of services">Terms of services</a>
+                    <a href="/privacy/" title="Privacy policy">Privacy policy</a>
+                    <a href="/refund-policy/" title="Refund policy">Refund policy</a>
+                </div>
+                <div class="footer-d">
+                    <p>Sign up for secrets, news and specials</p>
+                    <div class="footer_sign_up">
+                        <input class="" maxlength="100" name="" type="text" id="subscribe-input-footer" value="" placeholder="E-mail">
+                        <button id="subscribe-btn-footer" class="btn-blue" ><span><i class="svg-icon icon-mail"></i><span class="newsletter_text">Newsletter</span> Sign up</span></button>
+                    </div>
+                    <div class="line-3 desktop">
+                        <a class="facebook-icon svg-icon icon-facebook" href="http://facebook.com/designcontest/" title="facebook"></a>
+                        <a class="pinterest-icon svg-icon icon-pinterest" href="http://www.pinterest.com/designcontest/" title="pinterest"></a>
+                        <a class="twitter-icon svg-icon icon-twitter" href="http://twitter.com/designcontests/" title="twitter"></a>
+                        <a class="google-plus-icon svg-icon icon-google" href="http://plus.google.com/+Designcontests/" title="google plus"></a>
+                        <a class="linkedin-footer-icon svg-icon icon-linked_in" href="http://linkedin.com/company/designcontest-ltd-?trk=biz-companies-cym" title="linkedin"></a>
+                        <a class="insta-footer-icon svg-icon icon-instagram" href="http://instagram.com/dc_designcontest/" title="instagram"></a>
+                        <a class="rss-icon svg-icon icon-rss" href="/rss.html" title="rss"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom_line">
+                <p>&copy; 2003 — 2017 DesignContest Ltd.</p>
+                 <div class="line-3 mobile">
+                        <a class="facebook-icon svg-icon icon-facebook" href="http://facebook.com/designcontest/" title="facebook"></a>
+                        <a class="pinterest-icon svg-icon icon-pinterest" href="http://www.pinterest.com/designcontest/" title="pinterest"></a>
+                        <a class="twitter-icon svg-icon icon-twitter" href="http://twitter.com/designcontests/" title="twitter"></a>
+                        <a class="google-plus-icon svg-icon icon-google" href="http://plus.google.com/+Designcontests/" title="google plus"></a>
+                        <a class="linkedin-footer-icon svg-icon icon-linked_in" href="http://linkedin.com/company/designcontest-ltd-?trk=biz-companies-cym" title="linkedin"></a>
+                        <a class="insta-footer-icon svg-icon icon-instagram" href="http://instagram.com/dc_designcontest/" title="instagram"></a>
+                        <a class="rss-icon svg-icon icon-rss" href="/rss.html" title="rss"></a>
+                </div>
+                <div class="international_sites">
+                    <a class="flag-icon" href="https://www.designcontest.com/" title="United States"><i class="flag-usa"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.ca/" title="Canada"><i class="flag-ca"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.uk/" title="United Kingdom"><i class="flag-uk"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.at/" title="Austria"><i class="flag-at"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.com.de/" title="Germany"><i class="flag-de"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.es/" title="Spain"><i class="flag-es"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.fr/" title="France"><i class="flag-fr"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.com.au/" title="Australia"><i class="flag-au"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.co.nz/" title="New Zealand"><i class="flag-nz"></i></a>
+                    <a class="flag-icon" href="https://www.designcontest.ru/" title="Россия"><i class="flag-ru"></i></a>
+                </div>
+                <div class="logo-footer-order">
+                    <a href="/" title="Design Contest">Design contest logo</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+		        <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/slider.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/contest.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/order.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/filter.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/jquery-ui-1.10.3.custom.css" />
+    <link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/animation.css" />
+    <!-- begin olark code -->
+
+
+<!-- end olark code -->
+	<link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/Open_Sans.css" />
+	<link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/Roboto_Slab.css" />
+	<link rel="stylesheet" type="text/css" href="http://design.yarik.com/css/Marck_Script.css" />
+	<!--
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100normal,300normal,400normal,700normal|Open+Sans:400normal|Roboto:400normal|Lato:400normal|Oswald:400normal|Source+Sans+Pro:400normal|Raleway:400normal|PT+Sans:400normal|Playfair+Display:400normal|Droid+Sans:400normal|Ubuntu:400normal&amp;subset=all" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Marck+Script&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+	-->
+
+
+</body>
+

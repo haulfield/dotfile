@@ -1,0 +1,378 @@
+{
+   "add": {
+      "description": "This is the label for the 'Add' buttons.",
+      "message": "Hinzufügen"
+   },
+   "add_domain_button": {
+      "message": "Domain hinzufügen"
+   },
+   "add_filter_button": {
+      "message": "Filter hinzufügen"
+   },
+   "add_filters_msg": {
+      "message": "Filter hinzufügen?"
+   },
+   "add_site": {
+      "message": "Webseite hinzufügen"
+   },
+   "add_white": {
+      "message": "Domain hinzufügen"
+   },
+   "add_your_own_filters": {
+      "message": "Personalfilter"
+   },
+   "alert": {
+      "message": "Achtung"
+   },
+   "apply": {
+      "message": "Anwenden"
+   },
+   "apply_changes": {
+      "message": "Änderungen anwenden"
+   },
+   "bcut": {
+      "message": "Werbung blockieren"
+   },
+   "bcut_on_page": {
+      "message": "Werbung auf dieser Webseite blockieren"
+   },
+   "block_element": {
+      "description": "Context menu item that adds a filter which blocks the selected element",
+      "message": "ein Element sperren"
+   },
+   "cancel": {
+      "message": "Abbruch"
+   },
+   "canceled": {
+      "message": "Abbrechen"
+   },
+   "clickhide_instructions": {
+      "description": "Instructions shown in popup UI before it disapears, when \"Block element\" action is executed",
+      "message": "Nach dem Schließen dieses Pop-Up-Fensters klicken Sie auf das Element mit der linken oder rechten Maustaste."
+   },
+   "description": {
+      "message": "Werden die Banner, die Textanzeigen, die Pop-Up-Fenster und Werbe-Verfolgungssysteme blockiert."
+   },
+   "disabled_for_site": {
+      "description": "Popup balloon label to disable blocking",
+      "message": "\u003Cstrong>Ausgeschaltet\u003C/strong> auf dieser Webseite"
+   },
+   "disabled_for_these_domains": {
+      "message": "Ads Killer ist für nachfolgend gegebene Domains ausgeschaltet. Zusätzliche Domains kann man hinzufügen, auf den Icon Ads Killer auf der Adresszeile zu klicken oder den Name der Domain (keinen Link) in diesem Bereich zu tippen unt die Taste \"Domain hinzufügen\" zu betätigen."
+   },
+   "disclamer": {
+      "message": "Wir haben in deinem Computer \u003Cbr>verdächtige Erweiterungen!\u003Cbr> gefunden. Löschen?"
+   },
+   "easy_create_filter": {
+      "description": "Action in popup UI to add a filter which blocks an element selected from the current page",
+      "message": "Element sperren"
+   },
+   "edit_filters_raw": {
+      "message": "Bearbeiten"
+   },
+   "enable_only_the": {
+      "message": "Schalten Sie nur die notwendige Filterliste ein. Zu viel eingeschaltete Filter können die Arbeitsgeschwindigkeit des Browsers bremsen."
+   },
+   "enabled_for_site": {
+      "description": "Popup balloon label to enable blocking",
+      "message": "\u003Cstrong>Eingeschaltet\u003C/strong> auf dieser Webseite"
+   },
+   "filter_lists": {
+      "description": "This is a tab heading.",
+      "message": "Filterliste"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Ihr Filter muss der \u003Ca>Filtersyntax Ads Killer\u003C/a> entsprechen."
+   },
+   "filter_update_date": {
+      "message": "Letztes Update: "
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Unaufdringliche Werbung freischalten"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Hinzufügen"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Andere Subskription hinzufügen"
+   },
+   "filters_addSubscription_label": {
+      "message": "Subskription hinzufügen"
+   },
+   "filters_readMore_label": {
+      "message": "Zusätzliche Information"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Löschen"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Aktiviert"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Fehler: Prüfsumme stimmt nicht, vielleicht ist es einen Belastungsfehler aufgetreten."
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Fehler: Download ist nicht möglich"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Wird hochgeladen…"
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Fehler: ungültiges Format der Filterliste"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Fehler: fehlerhafte Adresse"
+   },
+   "filters_viewList_label": {
+      "message": "Liste öffnen"
+   },
+   "found_a_bug": {
+      "message": "Haben Sie ein Fehler in Ads Killer gefunden? Bitte, \u003Ca>teilen Sie darüber hier mit\u003C/a>."
+   },
+   "general": {
+      "description": "This is a tab heading.",
+      "message": "Allgemein"
+   },
+   "global_filter_elemhide_duplicate_id": {
+      "message": "Das Element, das verdeckt sein muss, kann nur ein ID haben"
+   },
+   "global_filter_elemhide_nocriteria": {
+      "message": "Es sind keine Kriterien angegeben, damit das Element, das verdeckt sein muss, identifiziert wird."
+   },
+   "global_notification_antiadblock_message": {
+      "message": "Es ist bekannt, dass diese Webseite die Messages den Ads Killer-Benutzer zeigt. Möchten Sie, dass Ads Killer diese Messages ausblendet?"
+   },
+   "global_notification_antiadblock_title": {
+      "message": "Zielmessages ausblenden?"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Sind Sie sicher, diese Subskription zu löschen?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Die eingegebene Adresse, Internet-Adresse, sowie auch Dateipfad werden nicht identifiziert."
+   },
+   "hide_extended": {
+      "message": "Zusätzliche Einstellungen ausblenden"
+   },
+   "invalid_css_selector": {
+      "message": "$selector$ ist durch CSS-Selektor nicht zulässig",
+      "placeholders": {
+         "selector": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at": {
+      "description": "e.g. Last updated at 3:00pm on Apr 1, 2011",
+      "message": "Letztes Update: am $date$ um $time$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "description": "e.g. Last updated at 3:00pm today",
+      "message": "Letztes Update: heute um $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "line": {
+      "description": "Prepended to error messages to indicate the line number (e.g. \"Line 42: Some error on this line\")",
+      "message": "Zeile $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Ads Killer"
+   },
+   "name_devbuild": {
+      "description": "Extension name to be shown for development builds. Note: this cannot be longer than 45 characters.",
+      "message": "Ads Killer (Testzusammenfassung)"
+   },
+   "not_parse_filter": {
+      "message": "Sind die Filter mehrerer Regionen ausgewählt"
+   },
+   "not_show": {
+      "message": "Nicht mehr erinnern"
+   },
+   "notification_with_buttons": {
+      "message": "Klicken Sie \"OK\", um alle Links in dieser Meldung zu öffnen."
+   },
+   "notification_without_buttons": {
+      "message": "Klicken Sie Meldung, um alle Links zu öffnen."
+   },
+   "on_check_site": {
+      "message": "Auf dieser Webseite an"
+   },
+   "on_un_check_site": {
+      "message": "Auf dieser Webseite aus"
+   },
+   "options": {
+      "message": "Einstellungen von Adds Killer"
+   },
+   "options_short": {
+      "description": "Link to the options page from the popup balloon.",
+      "message": "Einstellungen"
+   },
+   "other_rules_title": {
+      "message": "Zusätzliche Regeln"
+   },
+   "out_of_date_lists": {
+      "message": "Veraltete Liste werden periodisch aktualisiert."
+   },
+   "overlay_notification_button_close": {
+      "message": "Schließen"
+   },
+   "overlay_notification_button_no": {
+      "message": "Nein"
+   },
+   "overlay_notification_button_yes": {
+      "message": "Ja"
+   },
+   "rating_btn": {
+      "message": "Bewerte mit 5"
+   },
+   "rating_text": {
+      "message": "Gefällt?"
+   },
+   "refresh_filters": {
+      "message": "Filter auktualisieren"
+   },
+   "region_automatic_text": {
+      "message": "Ihre Region wurde automatisch nach Ihrem Lokation festgestellt "
+   },
+   "region_change": {
+      "message": "Region ändern"
+   },
+   "region_name": {
+      "message": "Region "
+   },
+   "remove_button": {
+      "description": "This is the label for the 'Remove selected' buttons.",
+      "message": "Löschen"
+   },
+   "remove_filter": {
+      "message": "Filter löschen"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "select_block_text_1": {
+      "message": "Kreuzen Sie mit dem Kursor das Element an, "
+   },
+   "select_block_text_2": {
+      "message": "das Sie auschneiden möchten, und tippen Sie linke Maustaste"
+   },
+   "select_filters": {
+      "message": "Sind die Filter mehrerer Regionen ausgewählt"
+   },
+   "select_region_item": {
+      "message": "Region auswählen"
+   },
+   "show_block_element_menu": {
+      "message": "'Element sperren' im Kontextmenü zeigen"
+   },
+   "show_extended": {
+      "message": "Zusätzliche Einstellungen einblenden"
+   },
+   "stats_label_page": {
+      "description": "This shows the number of blocked requests on a specific page in the popup.",
+      "message": "\u003Cstrong>$number$\u003C/strong> auf dieser Webseite",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_label_total": {
+      "description": "This shows the total number of blocked requests in the popup.",
+      "message": "\u003Cstrong>$number$\u003C/strong> total",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_over": {
+      "description": "For some numbers the stats share message will say 'I blocked over 123 ads' instead of 'I blocked 123 ads'. This is a reference to the 'over 9000' meme. This string can be translated simply with '$number$' if that meme isn't known to the speakers of the language or if the resulting sentence would sound weird otherwise.",
+      "message": "mehr als $number$",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_download": {
+      "description": "",
+      "message": "Ads Killer herunterladen"
+   },
+   "stats_share_message": {
+      "description": "This message will be posted to social networks if the user decides to share the stats.",
+      "message": "Ich habe $number$ der Anzeigen und Trackers dank dem Ads Killer gesperrt.",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_title": {
+      "description": "Label for social media buttons sharing the number of blocked ads",
+      "message": "Diese Nummer teilen"
+   },
+   "stats_show_iconnumber": {
+      "description": "Toggle for displaying the number of blocked ads in the icon.",
+      "message": "Die Nummer im Icon zeigen"
+   },
+   "stats_title": {
+      "description": "",
+      "message": "Unsichere Erweiterungen"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Adresse der Filterliste:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Wählen Sie bitte eine Subskription aus der Liste aus:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Name der Subskription"
+   },
+   "title": {
+      "message": "Einstellungen von Adds Killer"
+   },
+   "undefined": {
+      "message": "Nicht definiert"
+   },
+   "unexpected_filter_list_header": {
+      "description": "Error message shown when the user attempts to add a custom filter that has the format of a header (e.g. \"[Ads Killer]\") which are only allowed in filter lists",
+      "message": "Headers der Filterliste sind hier nicht zulässig"
+   },
+   "update_now": {
+      "message": "Aktualisieren"
+   },
+   "user_filter_description": {
+      "message": "Ihr Filter muss der Filtersyntax Adblock entsprechen."
+   },
+   "user_filters_title": {
+      "message": "Benutzerfilter"
+   },
+   "white_subtitle": {
+      "message": "Adds Killer funktioniert nicht auf den Webseiten, die zu der Weißen Liste hinzugefügt sind."
+   },
+   "white_title": {
+      "message": "Weiße Liste der Webseiten"
+   },
+   "whitelisted_domains": {
+      "description": "This is a tab heading.",
+      "message": "Liste der zulässigen Domains"
+   }
+}

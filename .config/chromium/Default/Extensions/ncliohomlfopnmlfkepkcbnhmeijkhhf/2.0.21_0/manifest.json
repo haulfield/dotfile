@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://lastpass.com/chromewebapp.php"
+      },
+      "urls": [ "*://lastpass.com/", "*://rodan.lastpass.com/" ]
+   },
+   "description": "We highly recommend our Chrome extension (https://lastpass.com/chrome/) over this application!",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvBDj23U9d8mMB/F0tqLym8yQ9CwHUz/VDMPCpl521TRFsUEzUwPYmxqD9hkYIl+b0XhhVi99GTMeXbZAXZO12e0A+nFLpcitSjvfLOKbZwmUkSdM7OfyU7D+6Z95Xrk4imOBl/S76PrWg8/kwhOzDvgELEY8FW/i4OWu3UIEwrwIDAQAB",
+   "manifest_version": 2,
+   "name": "LastPass Vault",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.21"
+}

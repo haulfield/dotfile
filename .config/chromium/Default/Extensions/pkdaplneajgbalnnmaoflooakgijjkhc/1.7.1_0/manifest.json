@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "js/screen-share-background.js", "lib/jquery-2.1.1.min.js", "lib/lsapi.min.js", "js/api.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon128.png",
+      "default_popup": "html/popup.html",
+      "default_title": ""
+   },
+   "content_scripts": [ {
+      "css": [ "lib/chosen/chosen.min.css", "css/gcal.css" ],
+      "js": [ "lib/jquery-2.1.1.min.js", "lib/chosen/chosen.jquery.min.js", "js/HtmlHelpers.js", "js/content-script.js" ],
+      "matches": [ "https://www.google.com/calendar/*", "https://calendar.google.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "js/screen-share-content.js" ],
+      "matches": [ "https://*.lifesizecloudbeta.com/*", "https://*.lifesizeclouddev.com/*", "https://*.lifesizecloud.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "Schedule Lifesize Cloud Meetings from Google Calendar & Share Content in Lifesize Cloud Web App Video Calls from Google Chrome",
+   "icons": {
+      "128": "img/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm0ZFRdRuzc2nBpNuH5aJ135xtRud6gp1/3aqXU3ZjZDTebIR7ke8KCEzBrp9KX8stbgO9VhgPvB8lYPy9rvH0+r2o/CAhtyqqIudJEtreSlc8uJKOCRt16+C5d1UvRdH+FSSFqY5+v5wPQ1RKgua3KG9bkaz32yv3PmgJTnaqdKva19ezvKcUH7XUkHHDbfSMSJhsmCzEAS+eNwqt3krHdUgdV6HZzhKGp5vyBEqWcmo4akzf2C/N+7u8/lT7j+gFAneIpTyFRhSd7P8QlvQhS/maD7mZRisaEHIpDf2iQdski/sc1zxjhbULaWkhT4kWETR17tGs22GEQgI6T1hQwIDAQAB",
+   "manifest_version": 2,
+   "name": "Lifesize",
+   "options_page": "html/options.html",
+   "permissions": [ "tabs", "storage", "https://*.lifesizecloudbeta.com/*", "https://*.lifesizeclouddev.com/*", "https://*.lifesizecloud.com/*", "https://www.google.com/calendar/*", "https://calendar.google.com/*", "activeTab", "desktopCapture" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.1",
+   "web_accessible_resources": [ "img/*", "html/*", "css/*", "lib/*", "js/sidebar.js" ]
+}

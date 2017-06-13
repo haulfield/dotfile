@@ -1,0 +1,18 @@
+2017/06/12-15:21:28.297 5097 Reusing MANIFEST /home/yarik/.config/chromium/Default/Extension State/MANIFEST-000001
+2017/06/12-15:21:28.306 5097 Recovering log #439
+2017/06/12-15:21:29.023 5097 Reusing old log /home/yarik/.config/chromium/Default/Extension State/000439.log 
+2017/06/12-16:21:54.193 5925 Level-0 table #443: started
+2017/06/12-16:21:54.717 5925 Level-0 table #443: 2381498 bytes OK
+2017/06/12-16:21:54.819 5925 Delete type=0 #439
+2017/06/12-16:21:54.819 5925 Compacting 4@0 + 1@1 files
+2017/06/12-16:21:54.977 5925 Generated table #444@0: 9 keys, 9420 bytes
+2017/06/12-16:21:54.977 5925 Compacted 4@0 + 1@1 files => 9420 bytes
+2017/06/12-16:21:55.010 5925 compacted to: files[ 0 1 0 0 0 0 0 ]
+2017/06/12-16:21:55.010 5925 Delete type=2 #438
+2017/06/12-16:21:55.011 5925 Delete type=2 #436
+2017/06/12-16:21:55.011 5925 Delete type=2 #443
+2017/06/12-16:21:55.011 5925 Delete type=2 #434
+2017/06/12-16:21:55.011 5925 Delete type=2 #440
+2017/06/12-17:54:32.336 5925 Level-0 table #446: started
+2017/06/12-17:54:32.446 5925 Level-0 table #446: 2963511 bytes OK
+2017/06/12-17:54:32.519 5925 Delete type=0 #442

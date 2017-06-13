@@ -1,0 +1,3 @@
+2017/03/27-09:52:07.283 9021 Reusing MANIFEST /home/yarik/.config/chromium/Default/IndexedDB/http_localhost_8080.indexeddb.leveldb/MANIFEST-000001
+2017/03/27-09:52:07.283 9021 Recovering log #3
+2017/03/27-09:52:07.283 9021 Reusing old log /home/yarik/.config/chromium/Default/IndexedDB/http_localhost_8080.indexeddb.leveldb/000003.log 

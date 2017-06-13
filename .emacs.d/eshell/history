@@ -1,0 +1,9 @@
+g++
+ls
+cd Documents/
+g++ new.cpp 
+./a.out 
+g++ new.cpp
+./a.out 
+emacs
+emacs -nw

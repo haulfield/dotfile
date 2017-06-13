@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icons-16.png",
+      "default_title": "Load ShopifyFD"
+   },
+   "description": "Adds functionality and fixes to the Shopify Dashboard (for free!)",
+   "homepage_url": "http://freakdesign.com.au",
+   "icons": {
+      "128": "icons/icons-128.png",
+      "16": "icons/icons-16.png",
+      "48": "icons/icons-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveVLFEuzFyRAMty2ZDQhPqh6KYzMrgQZeI6izdzQYWkELfvv39Wp/pa+7CL7XeBYBQAkam8Ns9U7M1kd3hMZTipdmL0nE63ztYxuHMucZ5NjoY7z3S5Gj/q9My6dt+zZiv5y6mYxPgnK/9nxUfX2Y3vo1sCZROsnphWDwwFUi3Ldx5Y3OAUd6CLym157ptR28V9BVAvTYCErP17IJSnwju/KCEb89Vhk9IWEULHVsB5R99SBV2aU5N0XLh3EsOAN5bd/fWIfnS2QE7yF41FoS8VTwMvWqnqqBTnNZEdwJNSF1KInoJDeNijz696Uz+/yd5/oUBO5atcj7TkF04BheQIDAQAB",
+   "manifest_version": 2,
+   "name": "ShopifyFD Dashboard Tool",
+   "permissions": [ "activeTab" ],
+   "short_name": "ShopifyFD",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.6"
+}

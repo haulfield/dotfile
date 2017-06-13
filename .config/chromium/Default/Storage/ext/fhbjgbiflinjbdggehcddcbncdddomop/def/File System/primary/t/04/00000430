@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="robots" content="noindex,nofollow" />
+        <style>
+            /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */
+            html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+            html { background: #eee; padding: 10px }
+            img { border: 0; }
+            #sf-resetcontent { width:970px; margin:0 auto; }
+                        .sf-reset { font: 11px Verdana, Arial, sans-serif; color: #333 }
+            .sf-reset .clear { clear:both; height:0; font-size:0; line-height:0; }
+            .sf-reset .clear_fix:after { display:block; height:0; clear:both; visibility:hidden; }
+            .sf-reset .clear_fix { display:inline-block; }
+            .sf-reset * html .clear_fix { height:1%; }
+            .sf-reset .clear_fix { display:block; }
+            .sf-reset, .sf-reset .block { margin: auto }
+            .sf-reset abbr { border-bottom: 1px dotted #000; cursor: help; }
+            .sf-reset p { font-size:14px; line-height:20px; color:#868686; padding-bottom:20px }
+            .sf-reset strong { font-weight:bold; }
+            .sf-reset a { color:#6c6159; cursor: default; }
+            .sf-reset a img { border:none; }
+            .sf-reset a:hover { text-decoration:underline; }
+            .sf-reset em { font-style:italic; }
+            .sf-reset h1, .sf-reset h2 { font: 20px Georgia, "Times New Roman", Times, serif }
+            .sf-reset .exception_counter { background-color: #fff; color: #333; padding: 6px; float: left; margin-right: 10px; float: left; display: block; }
+            .sf-reset .exception_title { margin-left: 3em; margin-bottom: 0.7em; display: block; }
+            .sf-reset .exception_message { margin-left: 3em; display: block; }
+            .sf-reset .traces li { font-size:12px; padding: 2px 4px; list-style-type:decimal; margin-left:20px; }
+            .sf-reset .block { background-color:#FFFFFF; padding:10px 28px; margin-bottom:20px;
+                -webkit-border-bottom-right-radius: 16px;
+                -webkit-border-bottom-left-radius: 16px;
+                -moz-border-radius-bottomright: 16px;
+                -moz-border-radius-bottomleft: 16px;
+                border-bottom-right-radius: 16px;
+                border-bottom-left-radius: 16px;
+                border-bottom:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+            }
+            .sf-reset .block_exception { background-color:#ddd; color: #333; padding:20px;
+                -webkit-border-top-left-radius: 16px;
+                -webkit-border-top-right-radius: 16px;
+                -moz-border-radius-topleft: 16px;
+                -moz-border-radius-topright: 16px;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+                border-top:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
+            .sf-reset a { background:none; color:#868686; text-decoration:none; }
+            .sf-reset a:hover { background:none; color:#313131; text-decoration:underline; }
+            .sf-reset ol { padding: 10px 0; }
+            .sf-reset h1 { background-color:#FFFFFF; padding: 15px 28px; margin-bottom: 20px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+                    <div id="sf-resetcontent" class="sf-reset">
+                <h1>Whoops, looks like something went wrong.</h1>
+                                        <h2 class="block_exception clear_fix">
+                            <span class="exception_counter">1/1</span>
+                            <span class="exception_title"><abbr title="ErrorException">ErrorException</abbr> in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php line 111" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Filesystem.php line 111</a>:</span>
+                            <span class="exception_message">file_put_contents(/vagrant/web-ideal4me/bootstrap/cache/services.php): failed to open stream: Permission denied</span>
+                        </h2>
+                        <div class="block">
+                            <ol class="traces list_exception">
+       <li> in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php line 111" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Filesystem.php line 111</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\HandleExceptions">HandleExceptions</abbr>->handleError('2', 'file_put_contents(/vagrant/web-ideal4me/bootstrap/cache/services.php): failed to open stream: Permission denied', '/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php', '111', <em>array</em>('path' => '/vagrant/web-ideal4me/bootstrap/cache/services.php', 'contents' => '&lt;?php return array (
+  &#039;providers&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    9 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    10 =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    11 =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    12 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    13 =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    14 =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    15 =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    16 =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    17 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    18 =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    19 =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    20 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    21 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    22 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    23 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    24 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    25 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    26 =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    27 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    28 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    29 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    30 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    31 =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    32 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    33 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    34 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    35 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    36 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    37 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    38 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    39 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    40 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    41 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    42 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    43 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    44 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+    45 =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;eager&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    9 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    10 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    11 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    12 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    13 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    14 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    15 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    16 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    17 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    18 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    19 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    20 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    21 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    22 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    23 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    24 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    25 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    26 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    27 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    28 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    29 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    30 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+  ),
+  &#039;deferred&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastManager&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Factory&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Broadcaster&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\QueueingDispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;cache&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;cache.store&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;memcached.connector&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.cache.clear&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.clear-compiled&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.resets.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.down&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.environment&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.key.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.optimize&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.list&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.tinker&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.up&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.view.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.app.name&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.cache.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.console.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.controller.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.job.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.listener.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.middleware.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.model.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.policy.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.provider.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed-table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.request.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seeder.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.session.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.serve&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.test.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.vendor.publish&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;Illuminate\\Console\\Scheduling\\ScheduleRunCommand&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migrator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.repository&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.rollback&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.reset&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.refresh&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.install&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.status&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.creator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;seeder&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;composer&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.retry&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.forget&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.flush&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;hash&#039; =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    &#039;mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.transport&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Pipeline\\Hub&#039; =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    &#039;queue&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.worker&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.listener&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.failer&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.work&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.listen&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.restart&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.connection&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;redis&#039; =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    &#039;auth.password&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;auth.password.broker&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;translator&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;translation.loader&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;validator&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;validation.presence&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;Laravel\\Socialite\\Contracts\\Factory&#039; =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    &#039;html&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;form&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\HtmlBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\FormBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+    &#039;Roumen\\Sitemap\\Sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;when&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Bus\\BusServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Cache\\CacheServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Hashing\\HashServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Mail\\MailServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Queue\\QueueServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Redis\\RedisServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Translation\\TranslationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Validation\\ValidationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Collective\\Html\\HtmlServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039; =&gt; 
+    array (
+    ),
+  ),
+);', 'lock' => <em>false</em>))</li>
+       <li>at <abbr title=""></abbr>file_put_contents('/vagrant/web-ideal4me/bootstrap/cache/services.php', '&lt;?php return array (
+  &#039;providers&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    9 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    10 =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    11 =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    12 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    13 =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    14 =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    15 =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    16 =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    17 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    18 =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    19 =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    20 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    21 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    22 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    23 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    24 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    25 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    26 =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    27 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    28 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    29 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    30 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    31 =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    32 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    33 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    34 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    35 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    36 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    37 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    38 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    39 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    40 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    41 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    42 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    43 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    44 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+    45 =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;eager&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    9 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    10 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    11 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    12 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    13 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    14 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    15 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    16 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    17 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    18 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    19 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    20 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    21 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    22 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    23 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    24 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    25 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    26 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    27 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    28 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    29 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    30 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+  ),
+  &#039;deferred&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastManager&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Factory&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Broadcaster&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\QueueingDispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;cache&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;cache.store&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;memcached.connector&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.cache.clear&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.clear-compiled&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.resets.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.down&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.environment&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.key.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.optimize&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.list&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.tinker&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.up&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.view.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.app.name&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.cache.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.console.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.controller.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.job.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.listener.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.middleware.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.model.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.policy.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.provider.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed-table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.request.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seeder.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.session.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.serve&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.test.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.vendor.publish&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;Illuminate\\Console\\Scheduling\\ScheduleRunCommand&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migrator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.repository&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.rollback&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.reset&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.refresh&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.install&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.status&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.creator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;seeder&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;composer&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.retry&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.forget&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.flush&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;hash&#039; =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    &#039;mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.transport&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Pipeline\\Hub&#039; =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    &#039;queue&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.worker&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.listener&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.failer&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.work&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.listen&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.restart&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.connection&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;redis&#039; =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    &#039;auth.password&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;auth.password.broker&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;translator&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;translation.loader&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;validator&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;validation.presence&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;Laravel\\Socialite\\Contracts\\Factory&#039; =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    &#039;html&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;form&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\HtmlBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\FormBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+    &#039;Roumen\\Sitemap\\Sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;when&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Bus\\BusServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Cache\\CacheServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Hashing\\HashServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Mail\\MailServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Queue\\QueueServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Redis\\RedisServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Translation\\TranslationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Validation\\ValidationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Collective\\Html\\HtmlServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039; =&gt; 
+    array (
+    ),
+  ),
+);', '0') in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php line 111" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Filesystem.php line 111</a></li>
+       <li>at <abbr title="Illuminate\Filesystem\Filesystem">Filesystem</abbr>->put('/vagrant/web-ideal4me/bootstrap/cache/services.php', '&lt;?php return array (
+  &#039;providers&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    9 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    10 =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    11 =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    12 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    13 =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    14 =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    15 =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    16 =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    17 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    18 =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    19 =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    20 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    21 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    22 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    23 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    24 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    25 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    26 =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    27 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    28 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    29 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    30 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    31 =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    32 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    33 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    34 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    35 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    36 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    37 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    38 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    39 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    40 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    41 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    42 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    43 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    44 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+    45 =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;eager&#039; =&gt; 
+  array (
+    0 =&gt; &#039;Illuminate\\Auth\\AuthServiceProvider&#039;,
+    1 =&gt; &#039;Illuminate\\Cookie\\CookieServiceProvider&#039;,
+    2 =&gt; &#039;Illuminate\\Database\\DatabaseServiceProvider&#039;,
+    3 =&gt; &#039;Illuminate\\Encryption\\EncryptionServiceProvider&#039;,
+    4 =&gt; &#039;Illuminate\\Filesystem\\FilesystemServiceProvider&#039;,
+    5 =&gt; &#039;Illuminate\\Foundation\\Providers\\FoundationServiceProvider&#039;,
+    6 =&gt; &#039;Illuminate\\Pagination\\PaginationServiceProvider&#039;,
+    7 =&gt; &#039;Illuminate\\Session\\SessionServiceProvider&#039;,
+    8 =&gt; &#039;Illuminate\\View\\ViewServiceProvider&#039;,
+    9 =&gt; &#039;Caffeinated\\Modules\\ModulesServiceProvider&#039;,
+    10 =&gt; &#039;Tymon\\JWTAuth\\Providers\\JWTAuthServiceProvider&#039;,
+    11 =&gt; &#039;F2m2\\Apidocs\\ApidocsServiceProvider&#039;,
+    12 =&gt; &#039;Zizaco\\Entrust\\EntrustServiceProvider&#039;,
+    13 =&gt; &#039;DeveloperDynamo\\PushNotification\\PushNotificationProvider&#039;,
+    14 =&gt; &#039;Folklore\\Image\\ImageServiceProvider&#039;,
+    15 =&gt; &#039;Backpack\\Base\\BaseServiceProvider&#039;,
+    16 =&gt; &#039;Prologue\\Alerts\\AlertsServiceProvider&#039;,
+    17 =&gt; &#039;Backpack\\CRUD\\CrudServiceProvider&#039;,
+    18 =&gt; &#039;Barryvdh\\Elfinder\\ElfinderServiceProvider&#039;,
+    19 =&gt; &#039;Backpack\\Generators\\GeneratorsServiceProvider&#039;,
+    20 =&gt; &#039;Backpack\\LangFileManager\\LangFileManagerServiceProvider&#039;,
+    21 =&gt; &#039;Cviebrock\\EloquentSluggable\\SluggableServiceProvider&#039;,
+    22 =&gt; &#039;Backpack\\PageManager\\PageManagerServiceProvider&#039;,
+    23 =&gt; &#039;Backpack\\Settings\\SettingsServiceProvider&#039;,
+    24 =&gt; &#039;Alexpechkarev\\GoogleGeocoder\\GoogleGeocoderServiceProvider&#039;,
+    25 =&gt; &#039;Davibennun\\LaravelPushNotification\\LaravelPushNotificationServiceProvider&#039;,
+    26 =&gt; &#039;App\\Providers\\AppServiceProvider&#039;,
+    27 =&gt; &#039;App\\Providers\\AuthServiceProvider&#039;,
+    28 =&gt; &#039;App\\Providers\\EventServiceProvider&#039;,
+    29 =&gt; &#039;App\\Providers\\RouteServiceProvider&#039;,
+    30 =&gt; &#039;Mcamara\\LaravelLocalization\\LaravelLocalizationServiceProvider&#039;,
+  ),
+  &#039;deferred&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastManager&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Factory&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Broadcasting\\Broadcaster&#039; =&gt; &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039;,
+    &#039;Illuminate\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\Dispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Bus\\QueueingDispatcher&#039; =&gt; &#039;Illuminate\\Bus\\BusServiceProvider&#039;,
+    &#039;cache&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;cache.store&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;memcached.connector&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.cache.clear&#039; =&gt; &#039;Illuminate\\Cache\\CacheServiceProvider&#039;,
+    &#039;command.clear-compiled&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.resets.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.config.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.down&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.environment&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.key.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.optimize&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.cache&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.route.list&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.tinker&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.up&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.view.clear&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.app.name&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.auth.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.cache.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.console.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.controller.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.generate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.event.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.job.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.listener.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.middleware.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.model.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.policy.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.provider.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed-table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.request.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seeder.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.session.table&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.serve&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.test.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.vendor.publish&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;Illuminate\\Console\\Scheduling\\ScheduleRunCommand&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migrator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.repository&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.rollback&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.reset&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.refresh&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.install&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.status&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;migration.creator&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.migrate.make&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;seeder&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.seed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;composer&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.failed&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.retry&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.forget&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;command.queue.flush&#039; =&gt; &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039;,
+    &#039;hash&#039; =&gt; &#039;Illuminate\\Hashing\\HashServiceProvider&#039;,
+    &#039;mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.mailer&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;swift.transport&#039; =&gt; &#039;Illuminate\\Mail\\MailServiceProvider&#039;,
+    &#039;Illuminate\\Contracts\\Pipeline\\Hub&#039; =&gt; &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039;,
+    &#039;queue&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.worker&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.listener&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.failer&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.work&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.listen&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;command.queue.restart&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;queue.connection&#039; =&gt; &#039;Illuminate\\Queue\\QueueServiceProvider&#039;,
+    &#039;redis&#039; =&gt; &#039;Illuminate\\Redis\\RedisServiceProvider&#039;,
+    &#039;auth.password&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;auth.password.broker&#039; =&gt; &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039;,
+    &#039;translator&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;translation.loader&#039; =&gt; &#039;Illuminate\\Translation\\TranslationServiceProvider&#039;,
+    &#039;validator&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;validation.presence&#039; =&gt; &#039;Illuminate\\Validation\\ValidationServiceProvider&#039;,
+    &#039;Laravel\\Socialite\\Contracts\\Factory&#039; =&gt; &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039;,
+    &#039;html&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;form&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\HtmlBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;Collective\\Html\\FormBuilder&#039; =&gt; &#039;Collective\\Html\\HtmlServiceProvider&#039;,
+    &#039;sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+    &#039;Roumen\\Sitemap\\Sitemap&#039; =&gt; &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039;,
+  ),
+  &#039;when&#039; =&gt; 
+  array (
+    &#039;Illuminate\\Broadcasting\\BroadcastServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Bus\\BusServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Cache\\CacheServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Foundation\\Providers\\ConsoleSupportServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Hashing\\HashServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Mail\\MailServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Pipeline\\PipelineServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Queue\\QueueServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Redis\\RedisServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Translation\\TranslationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Illuminate\\Validation\\ValidationServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Laravel\\Socialite\\SocialiteServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Collective\\Html\\HtmlServiceProvider&#039; =&gt; 
+    array (
+    ),
+    &#039;Roumen\\Sitemap\\SitemapServiceProvider&#039; =&gt; 
+    array (
+    ),
+  ),
+);') in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php line 190" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ProviderRepository.php line 190</a></li>
+       <li>at <abbr title="Illuminate\Foundation\ProviderRepository">ProviderRepository</abbr>->writeManifest(<em>array</em>('providers' => <em>array</em>('Illuminate\Auth\AuthServiceProvider', 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Bus\BusServiceProvider', 'Illuminate\Cache\CacheServiceProvider', 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'Illuminate\Cookie\CookieServiceProvider', 'Illuminate\Database\DatabaseServiceProvider', 'Illuminate\Encryption\EncryptionServiceProvider', 'Illuminate\Filesystem\FilesystemServiceProvider', 'Illuminate\Foundation\Providers\FoundationServiceProvider', 'Illuminate\Hashing\HashServiceProvider', 'Illuminate\Mail\MailServiceProvider', 'Illuminate\Pagination\PaginationServiceProvider', 'Illuminate\Pipeline\PipelineServiceProvider', 'Illuminate\Queue\QueueServiceProvider', 'Illuminate\Redis\RedisServiceProvider', 'Illuminate\Auth\Passwords\PasswordResetServiceProvider', 'Illuminate\Session\SessionServiceProvider', 'Illuminate\Translation\TranslationServiceProvider', 'Illuminate\Validation\ValidationServiceProvider', 'Illuminate\View\ViewServiceProvider', 'Caffeinated\Modules\ModulesServiceProvider', 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider', 'F2m2\Apidocs\ApidocsServiceProvider', 'Zizaco\Entrust\EntrustServiceProvider', 'DeveloperDynamo\PushNotification\PushNotificationProvider', 'Laravel\Socialite\SocialiteServiceProvider', 'Folklore\Image\ImageServiceProvider', 'Backpack\Base\BaseServiceProvider', 'Prologue\Alerts\AlertsServiceProvider', 'Backpack\CRUD\CrudServiceProvider', 'Collective\Html\HtmlServiceProvider', 'Barryvdh\Elfinder\ElfinderServiceProvider', 'Backpack\Generators\GeneratorsServiceProvider', 'Backpack\LangFileManager\LangFileManagerServiceProvider', 'Cviebrock\EloquentSluggable\SluggableServiceProvider', 'Backpack\PageManager\PageManagerServiceProvider', 'Backpack\Settings\SettingsServiceProvider', 'Alexpechkarev\GoogleGeocoder\GoogleGeocoderServiceProvider', 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider', 'App\Providers\AppServiceProvider', 'App\Providers\AuthServiceProvider', 'App\Providers\EventServiceProvider', 'App\Providers\RouteServiceProvider', 'Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider', 'Roumen\Sitemap\SitemapServiceProvider'), 'eager' => <em>array</em>('Illuminate\Auth\AuthServiceProvider', 'Illuminate\Cookie\CookieServiceProvider', 'Illuminate\Database\DatabaseServiceProvider', 'Illuminate\Encryption\EncryptionServiceProvider', 'Illuminate\Filesystem\FilesystemServiceProvider', 'Illuminate\Foundation\Providers\FoundationServiceProvider', 'Illuminate\Pagination\PaginationServiceProvider', 'Illuminate\Session\SessionServiceProvider', 'Illuminate\View\ViewServiceProvider', 'Caffeinated\Modules\ModulesServiceProvider', 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider', 'F2m2\Apidocs\ApidocsServiceProvider', 'Zizaco\Entrust\EntrustServiceProvider', 'DeveloperDynamo\PushNotification\PushNotificationProvider', 'Folklore\Image\ImageServiceProvider', 'Backpack\Base\BaseServiceProvider', 'Prologue\Alerts\AlertsServiceProvider', 'Backpack\CRUD\CrudServiceProvider', 'Barryvdh\Elfinder\ElfinderServiceProvider', 'Backpack\Generators\GeneratorsServiceProvider', 'Backpack\LangFileManager\LangFileManagerServiceProvider', 'Cviebrock\EloquentSluggable\SluggableServiceProvider', 'Backpack\PageManager\PageManagerServiceProvider', 'Backpack\Settings\SettingsServiceProvider', 'Alexpechkarev\GoogleGeocoder\GoogleGeocoderServiceProvider', 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider', 'App\Providers\AppServiceProvider', 'App\Providers\AuthServiceProvider', 'App\Providers\EventServiceProvider', 'App\Providers\RouteServiceProvider', 'Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider'), 'deferred' => <em>array</em>('Illuminate\Broadcasting\BroadcastManager' => 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Contracts\Broadcasting\Factory' => 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Contracts\Broadcasting\Broadcaster' => 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Bus\Dispatcher' => 'Illuminate\Bus\BusServiceProvider', 'Illuminate\Contracts\Bus\Dispatcher' => 'Illuminate\Bus\BusServiceProvider', 'Illuminate\Contracts\Bus\QueueingDispatcher' => 'Illuminate\Bus\BusServiceProvider', 'cache' => 'Illuminate\Cache\CacheServiceProvider', 'cache.store' => 'Illuminate\Cache\CacheServiceProvider', 'memcached.connector' => 'Illuminate\Cache\CacheServiceProvider', 'command.cache.clear' => 'Illuminate\Cache\CacheServiceProvider', 'command.clear-compiled' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.auth.resets.clear' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.config.cache' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.config.clear' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.down' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.environment' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.key.generate' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.optimize' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.route.cache' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.route.clear' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.route.list' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.tinker' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.up' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.view.clear' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.app.name' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.auth.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.cache.table' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.console.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.controller.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.event.generate' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.event.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.job.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.listener.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.middleware.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.model.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.policy.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.provider.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.failed-table' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.table' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.request.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.seeder.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.session.table' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.serve' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.test.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.vendor.publish' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'Illuminate\Console\Scheduling\ScheduleRunCommand' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'migrator' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'migration.repository' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.rollback' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.reset' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.refresh' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.install' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.status' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'migration.creator' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.migrate.make' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'seeder' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.seed' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'composer' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.failed' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.retry' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.forget' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'command.queue.flush' => 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'hash' => 'Illuminate\Hashing\HashServiceProvider', 'mailer' => 'Illuminate\Mail\MailServiceProvider', 'swift.mailer' => 'Illuminate\Mail\MailServiceProvider', 'swift.transport' => 'Illuminate\Mail\MailServiceProvider', 'Illuminate\Contracts\Pipeline\Hub' => 'Illuminate\Pipeline\PipelineServiceProvider', 'queue' => 'Illuminate\Queue\QueueServiceProvider', 'queue.worker' => 'Illuminate\Queue\QueueServiceProvider', 'queue.listener' => 'Illuminate\Queue\QueueServiceProvider', 'queue.failer' => 'Illuminate\Queue\QueueServiceProvider', 'command.queue.work' => 'Illuminate\Queue\QueueServiceProvider', 'command.queue.listen' => 'Illuminate\Queue\QueueServiceProvider', 'command.queue.restart' => 'Illuminate\Queue\QueueServiceProvider', 'queue.connection' => 'Illuminate\Queue\QueueServiceProvider', 'redis' => 'Illuminate\Redis\RedisServiceProvider', 'auth.password' => 'Illuminate\Auth\Passwords\PasswordResetServiceProvider', 'auth.password.broker' => 'Illuminate\Auth\Passwords\PasswordResetServiceProvider', 'translator' => 'Illuminate\Translation\TranslationServiceProvider', 'translation.loader' => 'Illuminate\Translation\TranslationServiceProvider', 'validator' => 'Illuminate\Validation\ValidationServiceProvider', 'validation.presence' => 'Illuminate\Validation\ValidationServiceProvider', 'Laravel\Socialite\Contracts\Factory' => 'Laravel\Socialite\SocialiteServiceProvider', 'html' => 'Collective\Html\HtmlServiceProvider', 'form' => 'Collective\Html\HtmlServiceProvider', 'Collective\Html\HtmlBuilder' => 'Collective\Html\HtmlServiceProvider', 'Collective\Html\FormBuilder' => 'Collective\Html\HtmlServiceProvider', 'sitemap' => 'Roumen\Sitemap\SitemapServiceProvider', 'Roumen\Sitemap\Sitemap' => 'Roumen\Sitemap\SitemapServiceProvider'), 'when' => <em>array</em>('Illuminate\Broadcasting\BroadcastServiceProvider' => <em>array</em>(), 'Illuminate\Bus\BusServiceProvider' => <em>array</em>(), 'Illuminate\Cache\CacheServiceProvider' => <em>array</em>(), 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider' => <em>array</em>(), 'Illuminate\Hashing\HashServiceProvider' => <em>array</em>(), 'Illuminate\Mail\MailServiceProvider' => <em>array</em>(), 'Illuminate\Pipeline\PipelineServiceProvider' => <em>array</em>(), 'Illuminate\Queue\QueueServiceProvider' => <em>array</em>(), 'Illuminate\Redis\RedisServiceProvider' => <em>array</em>(), 'Illuminate\Auth\Passwords\PasswordResetServiceProvider' => <em>array</em>(), 'Illuminate\Translation\TranslationServiceProvider' => <em>array</em>(), 'Illuminate\Validation\ValidationServiceProvider' => <em>array</em>(), 'Laravel\Socialite\SocialiteServiceProvider' => <em>array</em>(), 'Collective\Html\HtmlServiceProvider' => <em>array</em>(), 'Roumen\Sitemap\SitemapServiceProvider' => <em>array</em>()))) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php line 135" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ProviderRepository.php line 135</a></li>
+       <li>at <abbr title="Illuminate\Foundation\ProviderRepository">ProviderRepository</abbr>->compileManifest(<em>array</em>('Illuminate\Auth\AuthServiceProvider', 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Bus\BusServiceProvider', 'Illuminate\Cache\CacheServiceProvider', 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'Illuminate\Cookie\CookieServiceProvider', 'Illuminate\Database\DatabaseServiceProvider', 'Illuminate\Encryption\EncryptionServiceProvider', 'Illuminate\Filesystem\FilesystemServiceProvider', 'Illuminate\Foundation\Providers\FoundationServiceProvider', 'Illuminate\Hashing\HashServiceProvider', 'Illuminate\Mail\MailServiceProvider', 'Illuminate\Pagination\PaginationServiceProvider', 'Illuminate\Pipeline\PipelineServiceProvider', 'Illuminate\Queue\QueueServiceProvider', 'Illuminate\Redis\RedisServiceProvider', 'Illuminate\Auth\Passwords\PasswordResetServiceProvider', 'Illuminate\Session\SessionServiceProvider', 'Illuminate\Translation\TranslationServiceProvider', 'Illuminate\Validation\ValidationServiceProvider', 'Illuminate\View\ViewServiceProvider', 'Caffeinated\Modules\ModulesServiceProvider', 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider', 'F2m2\Apidocs\ApidocsServiceProvider', 'Zizaco\Entrust\EntrustServiceProvider', 'DeveloperDynamo\PushNotification\PushNotificationProvider', 'Laravel\Socialite\SocialiteServiceProvider', 'Folklore\Image\ImageServiceProvider', 'Backpack\Base\BaseServiceProvider', 'Prologue\Alerts\AlertsServiceProvider', 'Backpack\CRUD\CrudServiceProvider', 'Collective\Html\HtmlServiceProvider', 'Barryvdh\Elfinder\ElfinderServiceProvider', 'Backpack\Generators\GeneratorsServiceProvider', 'Backpack\LangFileManager\LangFileManagerServiceProvider', 'Cviebrock\EloquentSluggable\SluggableServiceProvider', 'Backpack\PageManager\PageManagerServiceProvider', 'Backpack\Settings\SettingsServiceProvider', 'Alexpechkarev\GoogleGeocoder\GoogleGeocoderServiceProvider', 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider', 'App\Providers\AppServiceProvider', 'App\Providers\AuthServiceProvider', 'App\Providers\EventServiceProvider', 'App\Providers\RouteServiceProvider', 'Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider', 'Roumen\Sitemap\SitemapServiceProvider')) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php line 60" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">ProviderRepository.php line 60</a></li>
+       <li>at <abbr title="Illuminate\Foundation\ProviderRepository">ProviderRepository</abbr>->load(<em>array</em>('Illuminate\Auth\AuthServiceProvider', 'Illuminate\Broadcasting\BroadcastServiceProvider', 'Illuminate\Bus\BusServiceProvider', 'Illuminate\Cache\CacheServiceProvider', 'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider', 'Illuminate\Cookie\CookieServiceProvider', 'Illuminate\Database\DatabaseServiceProvider', 'Illuminate\Encryption\EncryptionServiceProvider', 'Illuminate\Filesystem\FilesystemServiceProvider', 'Illuminate\Foundation\Providers\FoundationServiceProvider', 'Illuminate\Hashing\HashServiceProvider', 'Illuminate\Mail\MailServiceProvider', 'Illuminate\Pagination\PaginationServiceProvider', 'Illuminate\Pipeline\PipelineServiceProvider', 'Illuminate\Queue\QueueServiceProvider', 'Illuminate\Redis\RedisServiceProvider', 'Illuminate\Auth\Passwords\PasswordResetServiceProvider', 'Illuminate\Session\SessionServiceProvider', 'Illuminate\Translation\TranslationServiceProvider', 'Illuminate\Validation\ValidationServiceProvider', 'Illuminate\View\ViewServiceProvider', 'Caffeinated\Modules\ModulesServiceProvider', 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider', 'F2m2\Apidocs\ApidocsServiceProvider', 'Zizaco\Entrust\EntrustServiceProvider', 'DeveloperDynamo\PushNotification\PushNotificationProvider', 'Laravel\Socialite\SocialiteServiceProvider', 'Folklore\Image\ImageServiceProvider', 'Backpack\Base\BaseServiceProvider', 'Prologue\Alerts\AlertsServiceProvider', 'Backpack\CRUD\CrudServiceProvider', 'Collective\Html\HtmlServiceProvider', 'Barryvdh\Elfinder\ElfinderServiceProvider', 'Backpack\Generators\GeneratorsServiceProvider', 'Backpack\LangFileManager\LangFileManagerServiceProvider', 'Cviebrock\EloquentSluggable\SluggableServiceProvider', 'Backpack\PageManager\PageManagerServiceProvider', 'Backpack\Settings\SettingsServiceProvider', 'Alexpechkarev\GoogleGeocoder\GoogleGeocoderServiceProvider', 'Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider', 'App\Providers\AppServiceProvider', 'App\Providers\AuthServiceProvider', 'App\Providers\EventServiceProvider', 'App\Providers\RouteServiceProvider', 'Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider', 'Roumen\Sitemap\SitemapServiceProvider')) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 530" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 530</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->registerConfiguredProviders() in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php line 17" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RegisterProviders.php line 17</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\RegisterProviders">RegisterProviders</abbr>->bootstrap(<em>object</em>(<abbr title="Illuminate\Foundation\Application">Application</abbr>)) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 203" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 203</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->bootstrapWith(<em>array</em>('Illuminate\Foundation\Bootstrap\DetectEnvironment', 'Illuminate\Foundation\Bootstrap\LoadConfiguration', 'Illuminate\Foundation\Bootstrap\ConfigureLogging', 'Illuminate\Foundation\Bootstrap\HandleExceptions', 'Illuminate\Foundation\Bootstrap\RegisterFacades', 'Illuminate\Foundation\Bootstrap\RegisterProviders', 'Illuminate\Foundation\Bootstrap\BootProviders')) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 232" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 232</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->bootstrap() in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 127" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 127</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->sendRequestThroughRouter(<em>object</em>(<abbr title="Illuminate\Http\Request">Request</abbr>)) in <a title="/vagrant/web-ideal4me/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 99" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 99</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->handle(<em>object</em>(<abbr title="Illuminate\Http\Request">Request</abbr>)) in <a title="/vagrant/web-ideal4me/public/index.php line 54" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">index.php line 54</a></li>
+    </ol>
+</div>
+
+            </div>
+    </body>
+</html>

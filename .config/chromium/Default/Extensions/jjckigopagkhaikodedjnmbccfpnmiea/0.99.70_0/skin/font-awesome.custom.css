@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-check:before {
+    content: "\f00c";
+}
+.fa-check-square-o:before {
+    content: "\f046";
+}
+fa-square-o
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+    content: "\f00d";
+}
+.fa-square-o:before {
+    content: "\f096";
+}
+.fa-check-square-o:before {
+    content: "\f046";
+}
+.fa-check-circle:before {
+    content: "\f058";
+}
+.fa-check-circle-o:before {
+    content: "\f05d";
+}
+.fa-check-circle-o:before {
+    content: "\f05d";
+}
+.fa-check-square:before {
+    content: "\f14a";
+}
+.fa-ban:before {
+    content: "\f05e";
+}
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+    content: "\f080";
+}
+.fa-sort-down:before,
+.fa-sort-desc:before {
+    content: "\f0dd";
+}
+.fa-gear:before,
+.fa-cog:before {
+    content: "\f013";
+}
+.fa-sort-up:before, 
+.fa-sort-asc:before {
+    content: "\f0de";
+}
+.fa-refresh:before {
+    content: "\f021";
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Ads killer options</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="../jquery-ui/js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="../ext/common.js"></script>
+  <script type="text/javascript" src="../ext/content.js"></script>
+  <script type="text/javascript" src="../i18n.js"></script>
+  <script type="text/javascript" src="options.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">
+    <div class="title-container">
+      <div class="logo"></div>
+      <div class="i18n_options_short title"></div>
+    </div>
+
+    <div class="rating-container">
+      <div class="i18n_rating_text rating-text"></div>
+      <a href="https://chrome.google.com/webstore/detail/ads-killer/jjckigopagkhaikodedjnmbccfpnmiea/reviews?hl=" target="__blank" id="rating-btn" class="i18n_rating_btn rating-btn"></a>
+    </div>
+  </div> <!-- header END -->
+
+  <div class="region-container">
+    <div class="region-text">
+      <div class="region-name"><strong class="i18n_region_name"></strong> <span id="region-show"></span> </div>
+      <div class="i18n_region_automatic_text region-automatic-text"></div>
+    </div>
+
+    <div class="i18n_region_change region-change-btn"></div>
+
+    <form action="#" class="select-region-form">
+      <select name="select-region" id="select-region" class="select-region">
+        <option class="i18n_select_region_item select-region-item" selected disabled></option>
+      </select>
+      <button class="i18n_apply select-region-submit"></button>
+      <button class="i18n_cancel select-region-cancel"></button>
+    </form>
+  </div> <!-- region-container END -->
+
+  <div class="white-container">
+    <div class="white-title-container">
+      <div class="i18n_white_title white-title"></div>
+      <div class="i18n_white_subtitle white-subtitle"></div>
+    </div>
+    <div id="white-domains">
+      <ul class="list">        
+      </ul>
+    </div>
+
+    <div class="list-controls">
+      <div class="add-site" id="add-site">
+        <div class="add-site-bg"></div>
+        <div class="i18n_add_site add-site-text"></div>
+      </div>
+
+      <!---<div class="show-more">
+        <div class="list-count">5 из 20</div>
+        <div class="show-more-btn">Показать еще</div>
+      </div> -->
+      <form action="#" class="add-white-form">
+        <input type="text" class="add-white-text">
+        <button class="i18n_add_white add-white-submit"></button>
+        <button class="i18n_cancel add-white-cancel"></button>
+      </form>
+    </div>
+  </div> <!-- white-container END -->
+
+  <div class="show-hide-extended hidden">
+    <div class="i18n_show_extended show-extended-btn"></div>
+    <div class="i18n_hide_extended hide-extended-btn"></div>
+  </div> <!-- show-extended END -->
+
+  <div class="extended-container none">
+    <form action="#" class="filter-list-form">
+      <div class="filter-list-title">
+        <span class="i18n_filter_lists"></span>
+        <div class="filter-update-date"><span class="i18n_filter_update_date"></span><span id="last-update"></span></div>
+      </div>
+
+      <div class="refresh-filters">
+        <div class="refresh-filters-btn"><span class="i18n_refresh_filters"></span></div>
+      </div>
+
+      <ul class="list" id="filter-list"></ul>
+
+      <div class="list-controls">
+        <div class="add-site" id="add-filter">
+          <div class="add-site-bg"></div>
+          <div class="i18n_add_filter_button add-site-text"></div>
+        </div>
+        <!--<div class="show-more">
+          <div class="list-count">5 из 20</div>
+          <div class="show-more-btn">Показать еще</div>
+        </div>-->
+
+        <div class="add-filter-form">
+          <select name="select-filter" id="select-filter" class="select-filter"></select>
+          <button class="i18n_add_filter_button select-filter-submit"></button>
+          <button class="i18n_cancel select-filter-cancel"></button>
+        </div>
+      </div> <!-- list-controls -->
+      <br />
+          <div id="customSubscriptionContainer" class="list" style="display: block;">
+            <p>
+              <span class="i18n_subscriptionSelection_title_label"></span><br>
+              <input type="text" id="customSubscriptionTitle" style="width:500px">
+            </p>
+            <p>
+              <span class="i18n_subscriptionSelection_location_label"></span><br>
+              <input type="text" id="customSubscriptionLocation" style="width:500px">
+            </p>
+          </div>
+    </form> <!-- filter-list-form -->
+
+    <form action="#" class="user-filters-form">
+      <div class="i18n_user_filters_title user-filters-title"></div>
+      <div class="user-filter-container">
+        <input type="text" class="user-filter-text">
+        <button type="submit" class="i18n_add_filter_button user-filter-add-btn"></button>
+      </div>
+      <div class="i18n_user_filter_description user-filter-description"></div>
+
+      <div class="user-filters-list-container">
+        <select name="user-filters-list" id="user-filters-list" class="user-filters-list" size="12" multiple></select>
+        <div class="user-filters-list-btns-container">
+          <button class="i18n_remove_filter remove-filter-btn"></button>
+          <button class="i18n_edit_filters_raw edit-filter-btn"></button>
+        </div>
+        <div class="edit-filters-container">
+          <textarea name="edit-filters" id="edit-filters" class="edit-filters"></textarea>
+          <div class="edit-filters-btns-container">
+            <button class="i18n_save save-filter-btn"></button>
+            <button class="i18n_cancel cancel-filter-btn"></button>
+          </div>
+        </div>
+      </div>
+    </form> <!-- user-filters-form -->
+
+    <form action="#" class="other-rules-container">
+      <div class="i18n_other_rules_title other-rules-title"></div>
+      <div class="other-rules-checkbox-container">
+        <input type="checkbox" name="show-context" class="show-context other-rules-checkbox" id="show-context">
+        <label for="show-context" class="i18n_show_block_element_menu other-rules-checkbox-label"></label>
+      </div>
+
+      <div class="other-rules-checkbox-container">
+        <input type="checkbox" name="show-cool-ads" class="show-cool-ads other-rules-checkbox" id="show-cool-ads">
+        <label for="show-cool-ads" class="i18n_filters_acceptableAds2_label other-rules-checkbox-label"></label>
+      </div>
+    </form> <!-- other-rules-container -->
+  </div> <!-- extended-container END -->
+</div>
+</body>
+</html>

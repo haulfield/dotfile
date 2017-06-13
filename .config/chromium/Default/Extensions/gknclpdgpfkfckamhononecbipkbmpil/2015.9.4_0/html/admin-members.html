@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Passopolis</title>
+
+    <script src="../js/config.js"></script>
+    <script src="../js/logging.js"></script>
+    <script src="../utils.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/underscore-min.js"></script>
+    <script src="../js/hogan-template.js"></script>
+    <script src="../js/modal-dialog-template.js"></script>
+    <script src="../js/admin-common.js"></script>
+    <script src="../js/client.js"></script>
+    <script src="../helpers_common.js"></script>
+    <script src="../js/helpers.js"></script>
+    <script src="../js/icon-generator.js"></script>
+    <script src="../js/background_interface.js"></script>
+    <script src="../js/background-init.js"></script>
+    <script src="../kew.js"></script>
+    <script src="../js/org-info.js"></script>
+    <script src="../js/org-dropdown.js"></script>
+    <script src="../js/org-common.js"></script>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../css/org-style.css" rel="stylesheet" media="screen">
+
+<script src="../js/members-template.js"></script>
+<script src="../js/members.js"></script>
+<script src="../js/live-search.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="header">
+        <div class="clearfix">
+          <a class="navbar-brand pull-left" href="../html/secrets.html">
+            <h1 style="color: #fff; margin-top: 10px;">Passopolis</h1>
+          </a>
+          <div class="pull-right menu user-menu hide">
+            <div class="dropdown">
+              <a data-toggle="dropdown" href="#">
+                <span class="ml">
+                  <span class="email"></span>
+                  <b class="caret"></b>
+                  <span class="mr"></span>
+                  <span class="org-admin hide label label-warning">ADMIN</span>
+                </span>
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                <li><a href="../html/privacy.html">Privacy Policy</a></li>
+                <li><a href="#" class="logout-link">Log out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="main clearfix">
+        <div class="left-col">
+          <div class="user clearfix hide org-no-dropdown">
+              <div class="pull-left mr">
+                <img class="org-icon" src="" alt="" width="50" height="50"/>
+              </div>
+              <div class="org-name-wrapper">
+                <div class="org-name name">&nbsp</div>
+              </div>
+          </div>
+          <div class="user clearfix hide org-admin-dropdown dropdown">
+            <a data-toggle="dropdown">
+              <div class="pull-left mr">
+                <img class="org-icon" src="" alt="" width="50" height="50"/>
+              </div>
+              <div class="org-name-wrapper">
+                <div>
+                  <div class="org-name name select">&nbsp</div>
+                  <b class="caret"></b>
+                </div>
+              </div>
+            </a>
+            <ul class="dropdown-menu dropdown-select" role="menu">
+            </ul>
+          </div>
+          <ul class="nav-menu menu hide">
+            <li class="org-admin hide">
+              <a href="../html/admin-dashboard.html">Organization</a>
+              <ul>
+                <li><a href="../html/admin-secrets.html">All Secrets</a></li>
+                <li><a href="../html/admin-members.html">All Members</a></li>
+                <li><a href="../html/admin-teams.html">All Teams</a></li>
+                <li><a href="../html/admin-audit.html">Audit Log</a></li>
+              </ul>
+            </li>
+            <li><a href="../html/secrets.html">My Secrets</a></li>
+            <li><a href="../html/teams.html">My Teams</a></li>
+            <!--<li><a href="../html/profile.html">My Profile</a></li>-->
+          </ul>
+          <div class="actions">
+            <ul>
+              <li><a href="../html/admin-create-secret.html"><i class="ico ico-plus"></i>Create Secret</a></li>
+              <li>
+                <a class="create-team-link" href="../html/create-team.html">
+                  <i class="ico ico-people"></i>Create Team
+                </a>
+              </li>
+              <li id="export"><a href="../html/export.html"><div class="icon-download"></div>Export Secrets</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ugly-message" style="display:none;">Working ...
+        </div>
+        <div class="content">
+<div class="clearfix">
+  <div class="pull-left">
+    <h1>All Organization Members</h1>
+  </div>
+  <div class="pull-right">
+    <div class="clearfix">
+      <button id="show-invite-members-button" class="btn pull-left btn-primary" data-toggle="modal" data-target="#add-members-modal">Invite Members</button>
+    </div>
+  </div>
+</div>
+<div class="list">
+  <div class="title">
+    <div class="row">
+      <div class="col-xs-8">
+        <input type="text" class="form-control search" id="member-filter-string" autofocus placeholder="Search organization members">
+      </div>
+      <!--
+      <div class="col-xs-3 col-xs-offset-1">
+        <div class="dropdown mt5">
+          <a data-toggle="dropdown" class="form-control select" href="#">All Members</a>
+          <ul class="dropdown-select dropdown-menu category-dropdown">
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+      -->
+    </div>
+  </div>
+  <ul class="users-list items"></ul>
+
+  <div class="mt20">
+    <div class="spinny"></div>
+  </div>
+</div>
+        </div>
+      </div>
+<div class="modal fade" id="invite-members-modal" tabindex="-1" role="dialog" aria-labelledby="invite-members-title" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="invite-members-title">Invite Organization Members</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form">
+          <div class="form-group">
+            <label>Member's Emails to Invite</label>
+            <input type="text" class="form-control" name="emails" placeholder="Enter Emails">
+            <span class="help-block text-left">Tip: To send to multiple members, comma separate emails.</span>
+          </div>
+          <div class="form-group">
+            <label>Email Message</label>
+            <textarea class="form-control" name="message" placeholder="Enter Message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-gray btn-sm" data-dismiss="modal">CANCEL</button>
+        <button id="invite-members-button" class="btn btn-primary btn-sm">
+          SEND INVITES
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="delete-confirm-modal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4>Remove User</h4>
+      </div>
+
+      <div class="modal-body">
+        <form id="remove-user-form" class="modal-form">
+          <input name="email" type="hidden" />
+        </form>
+
+        <div class="delete-message"></div>
+      </div>
+
+      <div class="modal-footer">
+        <a class="btn right" data-dismiss="modal">Cancel</a>
+        <a id="remove-user-button" class="btn btn-primary" data-dismiss="modal">Remove</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="footer">
+        <div class="clearfix">
+          <div class="pull-right">
+            <ul>
+              <li><a href="https://passopolis.com">Website</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

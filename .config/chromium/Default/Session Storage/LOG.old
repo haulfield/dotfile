@@ -1,0 +1,28 @@
+2017/06/12-15:21:54.783 5113 Reusing MANIFEST /home/yarik/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/06/12-15:21:54.783 5113 Recovering log #861
+2017/06/12-15:21:54.804 5113 Reusing old log /home/yarik/.config/chromium/Default/Session Storage/000861.log 
+2017/06/12-16:49:23.868 5925 Compacting 2@0 + 1@1 files
+2017/06/12-16:49:24.012 5925 Generated table #864@0: 2072 keys, 33373 bytes
+2017/06/12-16:49:24.012 5925 Compacted 2@0 + 1@1 files => 33373 bytes
+2017/06/12-16:49:24.046 5925 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/06/12-16:49:24.046 5925 Delete type=2 #857
+2017/06/12-16:49:24.057 5925 Delete type=2 #859
+2017/06/12-16:49:24.057 5925 Delete type=2 #862
+2017/06/12-18:04:23.868 5925 Compacting 1@1 + 1@2 files
+2017/06/12-18:04:24.020 5925 Generated table #865@1: 53 keys, 1910 bytes
+2017/06/12-18:04:24.020 5925 Compacted 1@1 + 1@2 files => 1910 bytes
+2017/06/12-18:04:24.138 5925 compacted to: files[ 0 0 1 0 0 0 0 ]
+2017/06/12-18:04:24.138 5925 Delete type=2 #864
+2017/06/12-18:04:24.145 5925 Delete type=2 #745
+2017/06/12-18:12:23.868 5925 Level-0 table #867: started
+2017/06/12-18:12:23.916 5925 Level-0 table #867: 10886 bytes OK
+2017/06/12-18:12:23.958 5925 Delete type=0 #861
+2017/06/12-19:42:23.867 5925 Level-0 table #869: started
+2017/06/12-19:42:23.943 5925 Level-0 table #869: 5503 bytes OK
+2017/06/12-19:42:23.985 5925 Delete type=0 #866
+2017/06/12-19:52:23.867 5925 Compacting 1@1 + 1@2 files
+2017/06/12-19:52:23.908 5925 Generated table #870@1: 45 keys, 4267 bytes
+2017/06/12-19:52:23.908 5925 Compacted 1@1 + 1@2 files => 4267 bytes
+2017/06/12-19:52:23.941 5925 compacted to: files[ 1 0 1 0 0 0 0 ]
+2017/06/12-19:52:23.941 5925 Delete type=2 #867
+2017/06/12-19:52:23.941 5925 Delete type=2 #865

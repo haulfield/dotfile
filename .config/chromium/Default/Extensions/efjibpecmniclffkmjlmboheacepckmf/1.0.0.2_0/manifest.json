@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.nitrotype.com/"
+      },
+      "urls": [ "http://www.nitrotype.com/" ]
+   },
+   "description": "Worldwide real-time typing competition! Compete against your friends and earn money and new cars while improving your typing skills.",
+   "icons": {
+      "128": "128x128.png",
+      "16": "16x16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjodopOqF1LZzsVgPY6ZZjp0yFSbMblXPjaVe96KKzQ4EfbJtHkkGU4L9O0jWsLYuPlzUt6jrhz8Ysu6PjiMmLyKwKDBdDl8aRiNiYVwh8sz/xMYLx7Us9bhzSDM7HZA3sd4eCVs+ewddaRGJZfAx/wRd5BkbGlR0DwbYVzmx23wIDAQAB",
+   "name": "Nitro Type",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.2"
+}

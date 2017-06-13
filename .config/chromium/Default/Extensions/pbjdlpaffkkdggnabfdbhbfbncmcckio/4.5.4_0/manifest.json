@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "replaceCss.css" ],
+      "js": [ "downloader.js" ],
+      "matches": [ "https://new.vk.com/*", "http://new.vk.com/*", "https://vk.com/*", "http://vk.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://vk.com https://new.vk.com https://ssl.google-analytics.com;object-src 'self'",
+   "description": "скачать музыку из контакта бесплатно без рекламы",
+   "externally_connectable": {
+      "matches": [ "*://vk.com/*", "*://new.vk.com/*" ]
+   },
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuIgfSWoBjAgvS2v0ds1ohCCZ6ADXdQ2YUa9wDFMw7wat2QmteAALypDVadEnPx+xfCP8Re9Vm7aO1dRqvsVFvBqQgD/KEpvU1WAnaOW/KCC0KzlMSeitNCeICVnJjY6dEXtZVuao2cGw+tl7kRUBYgGYvLJkiWqevaaPQWZkUP9VQzn25AZZmYHRizpDwU4fFMHWv6lR2U4g6QZvlU0ch/emEcHgJ0eDpY0VbTICGrvOP0709rLWmQzVbbY8F34t3M2DzNVEhO9FBpHg7gbeBEdqC0bdcenqWIGYGslO+Mnxp4KpOqJBvV6Hl+illZzqe5GbVf7whl6s6ze23UtlVwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "55",
+   "name": "VK Downloader",
+   "options_page": "popup.html",
+   "permissions": [ "*://*.vk.com/*", "*://vk.com/", "*://*.vk.me/*", "*://*.vk-cdn.net/*", "*://*.userapi.com/*", "*://*.cdninstagram.com/*", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.5.4",
+   "web_accessible_resources": [ "ga-config.js", "ga.js", "js15_as.js", "audio_icons.png", "download.gif", "download_new.gif", "icon_video.png", "icon_album.png", "icon_album_white.png", "pageScript.js", "StreamSaver.js", "stream-polyfill.js" ]
+}
