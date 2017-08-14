@@ -1,0 +1,1 @@
+{"message":"SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sizhkibezkoli@gmail.com' for key 'users_email_unique' (SQL: insert into `users` (`name`, `email`, `password`, `updatedAt`, `createdAt`) values (yarik23, sizhkibezkoli@gmail.com, $2y$10$GAnrG9K.Sdw60x5rqxc1Zu1Ho6SdWnnz8fdBduWnkN7Vc8UNxtjQi, 2017-08-01 11:33:50, 2017-08-01 11:33:50))","error":false}

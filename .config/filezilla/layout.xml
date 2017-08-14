@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.25.2" platform="*nix">
-	<Layout Builddate="2017-04-30" Buildtime="21:58:52">
+<FileZilla3 version="3.26.2" platform="*nix">
+	<Layout Builddate="2017-06-14" Buildtime="20:00:07">
 		<Resources>
-			<xrc file="netconfwizard.xrc" date="1493582387" />
-			<xrc file="update.xrc" date="1493582387" />
-			<xrc file="inputdialog.xrc" date="1493582387" />
-			<xrc file="settings.xrc" date="1493582387" />
-			<xrc file="sitemanager.xrc" date="1493582387" />
-			<xrc file="certificate.xrc" date="1493582387" />
-			<xrc file="dialogs.xrc" date="1493582387" />
-			<xrc file="menus.xrc" date="1493582387" />
+			<xrc file="netconfwizard.xrc" date="1497463258" />
+			<xrc file="update.xrc" date="1497463258" />
+			<xrc file="inputdialog.xrc" date="1497463258" />
+			<xrc file="settings.xrc" date="1497463258" />
+			<xrc file="sitemanager.xrc" date="1497463258" />
+			<xrc file="certificate.xrc" date="1497463258" />
+			<xrc file="dialogs.xrc" date="1497463258" />
+			<xrc file="menus.xrc" date="1497463258" />
 		</Resources>
 		<Language id="en_US" date="">
 			<Font font="Cantarell 11" width="823" height="20" />

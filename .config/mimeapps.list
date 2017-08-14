@@ -1,5 +1,5 @@
 [Default Applications]
-application/pdf=qpdfview.desktop
+application/pdf=chromium.desktop
 text/plain=mousepad.desktop
 image/jpeg=viewnior.desktop
 application/xml=mousepad.desktop
@@ -16,7 +16,7 @@ application/x-raw-disk-image=open-fuse-iso.desktop
 x-scheme-handler/tg=telegramdesktop.desktop
 
 [Added Associations]
-application/pdf=qpdfview.desktop;chromium.desktop;
+application/pdf=chromium.desktop;qpdfview.desktop;
 application/octet-stream=mousepad.desktop;
 application/x-gettext-translation=mousepad.desktop;
 application/x-wine-extension-ini=mousepad.desktop;
@@ -28,6 +28,15 @@ text/x-c++src=emacs.desktop;
 text/x-java=mousepad.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 text/html=chromium.desktop;mousepad.desktop;
-application/x-shellscript=userapp-sh-M941YY.desktop;mousepad.desktop;
+application/x-shellscript=mousepad.desktop;userapp-sh-M941YY.desktop;
 audio/mpeg=guayadeque.desktop;
 image/jpeg=viewnior.desktop;
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet=libreoffice-calc.desktop;
+video/mp4=vlc.desktop;org.xfce.Parole.desktop;
+text/x-scala=mousepad.desktop;
+application/gzip=engrampa.desktop;
+application/msword=libreoffice-writer.desktop;
+text/csv=mousepad.desktop;
+application/x-sqlite3=sqlitebrowser.desktop;mousepad.desktop;
+text/x-patch=mousepad.desktop;
+text/x-readme=mousepad.desktop;

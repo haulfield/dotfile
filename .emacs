@@ -6,6 +6,9 @@
  '(ensime-default-scala-version "2.11.1")
  '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
+ '(package-selected-packages
+   (quote
+    (php+-mode yasnippet xpm sr-speedbar scala-mode2 multiple-cursors inf-mongo elnode color-theme-solarized auto-complete ascii-art-to-unicode)))
  '(scroll-bar-mode nil)
  '(server-mode t)
  '(sr-speedbar-right-side nil)

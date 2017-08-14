@@ -1,0 +1,1 @@
+{"success":false,"message":"SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`scholar`.`role_users`, CONSTRAINT `role_users_roleid_foreign` FOREIGN KEY (`roleId`) REFERENCES `roles` (`id`) ON DELETE CASCADE) (SQL: insert into `role_users` (`userId`, `roleId`) values (2, 0))"}

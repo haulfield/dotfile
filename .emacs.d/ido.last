@@ -2,39 +2,72 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/yarik/" . "todos/")
+ ("/home/yarik/exercism/scala/sum-of-multiples/src/main/" . "scala/")
+ ("/home/yarik/exercism/scala/sum-of-multiples/src/" . "main/")
+ ("/home/yarik/exercism/scala/sum-of-multiples/" . "src/")
+ ("/home/yarik/exercism/scala/" . "sum-of-multiples/")
+ ("/home/yarik/exercism/" . "scala/")
+ ("/home/yarik/" . "exercism/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/yarik/exercism/scala/sum-of-multiples/src/main/scala/"
+ "/home/yarik/exercism/scala/sum-of-multiples/"
  "/home/yarik/todos/"
- "~/todos/"
  "/home/yarik/"
+ "/home/yarik/projects/geeks/kvsearch/"
+ "/home/yarik/Downloads/"
+ "/home/yarik/temp/egor/"
+ "/home/yarik/temp/"
+ "~/todos/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "0606"
- "0601"
- "0531"
- "0530"
- "0525"
- "0529"
- "temetme"
+ "SumOfMultiples.scala"
+ "README.md"
+ "0703"
+ "0629"
  "todo"
+ "value.py"
+ "test.py"
+ "urls.txt"
+ "index.php"
+ "3.php"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/yarik/todos/" (22838 44240 383133 422000) "0529" "0606" "0525" "0530" "0601" "0531" "../" "./")
+ ("/home/yarik/exercism/scala/sum-of-multiples/src/main/scala/" (22902 65476 528202 954000) "../" "./" "SumOfMultiples.scala")
 
- ("/home/yarik/" (22841 14748 263090 92000) ".ideskrc" ".pki/" ".xsession-errors" "root@67.205.177.181" "Pictures/" "nohup.out" ".zcompdump-yarik-5.3.1" ".guayadeque/" ".gem/" ".subversion/" ".xsession-errors.old" ".charles.config" ".screenlayout/" ".mysql_history" "todo" "fun/" ".dir_colors" "todo~" ".xfce4-session.verbose-log.last" ".mysql/" "temp/" ".dmrc" "Programs/" ".wine/" ".cache/" ".python_history" ".PhpStorm2017.1/" ".zsh-update" ".dbshell.save" "VirtualBox VMs/" ".PhpStorm2016.3/" ".zsh_history" ".vagrant.d/" ".gphoto/" "sti.webp" ".profile" ".Xauthority" ".3T/" ".zshrc.pre-oh-my-zsh" "geeksfield/" ".local/" ".xsession" "PycharmProjects/" ".wget-hsts" ".extend.xinitrc" ".gksu.lock" "Scripts/" ".mozilla/" ".extend.bashrc" ".bashrc" ".oh-my-zsh/" "#teaser.txt#" ".scala_history" "Downloads/" "Desktop/" ".emacs" ".PyCharm2017.1/" ".icons/" ".oracle_jre_usage/" ".wallpapers/" "projects/" ".gnome/" ".virtualenvs/" ".idesktop/" ".Xclients" ".bash_profile" ".bash_history" ".thunderbird/" ".config/" ".m2/" ".gnupg/" "temetme" ".fonts/" ".macromedia/" ".thumbnails/" ".CLion2017.1/" ".dbshell" ".xinitrc" ".emacs.d/" "PhpstormProjects/" "../" "Public/" ".esd_auth" ".Xresources" "todos/" "Videos/" ".java/" ".gitconfig" "vag/" ".swt/" "./" ".zshrc" "#todo#" ".npm/" ".mongorc.js" "dronezone/" ".charles/" "Documents/" ".adobe/" "HS/" ".xfce4-session.verbose-log" "Music/" ".bash_logout" ".ICEauthority" "Templates/" "resume.txt" ".zcompdump" ".fehbg" ".xprofile" ".ssh/" ".IntelliJIdea2017.1/")
+ ("/home/yarik/exercism/scala/sum-of-multiples/src/main/" (22902 65476 528202 954000) "scala/" "../" "./")
+
+ ("/home/yarik/exercism/scala/sum-of-multiples/src/" (22902 65476 528202 954000) "main/" "../" "./" "test/")
+
+ ("/home/yarik/exercism/scala/sum-of-multiples/" (22903 43 124780 469000) "README.md" "project/" "../" "build.sbt" "./" "src/" "target/")
+
+ ("/home/yarik/exercism/scala/" (22902 65476 528202 954000) "hello-world/" "sum-of-multiples/" "../" "./" "bob/")
+
+ ("/home/yarik/exercism/" (22902 63059 552553 110000) "scala/" "../" "./")
+
+ ("/home/yarik/" (22902 65496 651519 243000) ".ideskrc" ".pki/" ".xsession-errors" "root@67.205.177.181" "Pictures/" "nohup.out" ".zcompdump-yarik-5.3.1" ".guayadeque/" ".gem/" ".subversion/" ".xsession-errors.old" ".charles.config" ".screenlayout/" ".mysql_history" ".dropbox-dist/" "todo" ".git/" "fun/" ".dir_colors" "todo~" ".idea-build/" ".xfce4-session.verbose-log.last" ".mysql/" "temp/" ".dmrc" "Programs/" ".wine/" ".cache/" "rprog/" ".python_history" ".PhpStorm2017.1/" ".zsh-update" ".dropbox/" ".dbshell.save" "VirtualBox VMs/" ".PhpStorm2016.3/" "hadoop/" ".sqlite_history" ".zsh_history" ".vagrant.d/" ".gphoto/" "sti.webp" ".profile" ".Xauthority" ".3T/" ".zshrc.pre-oh-my-zsh" ".sbt/" "geeksfield/" ".local/" ".xsession" "PycharmProjects/" ".wget-hsts" ".extend.xinitrc" ".gksu.lock" "Scripts/" ".mozilla/" ".extend.bashrc" ".bashrc" ".oh-my-zsh/" "#teaser.txt#" ".scala_history" "Dropbox/" "Downloads/" "Desktop/" ".emacs" ".PyCharm2017.1/" ".icons/" ".oracle_jre_usage/" ".dbvis/" ".wallpapers/" "projects/" ".gnome/" "ed/" ".virtualenvs/" ".idesktop/" ".Xclients" ".bash_profile" ".bash_history" ".thunderbird/" ".config/" ".m2/" ".exercism.json" ".gnupg/" "temetme" ".fonts/" ".macromedia/" ".thumbnails/" ".CLion2017.1/" ".dbshell" ".ivy2/" ".xinitrc" ".emacs.d/" "PhpstormProjects/" "../" "Public/" ".esd_auth" ".Xresources" "todos/" "Videos/" ".java/" ".gitconfig" "vag/" ".swt/" "./" ".zshrc" "#todo#" ".npm/" ".mongorc.js" "dronezone/" ".charles/" ".install4j" "Documents/" ".adobe/" "HS/" ".xfce4-session.verbose-log" "Music/" ".bash_logout" ".ICEauthority" "my.db" "Templates/" "resume.txt" ".zcompdump" ".fehbg" "exercism/" ".xprofile" ".ssh/" ".IntelliJIdea2017.1/")
+
+ ("/home/yarik/todos/" (22874 13899 317317 363000) "0629" "0529" "0606" "0525" "0530" ".#0703" "0601" "0531" "0703" "../" "./")
+
+ ("~/todos/" (22869 5949 535802 416000) "0629" "0529" "0606" "0525" "0530" "0601" "0531" "../" "./")
+
+ ("/home/yarik/temp/" (22867 19140 636955 114000) "rules.json" "cmake-3.2.2/" "DCSAles - 2017_2_30 (2)" "a.out" "DCSAles - 2017_2_30 (16)" "animals.cpp" "main.js" "decedu_new.sql" "DCSAles - 2017_2_30 (7)" "DCSAles - 2017_2_30 (14)" "temp" "nginx-1.11.2/" "20161201.csv" "backup.txt" "cmake-3.2.2.tar.gz" "DCSAles - 2017_2_30 (8)" "[rutracker.org].t5015592.torrent" "fiddler/" "DCSAles - 2017_2_30 (3)" "DCSAles - 2017_2_30 (1)" "ioncube/" "ioncube_loaders_lin_x86-64.tar.gz" "egor/" "temp.js" "DCSAles - 2017_2_30 (15)" "greeks-auto-master.zip" "DCSAles - 2017_2_30 (12)" "DCSAles - 2017_2_30 (11)" "nginx-1.11.2.tar.gz" "DCSAles - 2017_2_30 (10)" "DCSAles - 2017_2_30 (5)" "20161101.csv" "DCSAles - 2017_2_30 (6)" "out.csv" "backup.txt~" "../" "DCSAles - 2017_2_30" "DCSAles - 2017_2_30 (13)" "./" "greeks-auto-master/" "DCSAles - 2017_2_30 (4)" "DCSAles - 2017_2_30 (9)" "UniversitiesPaginationPresenter.php" "20161201new.csv" "Операция Пластилин - Пилигримы.mp3" "fonts/")
+
+ ("/home/yarik/Downloads/" (22873 56438 258507 715000) "Yaroslav-Krukovsky_CV.docx" "3ac1c24db700babe6a92c821575ac62b.jpeg" "Windows 7 Ultimate SP1 Ru x86-x64 NL3 by OVGorskiy 02.2015.1.torrent" "Teamcenter_System_Architecture.doc" "cUbVMLuwlkE.jpg" "ht0X-87YGsk.jpg" "Telegram Desktop/" "Parser.docx" "Quittance.pdf" "doc_2017-06-21_16-04-28.mp4" "progInScalaExamples3Ed.zip" "Programming in Scala - Third Edition.zip" "../" "Охра и Пионерлагерь Пыльная Радуга — Чейнбол.rar" "Yaroslav_Krukovsky_cv.docx" "./" "archive-2017-05-25_08-40-49.zip" "Windows 7 Ultimate SP1 Ru x86-x64 NL3 by OVGorskiy 02.2015/" "archive/")
+
+ ("/home/yarik/projects/geeks/kvsearch/" (22859 52431 909227 761000) "redis-keys-old.txt" "netsol.txt" "data/" "keyvalue.zip" "mapreduce.txt" "keymultiple.py" "redis-values.txt" "../" "keymultipleold.py" "./" "value.py" "redis-keys.txt" "key.py" "redis-values-old.txt")
+
+ ("/home/yarik/temp/egor/" (22851 43239 97759 977000) "index.php" "2.php" "urls.txt" "1.php" "../" "./")
 
  ("/home/yarik/projects/" (22812 11904 453079 735000) "ideal/" "DC/" "webhosting/" "scholar/" "geeks/" "decedu/" "../" "vag/" "./")
 
  ("/home/yarik/projects/ideal/" (22750 11262 733507 342000) "provision.sh~" "web-ideal4me/" "provision.sh" ".vagrant/" "Vagrantfile" ".idea/" "../" "./")
-
- ("~/todos/" (22829 1392 240887 78000) "0529" ".#0525" "0525" "0530" "../" "./")
 
  ("/home/yarik/Templates/" (22735 40673 656908 192000) "../" "./")
 )

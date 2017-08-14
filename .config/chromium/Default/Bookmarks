@@ -1,13 +1,16 @@
 {
-   "checksum": "b158f26d5ee61b807e87142347d3552e",
+   "checksum": "ec7e0ecf9d978ef08b19d9f7aceeb4a2",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "children": [ {
                "date_added": "13096046260869558",
                "id": "462",
+               "meta_info": {
+                  "last_visited_desktop": "13143714938832841"
+               },
                "name": "Here are the 50 best HackerNews posts of all time — Startups, Wanderlust, and Life Hacking — Medium",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "3995",
                "type": "url",
                "url": "https://medium.com/swlh/best-of-2015-pfffffffft-79d9b014f4de#.z4whq0ib0"
             }, {
@@ -20,8 +23,11 @@
             }, {
                "date_added": "13096046283188159",
                "id": "464",
+               "meta_info": {
+                  "last_visited_desktop": "13143705351571792"
+               },
                "name": "nand2tetris.org/lectures/PDF/lecture 01 Boolean logic.pdf",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "3989",
                "type": "url",
                "url": "http://nand2tetris.org/lectures/PDF/lecture%2001%20Boolean%20logic.pdf"
             }, {
@@ -49,6 +55,7 @@
                "date_added": "13063289515979000",
                "id": "468",
                "meta_info": {
+                  "last_visited_desktop": "13146706890553481",
                   "stars.id": "ssc_8729b2072455fa5a",
                   "stars.imageData": "Cg5OT05xNFV6ZktDUTYtTRJeClZodHRwczovL2QxNWN3NjVpcGN0c3JyLmNsb3VkZnJvbnQubmV0LzI2L2VjN2E3MDM1MmQxMWU0OTRiY2Y5MjdmYjA5Y2JjOS9sYXJnZS1pY29uLnBuZxCrAhioARpjCltodHRwOi8vdDAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1NCTnpmVkE3LWQ4aENFQnRic2V4QkhaM0xwTS1rS2J2aDRCeDFlVEFVVlpYQWNidnFnEKsCGKgBIiAIARCrAhioASCXiwFCBhIEAgF9fUoKaW1hZ2UvanBlZw==",
                   "stars.isSynced": "true",
@@ -56,14 +63,17 @@
                   "stars.type": "2"
                },
                "name": "The Hardware/Software Interface | Coursera",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "https://www.coursera.org/course/hwswinterface"
             }, {
                "date_added": "13096417265458812",
                "id": "469",
+               "meta_info": {
+                  "last_visited_desktop": "13146706694269666"
+               },
                "name": "From Nand to Tetris / Part I - Hebrew University of Jerusalem | Coursera",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "https://www.coursera.org/course/nand2tetris1"
             }, {
@@ -84,6 +94,7 @@
                "date_added": "13063285515465000",
                "id": "472",
                "meta_info": {
+                  "last_visited_desktop": "13146706378790720",
                   "stars.id": "ssc_32ba1d764019672a",
                   "stars.imageData": "Cg5acmVGTlhZTXV1MHZZTRJsCmRodHRwczovL2QxNWN3NjVpcGN0c3JyLmNsb3VkZnJvbnQubmV0LzFjLzUyYjlkZTc5MGI4M2U2YzAyMGM1ODg0YTY4OTYwNy9wcmluY2lwbGVzLXJlYWN0aXZlLXYxLjAuanBnEKsCGKgBGmMKW2h0dHA6Ly90Mi5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjUm11NHNsMnRBSzBxNUYycXZiWFUzRndodE96WEI1bGZ4UWRLNjJnVEMxNFZRUUtBdm0QqwIYqAEiHwgBEKsCGKgBIKw1QgYSBAABfX1KCmltYWdlL2pwZWc=",
                   "stars.isSynced": "true",
@@ -91,7 +102,7 @@
                   "stars.type": "2"
                },
                "name": "Principles of Reactive Programming | Coursera",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "https://www.coursera.org/course/reactive"
             }, {
@@ -146,8 +157,11 @@
             }, {
                "date_added": "13098471715030727",
                "id": "480",
+               "meta_info": {
+                  "last_visited_desktop": "13143705357455490"
+               },
                "name": "Big Data School от Киевстар, 4 февраля | DOU",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "3991",
                "type": "url",
                "url": "http://dou.ua/calendar/9306/"
             }, {
@@ -459,8 +473,11 @@
                   }, {
                      "date_added": "13106825011700810",
                      "id": "529",
+                     "meta_info": {
+                        "last_visited_desktop": "13146214676643566"
+                     },
                      "name": "Machine Learning - Regularization | Coursera",
-                     "sync_transaction_version": "3",
+                     "sync_transaction_version": "4152",
                      "type": "url",
                      "url": "https://www.coursera.org/learn/machine-learning/home/week/1"
                   }, {
@@ -488,10 +505,10 @@
                      "date_added": "13106865888290974",
                      "id": "533",
                      "meta_info": {
-                        "last_visited_desktop": "13137600480457583"
+                        "last_visited_desktop": "13142675338594554"
                      },
                      "name": "Kaggle: The Home of Data Science",
-                     "sync_transaction_version": "1792",
+                     "sync_transaction_version": "3862",
                      "type": "url",
                      "url": "https://www.kaggle.com/"
                   }, {
@@ -566,13 +583,16 @@
             }, {
                "date_added": "13104959648309709",
                "id": "514",
+               "meta_info": {
+                  "last_visited_desktop": "13142822104732952"
+               },
                "name": "Video Tutorials - thenewboston",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "3878",
                "type": "url",
                "url": "https://thenewboston.com/videos.php"
             } ],
             "date_added": "13134556271962869",
-            "date_modified": "13134556271962869",
+            "date_modified": "13146818419610597",
             "id": "15",
             "name": "winter 2016",
             "sync_transaction_version": "3",
@@ -607,7 +627,7 @@
                "stars.version": "sync.server.Chrome44"
             },
             "name": "computer_PHILE",
-            "sync_transaction_version": "3",
+            "sync_transaction_version": "3709",
             "type": "url",
             "url": "https://www.youtube.com/user/Computerphile/videos"
          }, {
@@ -618,7 +638,7 @@
                "stars.version": "sync.server.Chrome44"
             },
             "name": "number_PHILE",
-            "sync_transaction_version": "3",
+            "sync_transaction_version": "3710",
             "type": "url",
             "url": "https://www.youtube.com/user/numberphile/videos"
          }, {
@@ -694,6 +714,7 @@
                "date_added": "13068545267709000",
                "id": "448",
                "meta_info": {
+                  "last_visited": "13144184711655556",
                   "stars.id": "ssc_64a4acb991a58875",
                   "stars.imageData": "Cg5jeVFOU1UydUpwMFZYTRJeClZodHRwczovL2QxNWN3NjVpcGN0c3JyLmNsb3VkZnJvbnQubmV0LzM1L2RlYzViMDM1MmQxMWU0YjE1MThiYjM1MThmY2M5My9sYXJnZS1pY29uLnBuZxDMAxiDAhpjCltodHRwOi8vdDMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JlbDBxR2tEY0FxT3ZDMFlFSGhGa3RPdnFWSkM2TXQ3YVVEVnMweWJNTzdaYkY3dnlsEKsCGKgBIiAIARCrAhioASDugQFCBhIEgAAAAEoKaW1hZ2UvanBlZw==",
                   "stars.isSynced": "true",
@@ -701,7 +722,7 @@
                   "stars.type": "2"
                },
                "name": "Natural Language Processing",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4016",
                "type": "url",
                "url": "https://www.coursera.org/course/nlp"
             }, {
@@ -749,8 +770,11 @@
             }, {
                "date_added": "13110920374410159",
                "id": "455",
+               "meta_info": {
+                  "last_visited_desktop": "13146706384043875"
+               },
                "name": "Functional Programming in Scala | Coursera",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "https://www.coursera.org/specializations/scala"
             }, {
@@ -794,7 +818,7 @@
                "url": "https://www.youtube.com/user/Huntrguy102/playlists"
             } ],
             "date_added": "13134556271964805",
-            "date_modified": "13134556271964805",
+            "date_modified": "13146818419610597",
             "id": "22",
             "name": "pallmall",
             "sync_transaction_version": "3",
@@ -817,8 +841,11 @@
          }, {
             "date_added": "13009061561389616",
             "id": "24",
+            "meta_info": {
+               "last_visited_desktop": "13144275199271181"
+            },
             "name": "RT 2011: Screencast 04 - emacs part 4 - yet more emacs - YouTube",
-            "sync_transaction_version": "3",
+            "sync_transaction_version": "4024",
             "type": "url",
             "url": "http://www.youtube.com/watch?v=2Cl_aiUkkG0&list=PL7F907999BA1994A1"
          }, {
@@ -989,6 +1016,7 @@
                      "date_added": "13068558951519000",
                      "id": "428",
                      "meta_info": {
+                        "last_visited_desktop": "13143724798754475",
                         "stars.id": "ssc_7d48ece900069598",
                         "stars.imageData": "Cg5RTUJ0MzJRX2c2REtnTRKPAQqGAWh0dHA6Ly9vY3cubWl0LmVkdS9jb3Vyc2VzL2VsZWN0cmljYWwtZW5naW5lZXJpbmctYW5kLWNvbXB1dGVyLXNjaWVuY2UvNi0wNDJqLW1hdGhlbWF0aWNzLWZvci1jb21wdXRlci1zY2llbmNlLWZhbGwtMjAxMC82LTA0MmpmMTAuanBnEIACGIEBGmMKW2h0dHA6Ly90MC5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjVFk0b2xIXzVZTXBldnpBd2dwWXB1WW9FUVl0OS13TkNEcEFXLWNQcVgzdVRpbzBmcjMQgAIYgQEiHwgBEIACGIEBILQmQgYSBAhRYlFKCmltYWdlL2pwZWc=",
                         "stars.pageData": "EtQEVGhpcyBjb3Vyc2UgY292ZXJzIGVsZW1lbnRhcnkgZGlzY3JldGUgbWF0aGVtYXRpY3MgZm9yIGNvbXB1dGVyIHNjaWVuY2UgYW5kIGVuZ2luZWVyaW5nLiBJdCBlbXBoYXNpemVzIG1hdGhlbWF0aWNhbCBkZWZpbml0aW9ucyBhbmQgcHJvb2ZzIGFzIHdlbGwgYXMgYXBwbGljYWJsZSBtZXRob2RzLiBUb3BpY3MgaW5jbHVkZSBmb3JtYWwgbG9naWMgbm90YXRpb24sIHByb29mIG1ldGhvZHM7IGluZHVjdGlvbiwgd2VsbC1vcmRlcmluZzsgc2V0cywgcmVsYXRpb25zOyBlbGVtZW50YXJ5IGdyYXBoIHRoZW9yeTsgaW50ZWdlciBjb25ncnVlbmNlczsgYXN5bXB0b3RpYyBub3RhdGlvbiBhbmQgZ3Jvd3RoIG9mIGZ1bmN0aW9uczsgcGVybXV0YXRpb25zIGFuZCBjb21iaW5hdGlvbnMsIGNvdW50aW5nIHByaW5jaXBsZXM7IGRpc2NyZXRlIHByb2JhYmlsaXR5LiBGdXJ0aGVyIHNlbGVjdGVkIHRvcGljcyBtYXkgYWxzbyBiZSBjb3ZlcmVkLCBzdWNoIGFzIHJlY3Vyc2l2ZSBkZWZpbml0aW9uIGFuZCBzdHJ1Y3R1cmFsIGluZHVjdGlvbjsgc3RhdGUgbWFjaGluZXMgYW5kIGludmFyaWFudHM7IHJlY3VycmVuY2VzOyBnZW5lcmF0aW5nIGZ1bmN0aW9ucy4iDjMzb3A1b2lsV2I4bmhN",
@@ -996,7 +1024,7 @@
                         "stars.version": "sync.server.Chrome39"
                      },
                      "name": "Mathematics for Computer Science | Electrical Engineering and Computer Science | MIT OpenCourseWare",
-                     "sync_transaction_version": "3",
+                     "sync_transaction_version": "3998",
                      "type": "url",
                      "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm"
                   }, {
@@ -3471,6 +3499,7 @@
                "date_added": "13063543514944000",
                "id": "195",
                "meta_info": {
+                  "last_visited_desktop": "13146706471133155",
                   "stars.id": "ssc_8f1fab9c8a9d2a69",
                   "stars.imageData": "Cg55Y1RBeVAxMnBJQlEtTRJ3CnBodHRwczovL2QxNWN3NjVpcGN0c3JyLmNsb3VkZnJvbnQubmV0LzZmL2EzODdiMGQwODYxMWUzODA5ZjU3M2UyYmM4ZWUyMS9MZWFybmluZy1Ib3ctdG8tTGVhcm4tTG9nby13aXRoLXRleHQucG5nEMABGGwaYgpbaHR0cDovL3QxLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NUX21Wd0FhSGwzYnU5dDY1MGI3UkR0VkJmMTAzYVlpRVdKSGEtemxIdjhoODZhaXdjRRDAARhsIh4IARDAARhsIIEVQgYSBILcfQBKCmltYWdlL2pwZWc=",
                   "stars.pageData": "Ev8CVGFrZSBmcmVlIG9ubGluZSBjbGFzc2VzIGZyb20gODArIHRvcCB1bml2ZXJzaXRpZXMgYW5kIG9yZ2FuaXphdGlvbnMuIENvdXJzZXJhIGlzIGEgc29jaWFsIGVudHJlcHJlbmV1cnNoaXAgY29tcGFueSBwYXJ0bmVyaW5nIHdpdGggU3RhbmZvcmQgVW5pdmVyc2l0eSwgWWFsZSBVbml2ZXJzaXR5LCBQcmluY2V0b24gVW5pdmVyc2l0eSBhbmQgb3RoZXJzIGFyb3VuZCB0aGUgd29ybGQgdG8gb2ZmZXIgY291cnNlcyBvbmxpbmUgZm9yIGFueW9uZSB0byB0YWtlLCBmb3IgZnJlZS4gV2UgYmVsaWV2ZSBpbiBjb25uZWN0aW5nIHBlb3BsZSB0byBhIGdyZWF0IGVkdWNhdGlvbiBzbyB0aGF0IGFueW9uZSBhcm91bmQgdGhlIHdvcmxkIGNhbiBsZWFybiB3aXRob3V0IGxpbWl0cy4iDmctMEtadVB4RkNGLVdN",
@@ -3478,7 +3507,7 @@
                   "stars.version": "sync.server.Clank36"
                },
                "name": "Coursera",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "https://www.coursera.org/course/learning"
             }, {
@@ -3719,6 +3748,7 @@
                "date_added": "13064267132543303",
                "id": "214",
                "meta_info": {
+                  "last_visited_desktop": "13144236533250776",
                   "stars.id": "ssc_4061bde9c2f5f22a",
                   "stars.imageData": "ElcKT3gtcmF3LWltYWdlOi8vL2FmNmMxZTZiMzI2YWQ2NzY0MmI5Yjc4ZjI4NjE4YmUwNDMxZTBjMGE1MmQ1N2MyYWU3NjRmMDQ0YzU0YmI2NWYQ3wEYrAE=",
                   "stars.pageData": "Ig5WQjRSV3BNWC1MVXU1TQ==",
@@ -3726,7 +3756,7 @@
                   "stars.version": "sync.server.Clank36"
                },
                "name": "www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4021",
                "type": "url",
                "url": "http://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf"
             }, {
@@ -3828,6 +3858,7 @@
                "date_added": "13064940098650000",
                "id": "222",
                "meta_info": {
+                  "last_visited_desktop": "13144426480813592",
                   "stars.id": "ssc_a6ee7c034055fd30",
                   "stars.imageData": "Cg45eWxkclE5RFNlUHNKTRI6CjJodHRwczovL3Byb2plY3RldWxlci5uZXQvaW1hZ2VzL2V1bGVyX3BvcnRyYWl0LnBuZxCgARjCARpjCltodHRwOi8vdDMuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1NVZG1Kb0FGcnNkX2J5aFhKOFNjNTJaNS1mdHZqaC1ON3NfZXFKREctUGdHZTdfYmFKEKABGMIBIh8IARCgARjCASDzJEIGEgSJBXpoSgppbWFnZS9qcGVn",
                   "stars.pageData": "Ig55WXlQVUVqODljXzc3TQ==",
@@ -3835,7 +3866,7 @@
                   "stars.version": "sync.server.Clank36"
                },
                "name": "About - Project Euler",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4035",
                "type": "url",
                "url": "https://projecteuler.net/"
             }, {
@@ -4354,15 +4385,15 @@
                "date_added": "13136817650493234",
                "id": "555",
                "meta_info": {
-                  "last_visited_desktop": "13141806026392576"
+                  "last_visited_desktop": "13143705161802535"
                },
                "name": "",
-               "sync_transaction_version": "3558",
+               "sync_transaction_version": "3987",
                "type": "url",
                "url": "http://web.telegram.com/"
             } ],
             "date_added": "13134556271965905",
-            "date_modified": "13136817650493234",
+            "date_modified": "13146818419610599",
             "id": "27",
             "meta_info": {
                "stars.id": "ssf_6e7eba1dd9b3502a",
@@ -4623,8 +4654,11 @@
                "children": [ {
                   "date_added": "13035496847773516",
                   "id": "157",
+                  "meta_info": {
+                     "last_visited_desktop": "13143725358615340"
+                  },
                   "name": "Some tips for learning Org Mode for Emacs » sacha chua :: living an awesome lifesacha chua :: living an awesome life",
-                  "sync_transaction_version": "3",
+                  "sync_transaction_version": "3999",
                   "type": "url",
                   "url": "http://sachachua.com/blog/2014/01/tips-learning-org-mode-emacs/"
                }, {
@@ -4718,23 +4752,26 @@
             }, {
                "date_added": "13023716973956354",
                "id": "156",
+               "meta_info": {
+                  "last_visited_desktop": "13146764873711722"
+               },
                "name": "CRUD trait for Slick models in the Play! framework | In translation",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4167",
                "type": "url",
                "url": "http://logician.eu/2013/07/08/crud-trait-for-slick-models-in-the-play-framework/"
             }, {
                "date_added": "13135165590905656",
                "id": "543",
                "meta_info": {
-                  "last_visited_desktop": "13141826356263895"
+                  "last_visited_desktop": "13144929724400364"
                },
                "name": "hawaiian sadness x sted.d - когда колодец высохнет [Рифмы и Панчи]",
-               "sync_transaction_version": "3664",
+               "sync_transaction_version": "4104",
                "type": "url",
                "url": "https://vk.com/audios144326150"
             } ],
             "date_added": "13134556271969232",
-            "date_modified": "13135165590905656",
+            "date_modified": "13146818419610598",
             "id": "37",
             "name": "scala",
             "sync_transaction_version": "3",
@@ -4847,47 +4884,47 @@
                "date_added": "13020503300709076",
                "id": "125",
                "name": "Скачать файл Audio_Realtek_6.0.1.6927_Acer_August_2013.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/tyez9sk8t8ae/Audio_Realtek_6.0.1.6927_Acer_August_2013.exe.html"
             }, {
                "date_added": "13020503311420510",
                "id": "126",
                "name": "Скачать файл WiFi_Intel_May_2013.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/9gdlexn8f4jd/WiFi_Intel_May_2013.exe.html"
             }, {
                "date_added": "13020503314204510",
                "id": "127",
                "name": "Скачать файл Cardreader_Ricoh_6.10.01.08.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/cfvcsxpuyv8l/Cardreader_Ricoh_6.10.01.08.exe.html"
             }, {
                "date_added": "13020503316721510",
                "id": "128",
                "name": "Скачать файл Modem_Driver_Pack.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/q5hdaoiefuem/Modem_Driver_Pack.exe.html"
             }, {
                "date_added": "13020503320003510",
                "id": "129",
                "name": "Скачать файл Touchpad_Synaptics_16.3.12.39_August_2013.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/f2nea8kqirmj/Touchpad_Synaptics_16.3.12.39_August_2013.exe.html"
             }, {
                "date_added": "13020503323244510",
                "id": "130",
                "name": "Скачать файл Bluetooth_Broadcom_XP_May_2013.exe. Скачать бесплатно и без регистрации с TurboBit.net",
-               "sync_transaction_version": "3",
+               "sync_transaction_version": "4164",
                "type": "url",
                "url": "http://turbobit.net/rgea34n4k7v3/Bluetooth_Broadcom_XP_May_2013.exe.html"
             } ],
             "date_added": "13134556271971262",
-            "date_modified": "13134556271971262",
+            "date_modified": "13146646250494152",
             "id": "43",
             "name": "drova",
             "sync_transaction_version": "3",
@@ -5105,12 +5142,12 @@
             "date_added": "13027381806237458",
             "id": "64",
             "meta_info": {
-               "last_visited_desktop": "13141752866338187",
+               "last_visited_desktop": "13146697888721786",
                "stars.id": "ssc_6d96267e0c52065c",
                "stars.isSynced": "true"
             },
             "name": "",
-            "sync_transaction_version": "3619",
+            "sync_transaction_version": "4167",
             "type": "url",
             "url": "chrome://history/"
          }, {
@@ -5569,10 +5606,10 @@
             "date_added": "13121471857068877",
             "id": "108",
             "meta_info": {
-               "last_visited_desktop": "13141814826664567"
+               "last_visited_desktop": "13142702592022976"
             },
             "name": "е",
-            "sync_transaction_version": "3635",
+            "sync_transaction_version": "3876",
             "type": "url",
             "url": "https://vk.com/im?sel=55744610"
          }, {
@@ -5664,25 +5701,93 @@
             "date_added": "13140093723458241",
             "id": "564",
             "meta_info": {
-               "last_visited_desktop": "13141806512358139"
+               "last_visited_desktop": "13147167706672956"
             },
             "name": "System Dashboard - Tallium",
-            "sync_transaction_version": "3629",
+            "sync_transaction_version": "4182",
             "type": "url",
             "url": "http://jira.tallium.com:8085/secure/Dashboard.jspa"
          }, {
             "date_added": "13140799801626743",
             "id": "567",
             "meta_info": {
-               "last_visited_desktop": "13140812882761227"
+               "last_visited_desktop": "13146579997873703"
             },
             "name": "designcontest / Web-WebSiteHosting — Bitbucket",
-            "sync_transaction_version": "3557",
+            "sync_transaction_version": "4162",
             "type": "url",
             "url": "https://bitbucket.org/designcontest/web-websitehosting"
+         }, {
+            "children": [ {
+               "date_added": "13143471554356143",
+               "id": "571",
+               "meta_info": {
+                  "last_visited_desktop": "13144697135133567"
+               },
+               "name": "Let it crash • Throttling Messages in Akka 2",
+               "sync_transaction_version": "4061",
+               "type": "url",
+               "url": "http://letitcrash.com/post/28901663062/throttling-messages-in-akka-2"
+            }, {
+               "date_added": "13143471579961566",
+               "id": "572",
+               "meta_info": {
+                  "last_visited_desktop": "13143471579962153"
+               },
+               "name": "Mocks Aren't Stubs",
+               "sync_transaction_version": "3917",
+               "type": "url",
+               "url": "https://martinfowler.com/articles/mocksArentStubs.html"
+            } ],
+            "date_added": "13143532675410398",
+            "date_modified": "13144829487499270",
+            "id": "570",
+            "name": "scala new level",
+            "sync_transaction_version": "3917",
+            "type": "folder"
+         }, {
+            "date_added": "13144716262949910",
+            "id": "575",
+            "meta_info": {
+               "last_visited_desktop": "13144716263082067"
+            },
+            "name": "FSM • Akka Documentation",
+            "sync_transaction_version": "4061",
+            "type": "url",
+            "url": "http://doc.akka.io/docs/akka/snapshot/scala/fsm.html"
+         }, {
+            "date_added": "13145008961383212",
+            "id": "578",
+            "meta_info": {
+               "last_visited_desktop": "13145008961383505"
+            },
+            "name": "Reset a MySQL root password",
+            "sync_transaction_version": "4109",
+            "type": "url",
+            "url": "https://support.rackspace.com/how-to/mysql-resetting-a-lost-mysql-root-password/"
+         }, {
+            "date_added": "13145040991949361",
+            "id": "579",
+            "meta_info": {
+               "last_visited_desktop": "13145985079276314"
+            },
+            "name": "Libgen Online Library: View Resource",
+            "sync_transaction_version": "4137",
+            "type": "url",
+            "url": "https://libgen.pw/view.php?id=1517634"
+         }, {
+            "date_added": "13146820957537593",
+            "id": "582",
+            "meta_info": {
+               "last_visited_desktop": "13146826065802814"
+            },
+            "name": "python-telegram-bot/examples at master · python-telegram-bot/python-telegram-bot",
+            "sync_transaction_version": "4174",
+            "type": "url",
+            "url": "https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples"
          } ],
          "date_added": "13134556226250214",
-         "date_modified": "13141743695758051",
+         "date_modified": "13146820957537593",
          "id": "1",
          "name": "Bookmarks bar",
          "sync_transaction_version": "3",
@@ -5791,7 +5896,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "3664",
+      "sync_transaction_version": "4182",
       "synced": {
          "children": [  ],
          "date_added": "13134556226250218",

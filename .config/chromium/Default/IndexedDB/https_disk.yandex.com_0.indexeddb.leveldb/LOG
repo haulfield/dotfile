@@ -1,1 +1,3 @@
-2017/05/25-08:40:39.800 2065 Reusing MANIFEST /home/yarik/.config/chromium/Default/IndexedDB/https_disk.yandex.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/06/19-11:28:13.921 996 Reusing MANIFEST /home/yarik/.config/chromium/Default/IndexedDB/https_disk.yandex.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/06/19-11:28:14.036 996 Recovering log #3
+2017/06/19-11:28:14.104 996 Reusing old log /home/yarik/.config/chromium/Default/IndexedDB/https_disk.yandex.com_0.indexeddb.leveldb/000003.log 

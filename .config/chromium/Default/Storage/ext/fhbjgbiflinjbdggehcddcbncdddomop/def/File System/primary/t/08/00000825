@@ -1,0 +1,1 @@
+{"message":"SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'userId' cannot be null (SQL: insert into `social_accounts` (`providerUserId`, `provider`, `userId`, `updatedAt`, `createdAt`) values (111150341651721819771, google, , 2017-08-01 11:34:24, 2017-08-01 11:34:24))","error":false}

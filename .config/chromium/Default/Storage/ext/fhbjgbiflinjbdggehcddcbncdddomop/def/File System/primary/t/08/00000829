@@ -1,0 +1,1 @@
+{"message":"SQLSTATE[HY000]: General error: 1364 Field 'name' doesn't have a default value (SQL: insert into `users` (`updatedAt`, `createdAt`) values (2017-08-01 11:37:58, 2017-08-01 11:37:58))","error":false}

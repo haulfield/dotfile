@@ -1,18 +1,27 @@
-2017/06/12-15:21:28.297 5097 Reusing MANIFEST /home/yarik/.config/chromium/Default/Extension State/MANIFEST-000001
-2017/06/12-15:21:28.306 5097 Recovering log #439
-2017/06/12-15:21:29.023 5097 Reusing old log /home/yarik/.config/chromium/Default/Extension State/000439.log 
-2017/06/12-16:21:54.193 5925 Level-0 table #443: started
-2017/06/12-16:21:54.717 5925 Level-0 table #443: 2381498 bytes OK
-2017/06/12-16:21:54.819 5925 Delete type=0 #439
-2017/06/12-16:21:54.819 5925 Compacting 4@0 + 1@1 files
-2017/06/12-16:21:54.977 5925 Generated table #444@0: 9 keys, 9420 bytes
-2017/06/12-16:21:54.977 5925 Compacted 4@0 + 1@1 files => 9420 bytes
-2017/06/12-16:21:55.010 5925 compacted to: files[ 0 1 0 0 0 0 0 ]
-2017/06/12-16:21:55.010 5925 Delete type=2 #438
-2017/06/12-16:21:55.011 5925 Delete type=2 #436
-2017/06/12-16:21:55.011 5925 Delete type=2 #443
-2017/06/12-16:21:55.011 5925 Delete type=2 #434
-2017/06/12-16:21:55.011 5925 Delete type=2 #440
-2017/06/12-17:54:32.336 5925 Level-0 table #446: started
-2017/06/12-17:54:32.446 5925 Level-0 table #446: 2963511 bytes OK
-2017/06/12-17:54:32.519 5925 Delete type=0 #442
+2017/08/13-09:40:42.151 1944 Reusing MANIFEST /home/yarik/.config/chromium/Default/Extension State/MANIFEST-000001
+2017/08/13-09:40:42.151 1944 Recovering log #2129
+2017/08/13-09:40:42.173 1944 Reusing old log /home/yarik/.config/chromium/Default/Extension State/002129.log 
+2017/08/13-10:27:04.496 2850 Level-0 table #2133: started
+2017/08/13-10:27:04.668 2850 Level-0 table #2133: 4141250 bytes OK
+2017/08/13-10:27:04.729 2850 Delete type=0 #2129
+2017/08/13-11:33:03.602 2850 Level-0 table #2135: started
+2017/08/13-11:33:03.737 2850 Level-0 table #2135: 4097249 bytes OK
+2017/08/13-11:33:03.772 2850 Delete type=0 #2132
+2017/08/13-11:33:03.773 2850 Compacting 4@0 + 1@1 files
+2017/08/13-11:33:03.962 2850 Generated table #2136@0: 6 keys, 11230 bytes
+2017/08/13-11:33:03.962 2850 Compacted 4@0 + 1@1 files => 11230 bytes
+2017/08/13-11:33:04.004 2850 compacted to: files[ 0 1 0 0 0 0 0 ]
+2017/08/13-11:33:04.004 2850 Delete type=2 #2128
+2017/08/13-11:33:04.004 2850 Delete type=2 #2126
+2017/08/13-11:33:04.004 2850 Delete type=2 #2135
+2017/08/13-11:33:04.005 2850 Delete type=2 #2133
+2017/08/13-11:33:04.005 2850 Delete type=2 #2130
+2017/08/13-12:35:10.846 2850 Level-0 table #2138: started
+2017/08/13-12:35:11.004 2850 Level-0 table #2138: 4081495 bytes OK
+2017/08/13-12:35:11.076 2850 Delete type=0 #2134
+2017/08/13-13:08:44.224 2850 Level-0 table #2140: started
+2017/08/13-13:08:44.393 2850 Level-0 table #2140: 4092284 bytes OK
+2017/08/13-13:08:44.471 2850 Delete type=0 #2137
+2017/08/13-13:35:46.032 2850 Level-0 table #2142: started
+2017/08/13-13:35:46.206 2850 Level-0 table #2142: 4121701 bytes OK
+2017/08/13-13:35:46.265 2850 Delete type=0 #2139

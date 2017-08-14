@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "keyboard.dispatch": "keyCode",
+    "php.suggest.basic": false,
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Droid Sans Mono'"
+}

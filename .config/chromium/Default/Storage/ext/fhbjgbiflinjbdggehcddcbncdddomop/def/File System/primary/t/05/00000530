@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="robots" content="noindex,nofollow" />
+        <style>
+            /* Copyright (c) 2010, Yahoo! Inc. All rights reserved. Code licensed under the BSD License: http://developer.yahoo.com/yui/license.html */
+            html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+            html { background: #eee; padding: 10px }
+            img { border: 0; }
+            #sf-resetcontent { width:970px; margin:0 auto; }
+                        .sf-reset { font: 11px Verdana, Arial, sans-serif; color: #333 }
+            .sf-reset .clear { clear:both; height:0; font-size:0; line-height:0; }
+            .sf-reset .clear_fix:after { display:block; height:0; clear:both; visibility:hidden; }
+            .sf-reset .clear_fix { display:inline-block; }
+            .sf-reset * html .clear_fix { height:1%; }
+            .sf-reset .clear_fix { display:block; }
+            .sf-reset, .sf-reset .block { margin: auto }
+            .sf-reset abbr { border-bottom: 1px dotted #000; cursor: help; }
+            .sf-reset p { font-size:14px; line-height:20px; color:#868686; padding-bottom:20px }
+            .sf-reset strong { font-weight:bold; }
+            .sf-reset a { color:#6c6159; cursor: default; }
+            .sf-reset a img { border:none; }
+            .sf-reset a:hover { text-decoration:underline; }
+            .sf-reset em { font-style:italic; }
+            .sf-reset h1, .sf-reset h2 { font: 20px Georgia, "Times New Roman", Times, serif }
+            .sf-reset .exception_counter { background-color: #fff; color: #333; padding: 6px; float: left; margin-right: 10px; float: left; display: block; }
+            .sf-reset .exception_title { margin-left: 3em; margin-bottom: 0.7em; display: block; }
+            .sf-reset .exception_message { margin-left: 3em; display: block; }
+            .sf-reset .traces li { font-size:12px; padding: 2px 4px; list-style-type:decimal; margin-left:20px; }
+            .sf-reset .block { background-color:#FFFFFF; padding:10px 28px; margin-bottom:20px;
+                -webkit-border-bottom-right-radius: 16px;
+                -webkit-border-bottom-left-radius: 16px;
+                -moz-border-radius-bottomright: 16px;
+                -moz-border-radius-bottomleft: 16px;
+                border-bottom-right-radius: 16px;
+                border-bottom-left-radius: 16px;
+                border-bottom:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+                word-wrap: break-word;
+            }
+            .sf-reset .block_exception { background-color:#ddd; color: #333; padding:20px;
+                -webkit-border-top-left-radius: 16px;
+                -webkit-border-top-right-radius: 16px;
+                -moz-border-radius-topleft: 16px;
+                -moz-border-radius-topright: 16px;
+                border-top-left-radius: 16px;
+                border-top-right-radius: 16px;
+                border-top:1px solid #ccc;
+                border-right:1px solid #ccc;
+                border-left:1px solid #ccc;
+                overflow: hidden;
+                word-wrap: break-word;
+            }
+            .sf-reset a { background:none; color:#868686; text-decoration:none; }
+            .sf-reset a:hover { background:none; color:#313131; text-decoration:underline; }
+            .sf-reset ol { padding: 10px 0; }
+            .sf-reset h1 { background-color:#FFFFFF; padding: 15px 28px; margin-bottom: 20px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+                    <div id="sf-resetcontent" class="sf-reset">
+                <h1>Whoops, looks like something went wrong.</h1>
+                                        <h2 class="block_exception clear_fix">
+                            <span class="exception_counter">1/1</span>
+                            <span class="exception_title"><abbr title="BadMethodCallException">BadMethodCallException</abbr> in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php line 74" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Macroable.php line 74</a>:</span>
+                            <span class="exception_message">Method controllers does not exist.</span>
+                        </h2>
+                        <div class="block">
+                            <ol class="traces list_exception">
+       <li> in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php line 74" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Macroable.php line 74</a></li>
+       <li>at <abbr title="Illuminate\Routing\Router">Router</abbr>->__call('controllers', <em>array</em>(<em>array</em>('password' => 'ResetPasswordController'))) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php line 237" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Facade.php line 237</a></li>
+       <li>at <abbr title="Illuminate\Support\Facades\Facade">Facade</abbr>::__callStatic('controllers', <em>array</em>(<em>array</em>('password' => 'ResetPasswordController'))) in <a title="/var/www/app/Modules/Authorization/Routes/api.php line 27" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">api.php line 27</a></li>
+       <li>at <abbr title=""></abbr>require('/var/www/app/Modules/Authorization/Routes/api.php') in <a title="/var/www/app/Modules/Authorization/Providers/RouteServiceProvider.php line 76" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 76</a></li>
+       <li>at <abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->App\Modules\Authorization\Providers\{closure}(<em>object</em>(<abbr title="Illuminate\Routing\Router">Router</abbr>))</li>
+       <li>at <abbr title=""></abbr>call_user_func(<em>object</em>(<abbr title="Closure">Closure</abbr>), <em>object</em>(<abbr title="Illuminate\Routing\Router">Router</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php line 330" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Router.php line 330</a></li>
+       <li>at <abbr title="Illuminate\Routing\Router">Router</abbr>->group(<em>array</em>('middleware' => 'api', 'namespace' => 'App\Modules\Authorization\Http\Controllers', 'prefix' => 'api'), <em>object</em>(<abbr title="Closure">Closure</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php line 237" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Facade.php line 237</a></li>
+       <li>at <abbr title="Illuminate\Support\Facades\Facade">Facade</abbr>::__callStatic('group', <em>array</em>(<em>array</em>('middleware' => 'api', 'namespace' => 'App\Modules\Authorization\Http\Controllers', 'prefix' => 'api'), <em>object</em>(<abbr title="Closure">Closure</abbr>))) in <a title="/var/www/app/Modules/Authorization/Providers/RouteServiceProvider.php line 77" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 77</a></li>
+       <li>at <abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->mapApiRoutes() in <a title="/var/www/app/Modules/Authorization/Providers/RouteServiceProvider.php line 40" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 40</a></li>
+       <li>at <abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->map()</li>
+       <li>at <abbr title=""></abbr>call_user_func_array(<em>array</em>(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), 'map'), <em>array</em>()) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php line 508" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 508</a></li>
+       <li>at <abbr title="Illuminate\Container\Container">Container</abbr>->call(<em>array</em>(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), 'map')) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php line 69" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 69</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Support\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->loadRoutes() in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php line 30" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 30</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Support\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->boot() in <a title="/var/www/app/Modules/Authorization/Providers/RouteServiceProvider.php line 28" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">RouteServiceProvider.php line 28</a></li>
+       <li>at <abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>->boot()</li>
+       <li>at <abbr title=""></abbr>call_user_func_array(<em>array</em>(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), 'boot'), <em>array</em>()) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php line 508" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Container.php line 508</a></li>
+       <li>at <abbr title="Illuminate\Container\Container">Container</abbr>->call(<em>array</em>(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), 'boot')) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 769" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 769</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->bootProvider(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 752" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 752</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->Illuminate\Foundation\{closure}(<em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), '24')</li>
+       <li>at <abbr title=""></abbr>array_walk(<em>array</em>(<em>object</em>(<abbr title="Illuminate\Events\EventServiceProvider">EventServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Routing\RoutingServiceProvider">RoutingServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Auth\AuthServiceProvider">AuthServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Cookie\CookieServiceProvider">CookieServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Database\DatabaseServiceProvider">DatabaseServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Encryption\EncryptionServiceProvider">EncryptionServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Filesystem\FilesystemServiceProvider">FilesystemServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Foundation\Providers\FoundationServiceProvider">FoundationServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Notifications\NotificationServiceProvider">NotificationServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Pagination\PaginationServiceProvider">PaginationServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\Session\SessionServiceProvider">SessionServiceProvider</abbr>), <em>object</em>(<abbr title="Illuminate\View\ViewServiceProvider">ViewServiceProvider</abbr>), <em>object</em>(<abbr title="Tymon\JWTAuth\Providers\JWTAuthServiceProvider">JWTAuthServiceProvider</abbr>), <em>object</em>(<abbr title="Barryvdh\Cors\ServiceProvider">ServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\Providers\ConsoleServiceProvider">ConsoleServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\Providers\GeneratorServiceProvider">GeneratorServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\Providers\HelperServiceProvider">HelperServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\Providers\RepositoryServiceProvider">RepositoryServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\Providers\BladeServiceProvider">BladeServiceProvider</abbr>), <em>object</em>(<abbr title="Caffeinated\Modules\ModulesServiceProvider">ModulesServiceProvider</abbr>), <em>object</em>(<abbr title="App\Providers\AppServiceProvider">AppServiceProvider</abbr>), <em>object</em>(<abbr title="App\Providers\AuthServiceProvider">AuthServiceProvider</abbr>), <em>object</em>(<abbr title="App\Providers\EventServiceProvider">EventServiceProvider</abbr>), <em>object</em>(<abbr title="App\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), <em>object</em>(<abbr title="App\Modules\Authorization\Providers\RouteServiceProvider">RouteServiceProvider</abbr>), <em>object</em>(<abbr title="App\Modules\Authorization\Providers\ModuleServiceProvider">ModuleServiceProvider</abbr>)), <em>object</em>(<abbr title="Closure">Closure</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 753" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 753</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->boot() in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php line 17" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">BootProviders.php line 17</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Bootstrap\BootProviders">BootProviders</abbr>->bootstrap(<em>object</em>(<abbr title="Illuminate\Foundation\Application">Application</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php line 203" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Application.php line 203</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Application">Application</abbr>->bootstrapWith(<em>array</em>('Illuminate\Foundation\Bootstrap\DetectEnvironment', 'Illuminate\Foundation\Bootstrap\LoadConfiguration', 'Illuminate\Foundation\Bootstrap\ConfigureLogging', 'Illuminate\Foundation\Bootstrap\HandleExceptions', 'Illuminate\Foundation\Bootstrap\RegisterFacades', 'Illuminate\Foundation\Bootstrap\RegisterProviders', 'Illuminate\Foundation\Bootstrap\BootProviders')) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 254" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 254</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->bootstrap() in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 145" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 145</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->sendRequestThroughRouter(<em>object</em>(<abbr title="Illuminate\Http\Request">Request</abbr>)) in <a title="/var/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php line 117" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">Kernel.php line 117</a></li>
+       <li>at <abbr title="Illuminate\Foundation\Http\Kernel">Kernel</abbr>->handle(<em>object</em>(<abbr title="Illuminate\Http\Request">Request</abbr>)) in <a title="/var/www/public/index.php line 53" ondblclick="var f=this.innerHTML;this.innerHTML=this.title;this.title=f;">index.php line 53</a></li>
+    </ol>
+</div>
+
+            </div>
+    </body>
+</html>
